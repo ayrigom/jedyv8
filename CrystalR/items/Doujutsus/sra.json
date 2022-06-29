@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:sra",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "sra",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

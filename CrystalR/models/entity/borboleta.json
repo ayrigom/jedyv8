@@ -1,0 +1,42 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.borboleta",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 24, 0],
+					"mirror": true
+				},
+				{
+					"name": "wing",
+					"parent": "body",
+					"pivot": [11, 23, 10],
+					"rotation": [0, 45, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [11, 3, -2], "size": [0, 40, 24], "uv": [0, 40], "mirror": false}
+					]
+				},
+				{
+					"name": "wing2",
+					"parent": "body",
+					"pivot": [-11, 23, 10],
+					"rotation": [0, -45, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-11, 3, -2], "size": [0, 40, 24], "uv": [0, 0], "mirror": false}
+					]
+				}
+			]
+		}
+	]
+}

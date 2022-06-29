@@ -1,0 +1,51 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:areia2"
+    },
+    "components": {
+
+    "minecraft:render_offsets": {
+        "main_hand": {
+            "first_person": { 
+                "scale": [0.002,0.002,0.002]
+            },
+            "third_person": { 
+                "scale": [0.01,0.01,0.01]
+            }
+        }
+    },
+      "minecraft:display_name": {
+		"value": "§l§c Inundação de Areia \n§a✪Dano: §cNulo  \n§8✪Alcance: Moderado \n§b✪Destruição: Moderada\n✪Gasto: Médio"
+      },
+      "minecraft:icon": {
+		"texture": "areia"
+	  },
+      "minecraft:max_stack_size": 1,
+      "minecraft:use_duration": 2,
+
+	  "minecraft:cooldown": {
+		"category": "slc",
+		"duration": 0.2
+      },
+	  "minecraft:on_use": {
+		"on_use": {
+		  "event": "zero"
+		}
+	  }
+    },
+    "events": {
+	  "zero": {
+		"run_command": {
+		  "command": [
+      "execute @p[scores={chakra=90..500000}] ~ ~ ~ playsound jutsu @a[x=~,y=~,z=~,r=15]",
+      "execute @p[scores={chakra=90..500000}] ~ ~ ~ fill ^3 ^ ^3 ^20 ^2 ^10 sand 0 replace air 0",
+     "execute @p[scores={chakra=0..89}] ~ ~ ~ say §l§bVocê não tem ¿ para usar este jutsu. Necessário [90¿]",
+      "execute @p[scores={chakra=90..500000}] ~ ~ ~ scoreboard players remove @p chakra 90"
+		  ]
+	    }
+	  }
+	}
+  }
+}

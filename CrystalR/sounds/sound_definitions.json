@@ -1,0 +1,347 @@
+{
+  "mangekyous": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/mangekyous",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+    "kaneki": {
+    "max_distance": 128.0,
+    "sounds": [
+      {
+        "name": "sounds/kaneki",
+        "stream": true,
+        "volume": 1.0,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+      "roar": {
+    "max_distance": 128.0,
+    "sounds": [
+      {
+        "name": "sounds/roar",
+        "stream": true,
+        "volume": 1.0,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+      "horror": {
+    "max_distance": 128.0,
+    "sounds": [
+      {
+        "name": "sounds/horror",
+        "stream": true,
+        "volume": 1.0,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+        "baryonfp": {
+    "max_distance": 128.0,
+    "sounds": [
+      {
+        "name": "sounds/baryonfp",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+      "borushiki": {
+    "max_distance": 256.0,
+    "sounds": [
+      {
+        "name": "sounds/borushiki",
+        "stream": true,
+        "volume": 2.0,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+    "edot": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/edot",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+      "baryon": {
+    "max_distance": 128.0,
+    "sounds": [
+      {
+        "name": "sounds/baryon",
+        "stream": true,
+        "volume": 0.8,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "byakugan": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/byakugan",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+    "katsu": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/katsu",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+    "instinto": {
+    "max_distance": 200.0,
+    "sounds": [
+      {
+        "name": "sounds/instinto",
+        "stream": true,
+        "volume": 1.0,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+      "gokug": {
+    "max_distance": 300.0,
+    "sounds": [
+      {
+        "name": "sounds/gokug",
+        "stream": true,
+        "volume": 1.0,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+      "instintos": {
+    "max_distance": 230.0,
+    "sounds": [
+      {
+        "name": "sounds/instintos",
+        "stream": true,
+        "volume": 1.0,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+        "amaterasu": {
+    "max_distance": 230.0,
+    "sounds": [
+      {
+        "name": "sounds/amaterasu",
+        "stream": true,
+        "volume": 1.0,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+          "amaterasu2": {
+    "max_distance": 230.0,
+    "sounds": [
+      {
+        "name": "sounds/amaterasu2",
+        "stream": true,
+        "volume": 1.0,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+          "yagai": {
+    "max_distance": 230.0,
+    "sounds": [
+      {
+        "name": "sounds/yagai",
+        "stream": true,
+        "volume": 1.0,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "jumpjedy": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/jumpjedy",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+ "bass": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/bass",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+ "ok": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/ok",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+ "swoosh": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/swoosh",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "kinshikiarmajedy": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/kinshikiarmajedy",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "jutsu": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/jutsu",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+"kamui": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/kamui",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "rinne": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/rinne",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "clone": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/clone",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "sexy": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/sexy",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+
+  
+  
+  
+  "jougan": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/jougan",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "rinnegan": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/rinnegan",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "senpouhashirama": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/senpouhashirama",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "senpousapos": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/senpousapos",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "susanoos": {
+    "max_distance": 64.0,
+    "sounds": [
+      {
+        "name": "sounds/susanoos",
+        "stream": true,
+        "volume": 0.4,
+        "load_on_low_memory": true
+      }
+    ]
+  }
+}

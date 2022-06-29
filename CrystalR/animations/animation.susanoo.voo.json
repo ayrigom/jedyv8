@@ -1,0 +1,60 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.susanoo.voo": {
+			"loop": true,
+			"animation_length": 0.76,
+			"bones": {
+				"JEDYALL1": {
+					"rotation": [22.5, 0, 0],
+					"position": [0, -14.048, 0]
+				},
+				"Cangote": {
+					"scale": [1, 0.9, 1]
+				},
+				"rightAsa": {
+					"rotation": {
+						"0.0": [0, 10, 0],
+						"0.32": [0, -27.5, 0],
+						"0.76": [0, 10, 0]
+					}
+				},
+				"leftAsa": {
+					"rotation": {
+						"0.0": [0, -10, 0],
+						"0.32": [0, 27.5, 0],
+						"0.76": [0, -10, 0]
+					}
+				},
+				"cabeca": {
+					"rotation": [-27.5, 0, 0],
+					"position": [0, 2.656, 0.16]
+				},
+				"rightBraco": {
+					"rotation": [22.5, 0, -10]
+				},
+				"rightBracoBaixo": {
+					"rotation": [0, -75, 0],
+					"position": [0, 0, 1.216]
+				},
+				"mao": {
+					"rotation": [0, 0, -42.5],
+					"position": [-9.248, 3.04, 0]
+				},
+				"leftBraco": {
+					"rotation": [22.5, 0, 10]
+				},
+				"leftBracoBaixo": {
+					"rotation": [0, 75, 0],
+					"position": [0, 0, 0.8]
+				},
+				"leftPerna": {
+					"rotation": [22.5, 0, 0]
+				},
+				"down2": {
+					"rotation": [-40, 0, 0]
+				}
+			}
+		}
+	}
+}

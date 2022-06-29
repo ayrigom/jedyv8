@@ -1,0 +1,43 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.susanoo.atk2": {
+			"animation_length": 0.4,
+			"bones": {
+				"JEDYALL1": {
+					"rotation": {
+						"0.0": [-5, -12.5, -17.5],
+						"0.36": [0, 35, -17.5]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.36": [0, -9.984, -6.368]
+					}
+				},
+				"rightBraco": {
+					"rotation": [27.5, -5, 0]
+				},
+				"rightBracoBaixo": {
+					"rotation": [2.5, -57.5, -25]
+				},
+				"leftBraco": {
+					"rotation": {
+						"0.0": [62.5, -22.5, -52.5],
+						"0.2": [-36.67, -6.94, -35],
+						"0.36": [-65, -2.5, -30]
+					}
+				},
+				"mao": {
+					"rotation": [0, 30, 0],
+					"position": [-4.192, 0, -3.584]
+				},
+				"leftBracoBaixo": {
+					"rotation": {
+						"0.0": [0, 2.5, 0],
+						"0.36": [0, 62.5, 0]
+					}
+				}
+			}
+		}
+	}
+}

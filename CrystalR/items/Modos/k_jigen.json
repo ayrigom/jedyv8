@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:k_jigen",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "k_jigen",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

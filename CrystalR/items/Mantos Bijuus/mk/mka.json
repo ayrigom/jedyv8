@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:mka",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "mka", 
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

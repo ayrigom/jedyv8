@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:rinnegan_azul",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "rinnegan_azul",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

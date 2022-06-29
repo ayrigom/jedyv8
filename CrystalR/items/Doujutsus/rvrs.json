@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:rvrs",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "rvrs",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

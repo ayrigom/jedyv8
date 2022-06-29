@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:mkr22",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "mkr2", 
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

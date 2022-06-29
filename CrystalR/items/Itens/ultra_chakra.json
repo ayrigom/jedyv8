@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:ultra_chakra",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "ultra_chakra",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

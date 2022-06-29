@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:sharinganc",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "sharinganc",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:jutsu_kamui2"
+    },
+    "components": {
+    "minecraft:render_offsets": {
+        "main_hand": {
+            "first_person": { 
+                "scale": [0.002,0.002,0.002]
+            },
+            "third_person": { 
+                "scale": [0.01,0.01,0.01]
+            }
+        }
+    },
+      "minecraft:display_name": {
+		"value": "§l§c Kamui \n§a✪Dano: §cNulo  \n§8✪Alcance: Nulo \n§b✪Destruição: Nula\n✪Gasto: Moderado"
+      },
+      "minecraft:icon": {
+		"texture": "jutsu_kamui"
+	  },
+      "minecraft:max_stack_size": 1,
+      "minecraft:use_duration": 2,
+
+	  "minecraft:cooldown": {
+		"category": "slc",
+		"duration": 1
+      },
+	  "minecraft:on_use": {
+		"on_use": {
+		  "event": "1606"
+		}
+	  }
+    },
+    "events": {
+	  "1606": {
+		"run_command": {
+		  "command": [
+      "playsound kamui @a[x=~,y=~,z=~,r=30]",
+      "summon jedy:kamuigo ~ ~ ~-2",
+      "tp @p ~ 100 ~",
+      "kill @e[type=jedy:kamuidimensiontitle]",
+      "kill @e[type=jedy:bancada_roupas]",
+      "kill @e[type=jedy:bancada_jutsus]",
+      "kill @e[type=jedy:pergaminho_invocacao]",
+      "kill @e[type=jedy:bloco_barracagoru]",
+      "kill @e[type=jedy:bloco_lucasart]",
+      "setblock ~ 100 ~ end_portal",
+      "title @s title §cFora do Kamui",
+     "replaceitem entity @p slot.weapon.mainhand 1 jedy:jutsu_kamui",
+     "kill @e[type=item]"
+		  ]
+	    }
+	  }
+	}
+  }
+}

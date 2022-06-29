@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:vara",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "vara",
+      "minecraft:render_offsets": "tools"
+    }
+  }
+}

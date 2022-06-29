@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:mantoj",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "mantoj",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

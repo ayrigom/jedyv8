@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:grampo",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "grampo",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

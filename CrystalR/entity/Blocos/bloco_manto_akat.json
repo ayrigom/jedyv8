@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "jedy:bloco_manto_akat",
+      "materials": {
+        "default": "glow"
+      },
+      "textures": {
+        "default": "textures/roupas/roupa_akatsuki"
+      },
+      "geometry": {
+        "default": "geometry.bloco_manto_akat"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 0
+      },
+      "render_controllers": [ "controller.render.glow" ]
+    }
+  }
+}

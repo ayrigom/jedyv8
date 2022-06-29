@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:intangibilidade",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "intangibilidade",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "jedy:shakujo_h",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+    "default": "textures/armas/preto",
+    "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.shakujo_h"
+      },
+      "animations": {
+        "shakujo_h": "controller.animation.shakujo_h",
+        "shakujo_h_first_person": "animation.shakujo_h_first_person",
+        "shakujo_h_person": "animation.shakujo_h_third_person"
+      },
+      "scripts": {
+        "animate": [
+          "shakujo_h"
+        ]
+      },
+      "render_controllers": [ "controller.render.item_default" ]
+    }
+  }
+}

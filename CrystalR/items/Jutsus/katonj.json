@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:katonj",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "katonj",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "jedy:shinobi_disassembler",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+    "default": "textures/armas/shinobi_disassembler",
+    "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.shinobi_disassembler"
+      },
+      "animations": {
+        "shinobi_disassembler": "controller.animation.shinobi_disassembler",
+        "shinobi_disassembler_first_person": "animation.shinobi_disassembler_first_person",
+        "shinobi_disassembler_third_person": "animation.shinobi_disassembler_third_person"
+      },
+      "scripts": {
+        "animate": [
+          "shinobi_disassembler"
+        ]
+      },
+      "render_controllers": [ "controller.render.item_default" ]
+    }
+  }
+}

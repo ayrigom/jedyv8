@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:dna_shisui",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "dna_shisui",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

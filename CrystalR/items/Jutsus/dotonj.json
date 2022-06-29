@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:dotonj",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "dotonj",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

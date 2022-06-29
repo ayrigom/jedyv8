@@ -1,0 +1,34 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "jedy:senpo_hashirama2",
+			"item": {
+				"jedy:senpo_hashirama": "query.owner_identifier == 'minecraft:player'"
+			},
+			"materials": {
+				"default": "skeleton",
+				"enchanted": "armor_enchanted",
+				"jedy": "armor",
+				"jedy2": "armor"
+			},
+			"textures": {
+				"jedy": "textures/doujutsus/senpo_hashirama",
+				"jedy2": "textures/doujutsus/senpo_hashirama2",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"jedy2": "geometry.senpo_hashirama2",
+				"jedy": "geometry.senpo_hashirama"
+			},
+			"scripts": {
+				"parent_setup": "variable.helmet_layer_visible = 0.0;"
+			},
+			"render_controllers": [
+				"controller.render.armor",
+				"controller.render.jedy",
+				"controller.render.jedy2"
+			]
+		}
+	}
+}

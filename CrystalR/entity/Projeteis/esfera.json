@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "jedy:esfera",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/jutsus/esfera"
+      },
+      "geometry": {
+        "default": "geometry.esfera"
+      },
+      "scripts": {
+        "scale": "5"
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

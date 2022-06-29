@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:summon_matatabi",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "summon_biju",
+      "minecraft:render_offsets": "armor"    
+    }
+  }
+}

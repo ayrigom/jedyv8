@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:essencia_bijuu",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "essencia_bijuu",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

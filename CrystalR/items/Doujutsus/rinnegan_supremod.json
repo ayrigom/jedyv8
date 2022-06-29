@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:rinnegan_supremod",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "rinnegan_supremod",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

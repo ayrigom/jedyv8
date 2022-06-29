@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:marca3",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "marca3",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

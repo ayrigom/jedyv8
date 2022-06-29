@@ -1,0 +1,273 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo",
+              "quantity": {
+                "min": 16,
+                "max": 16
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:kunai"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 50,
+                "max": 50
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:hiraishin",
+              "quantity": {
+                "min": 32,
+                "max": 32
+              }
+                  }
+              ]
+            },
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 100,
+                "max": 100
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:foice_tripla"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 150,
+                "max": 150
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:kubikiribocho"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 200,
+                "max": 200
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:samehada_selada"
+                  }
+              ]
+            },
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 350,
+                "max": 350
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:gunbai"
+              
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 200,
+                "max": 200
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:bastao_enma"
+              
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 350,
+                "max": 350
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:kusanagi_orochimaru"
+              
+            }
+          ]
+        },
+
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 400,
+                "max": 400
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:kusanagi_sasuke"
+              
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 10,
+                "max": 10
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:costas_kubikiribocho"
+              
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 10,
+                "max": 10
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:costas_foice_tripla"
+              
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 10,
+                "max": 10
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:costas_gunbai"
+              
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 10,
+                "max": 10
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:costas_shakujo_h"
+              
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 10,
+                "max": 10
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:costas_shakujo_m"
+              
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 64,
+                "max": 64
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:roupa_boruto"
+              
+            }
+          ]
+        }
+           ]
+      
+    }
+  ]
+}

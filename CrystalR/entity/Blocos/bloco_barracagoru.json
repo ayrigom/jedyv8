@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "jedy:bloco_barracagoru",
+      "materials": {
+        "default": "glow"
+      },
+      "textures": {
+        "default": "textures/armas/bloco_barracagoru"
+      },
+      "geometry": {
+        "default": "geometry.bloco_barracagoru"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 0
+      },
+      "render_controllers": [ "controller.render.glow" ]
+    }
+  }
+}

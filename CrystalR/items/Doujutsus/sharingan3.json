@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:sharingan3",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "sharingan3",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

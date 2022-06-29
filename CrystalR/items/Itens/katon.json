@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:katon",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "katon",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

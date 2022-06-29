@@ -1,0 +1,53 @@
+{"format_version":"1.8.0",
+"animation_controllers":
+{
+    "controller.animation.bancada_jutsus":{
+     "states":{
+     "0":{"transitions":[
+       {"1":"query.get_equipped_item_name=='bancada_jutsus'&&query.is_using_item==1"}
+                       ]
+        },
+     "1":{"transitions":[
+      {"0":"query.get_equipped_item_name!='bancada_jutsus'"},
+     {"2":"query.get_equipped_item_name=='bancada_jutsus'&&query.is_using_item==0"}
+             ]
+        },
+      "2":{"transitions":[{"0":"(1.0)"}],
+"on_entry": 
+           [
+      "/playsound clone @a[x=~,y=~,z=~,r=15]",
+      "/gamerule sendcommandfeedback false",
+      "/kill @e[type=jedy:bancada_jutsus,r=5]",
+      "/function sexy",
+      "/summon jedy:bancada_jutsus",
+      "/function sexy"
+]
+}
+}
+},
+    "controller.animation.bancada_roupas":{
+     "states":{
+     "0":{"transitions":[
+       {"1":"query.get_equipped_item_name=='bancada_roupas'&&query.is_using_item==1"}
+                       ]
+        },
+     "1":{"transitions":[
+      {"0":"query.get_equipped_item_name!='bancada_roupas'"},
+     {"2":"query.get_equipped_item_name=='bancada_roupas'&&query.is_using_item==0"}
+             ]
+        },
+      "2":{"transitions":[{"0":"(1.0)"}],
+"on_entry": 
+           [
+      "/playsound clone @a[x=~,y=~,z=~,r=15]",
+      "/gamerule sendcommandfeedback false",
+      "/kill @e[type=jedy:bancada_roupas,r=5]",
+      "/function sexy",
+      "/summon jedy:bancada_roupas",
+      "/function sexy"
+]
+}
+}
+}
+}
+}

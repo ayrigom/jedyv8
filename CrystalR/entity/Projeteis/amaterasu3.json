@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "jedy:amaterasu3",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/jutsus/amaterasu3"
+      },
+      "geometry": {
+        "default": "geometry.amaterasu3"
+      },
+      "scripts": {
+        "scale": "1"
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

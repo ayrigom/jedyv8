@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:treino_nv1",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "treino_nv1",
+      "minecraft:render_offsets": "armor"    
+    }
+  }
+}

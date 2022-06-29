@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:sbd",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "sbd",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

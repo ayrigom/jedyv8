@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:kaneki",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "kaneki",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

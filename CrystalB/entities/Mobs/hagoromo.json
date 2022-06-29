@@ -1,0 +1,131 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "jedy:hagoromo",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false,
+            "scripts": {
+				"animate": [
+                    "ok",
+                    "ok1",
+                    "ok2"
+				]
+			},
+			"animations": {
+                "ok": "controller.animation.ok",
+                "ok1": "controller.animation.ok1",
+                "ok2": "controller.animation.ok2"
+            }
+        },
+        "components": {
+            "minecraft:breathable": {
+                "totalSupply": 15,
+                "suffocateTime": 0
+            },
+    "minecraft:boss":
+    {"should_darken_sky":false,
+    "hud_range":30,
+    "name":"§lHagoromo Otsutsuki"
+    },
+            "minecraft:nameable": {
+                "alwaysShow": false,
+                "allowNameTagRenaming": false
+            },
+            "minecraft:health": {
+                "value": 27000,
+                "max": 27000
+            },
+      "minecraft:knockback_resistance": {
+        "value": 10.0
+      },
+            "minecraft:collision_box": {
+                "width": 1.5,
+                "height": 1.5
+            },
+            "minecraft:movement": {
+                "value": 0.02
+            },
+            "minecraft:navigation.float": {
+                "can_path_over_water": true
+            },
+            "minecraft:behavior.float_wander": {
+            "xz_dist": 12,
+            "y_dist": 4,
+            "y_offset": -1.8,
+            "random_reselect": true,
+            "float_duration": [ 0.1, 0.37 ]
+            },
+            "minecraft:can_fly": {
+            },
+            "minecraft:shooter": {
+                "type": "Gudoudama",
+                "def": "jedy:gudoudama"
+            },
+            "minecraft:type_family": {
+                "family": [
+                    "mobnpc_ok"
+                ]
+            },
+            "minecraft:fall_damage": {
+                "value": 0.0
+            },
+            "minecraft:jump.static": {},
+            "minecraft:behavior.float": {
+                "priority": 0
+            },
+            "minecraft:behavior.ranged_attack": {
+                "priority": 1,
+                "attack_radius": 30,
+                "charge_shoot_trigger": 2,
+                "charge_charged_trigger": 1,
+                "attack_interval_max": null,
+                "burst_shots": null,
+                "burst_interval": null
+            },
+            "minecraft:follow_range": {
+                "value": 30,
+                "max": 30
+            },
+            "minecraft:behavior.hurt_by_target": {
+                "priority": 1
+            },
+            "minecraft:physics": {},
+            "minecraft:experience_reward": {
+                "on_death": "query.last_hit_by_player ? 10 : 0"
+            },
+            "minecraft:scale": {
+                "value": 1.4,
+                "max": 1.4
+            },
+            "minecraft:behavior.nearest_attackable_target": {
+                "priority": 1,
+                "within_radius": 30,
+                "must_reach": false,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "other_with_families": [
+                                "snowgolem",
+                                "irongolem"
+                            ]
+                        },
+                        "max_dist": 30,
+                        "must_see": false,
+                        "walk_speed_multiplier": 1.0,
+                        "sprint_speed_multiplier": 1.0,
+                        "within_default": 1
+                    }
+                ],
+                "must_see": false,
+                "speed_multiplier": 1.0
+            },
+            "minecraft:loot": {
+                "table": "loot_tables/hagoromo.json"
+            }
+        },
+        "events": null,
+        "component_groups": null
+    }
+}

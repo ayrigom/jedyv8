@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:mk_saiken2",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "mk_saiken2", 
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

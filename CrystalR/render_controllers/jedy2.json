@@ -1,0 +1,10 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.jedy2": {
+      "geometry": "Geometry.jedy2",
+      "materials": [ { "*": "Material.jedy2" } ],
+      "textures": [ "Texture.jedy2" ]
+    }
+  }
+}

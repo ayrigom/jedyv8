@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:giga_chakra",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "giga_chakra",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

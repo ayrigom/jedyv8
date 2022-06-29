@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:arma_jedy",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "arma_jedy",
+      "minecraft:render_offsets": "tools"
+    }
+  }
+}

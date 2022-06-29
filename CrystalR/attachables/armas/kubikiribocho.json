@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "jedy:kubikiribocho",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+    "default": "textures/armas/kubikiribocho",
+    "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.kubikiribocho"
+      },
+      "animations": {
+        "kubikiribocho": "controller.animation.kubikiribocho",
+        "kubikiribocho_first_person": "animation.kubikiribocho_first_person",
+        "kubikiribocho_third_person": "animation.kubikiribocho_third_person"
+      },
+      "scripts": {
+        "animate": [
+          "kubikiribocho"
+        ]
+      },
+      "render_controllers": [ "controller.render.item_default" ]
+    }
+  }
+}

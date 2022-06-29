@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:modo_uzumaki",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "modo_uzumaki", 
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

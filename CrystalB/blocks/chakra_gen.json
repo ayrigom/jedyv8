@@ -1,0 +1,33 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "jedy:chakra_gen"
+    },
+    "components": {
+      "minecraft:destroy_time": 2.0,
+      "minecraft:map_color": "#808080",
+      "minecraft:block_light_absorption": 15.0,
+      "minecraft:explosion_resistance": 3.0,
+      "minecraft:entity_collision": {
+        "origin":  [-8, 12, -8],
+        "size":    [16, 4, 16]
+      },
+      "minecraft:ticking": {
+        "looping": true,
+        "range": [ 2, 2 ],
+        "on_tick": {
+          "event": "jedy:generate",
+          "target": "self"
+            }
+         }
+      },
+      "events":{
+         "jedy:generate":{
+            "run_command":{
+               "command":"summon jedy:generate_chakra ~ ~-0.2 ~"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:inv_pain",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "inv_pain",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

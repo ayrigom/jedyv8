@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:jutsu_bansho",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "jutsu_bansho",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

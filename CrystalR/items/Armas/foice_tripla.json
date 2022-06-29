@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:foice_tripla",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "foice_tripla",
+      "minecraft:render_offsets": "tools"
+    }
+  }
+}

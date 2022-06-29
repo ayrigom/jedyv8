@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:izanami",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "izanami",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

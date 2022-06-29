@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:mc_shisui",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "mc_shisui",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

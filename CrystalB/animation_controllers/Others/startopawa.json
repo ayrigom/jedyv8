@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+    "controller.animation.jedyart": {
+      "states": {
+        "default": {
+          "transitions": [ { "jedyart": "(1.0)" } ],
+          "on_entry": [ "/function jedyart" ]
+        },
+        "jedyart": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [ "/function jedyart" ]
+        }
+      }
+    },
+    "controller.animation.menu": {
+      "states": {
+        "default": {
+          "transitions": [ { "sneaking":"query.get_equipped_item_name == 'menujedy' && query.is_using_item" } ],
+          "on_exit": [ "/function smm1" ]
+        },
+        "sneaking": {
+          "transitions": [ {"default":"query.get_equipped_item_name == 'menujedy' && !query.is_using_item"} ],
+          "on_exit": [ "/function smm" ]
+        }
+      }
+    }
+  }
+}

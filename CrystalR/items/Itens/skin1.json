@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:skin1",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "skin1",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

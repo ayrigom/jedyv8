@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:senpo_cobras",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "senpo_cobras",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

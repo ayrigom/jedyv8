@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:jutsu_mokuton",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "jutsu_mokuton",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

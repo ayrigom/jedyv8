@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:esfera",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "esfera",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

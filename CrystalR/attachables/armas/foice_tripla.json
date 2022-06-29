@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "jedy:foice_tripla",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+    "default": "textures/armas/foice_tripla",
+    "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.foice_tripla"
+      },
+      "animations": {
+        "foice_tripla": "controller.animation.foice_tripla",
+        "foice_tripla_first_person": "animation.foice_tripla_first_person",
+        "foice_tripla_third_person": "animation.foice_tripla_third_person"
+      },
+      "scripts": {
+        "animate": [
+          "foice_tripla"
+        ]
+      },
+      "render_controllers": [ "controller.render.item_default" ]
+    }
+  }
+}

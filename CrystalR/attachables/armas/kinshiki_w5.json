@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "jedy:kinshiki_w5",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+    "default": "textures/armas/kinshiki_w5",
+    "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.kinshiki_w"
+      },
+      "animations": {
+        "kinshiki_w": "controller.animation.kinshiki_w",
+        "kinshiki_w_first_person": "animation.kinshiki_w_first_person",
+        "kinshiki_w_third_person": "animation.kinshiki_w_third_person"
+      },
+      "scripts": {
+        "animate": [
+          "kinshiki_w"
+        ]
+      },
+      "render_controllers": [ "controller.render.item_default" ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.jedychakra": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "1606": "query.is_sneaking"
+            }
+          ]
+        },
+        "1606": {
+          "transitions": [
+            {
+              "default": "query.is_sneaking"
+            }
+          ],
+          "on_entry": [ 
+  "/execute @s[scores={nivel=0}] ~~~ scoreboard players add @s chakra 1",
+  "/execute @s[scores={nivel=1}] ~~~ scoreboard players add @s chakra 1",
+  "/execute @s[scores={nivel=2}] ~~~ scoreboard players add @s chakra 2",
+  "/execute @s[scores={nivel=3}] ~~~ scoreboard players add @s chakra 3",
+  "/execute @s[scores={nivel=4}] ~~~ scoreboard players add @s chakra 4",
+  "/execute @s[scores={nivel=5}] ~~~ scoreboard players add @s chakra 5",
+    "/execute @s[scores={nivel=6}] ~~~ scoreboard players add @s chakra 6",
+      "/execute @s[scores={nivel=7}] ~~~ scoreboard players add @s chakra 7",
+        "/execute @s[scores={nivel=8}] ~~~ scoreboard players add @s chakra 8",
+          "/execute @s[scores={nivel=9}] ~~~ scoreboard players add @s chakra 9",
+ "/execute @s[scores={nivel=10}] ~~~ scoreboard players add @s chakra 10",
+   "/execute @s[scores={rank=1}] ~~~ scoreboard players add @s chakra 3",
+  "/execute @s[scores={rank=2}] ~~~ scoreboard players add @s chakra 5",
+    "/execute @s[scores={rank=3}] ~~~ scoreboard players add @s chakra 6",
+      "/execute @s[scores={rank=4}] ~~~ scoreboard players add @s chakra 10",
+        "/execute @s[scores={rank=5}] ~~~ scoreboard players add @s chakra 15",
+          "/execute @s[scores={rank=6}] ~~~ scoreboard players add @s chakra 20",
+            "/execute @s[scores={rank=7}] ~~~ scoreboard players add @s chakra 30",
+              "/execute @s[scores={rank=8}] ~~~ scoreboard players add @s chakra 40",
+          "/execute @s[scores={rank=9}] ~~~ scoreboard players add @s chakra 50",
+            "/execute @s[scores={rank=10}] ~~~ scoreboard players add @s chakra 80",
+ "/particle jedy:chakra ~ ~ ~"]
+        }
+      }
+    }
+}
+}

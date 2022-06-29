@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "jedy:mk_kurama2"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "A#A",
+      "#A#",
+      "#C#"
+    ],
+    "key": {
+      "#": {
+        "item": "jedy:chakra_bijuu"
+      },
+            "C": {
+        "item": "jedy:senpo_sapos"
+      },
+      "A": {
+        "item": "jedy:mk_kurama1"
+    }  
+    },
+    "result": {
+      "item": "jedy:mk_kurama2"
+    }
+  }
+}

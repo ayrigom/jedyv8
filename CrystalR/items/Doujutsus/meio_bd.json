@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:meio_bd",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "meio_bd",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

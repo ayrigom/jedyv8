@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:instintos",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "instinto",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:shakujo_m",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "shakujo_m",
+      "minecraft:render_offsets": "tools"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": { 
+			"identifier": "jedy:modoteste.player",
+			"item": { 
+				"jedy:modoteste": "query.owner_identifier == 'minecraft:player'"
+			},
+			"materials": {
+				"default": "slime_outer",
+				"enchanted": "slime_outer"
+			},
+			"textures": {
+				"default": "textures/modos/modoteste",
+				"enchanted": "textures/misc/emerald_enchanted_glint"
+			},
+			"geometry": {
+				"default": "geometry.jedy_hd"
+			},
+			"scripts": {
+				"parent_setup": "variable.chest_layer_visible = 0.0;"
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			]
+		}
+	}
+}

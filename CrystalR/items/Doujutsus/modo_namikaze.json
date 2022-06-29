@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:modo_namikaze",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "modo_namikaze",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

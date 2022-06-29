@@ -1,0 +1,27 @@
+{
+  "format_version": [
+    1,
+    1,
+    1
+  ],
+ 	"jedy:bloco_foice_tripla": {
+    "textures": "bloco_foice_tripla",
+		"sound": "glass"
+	},
+"jedy:genkai": {
+    "textures": "genkai",
+    "sound": "stone"
+},
+"jedy:training": {
+    "textures": "training",
+    "sound": "stone"
+},
+  "jedy:craft": {
+    "textures": "craft",
+    "sound": "stone"
+  },
+    "jedy:skin": {
+    "textures": "skin",
+    "sound": "stone"
+}
+}

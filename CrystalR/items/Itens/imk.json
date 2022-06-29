@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:imk",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "imk",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.guijedy_first_person": {
+      "loop": true,
+      "bones": { 
+        "JEDYGUI": {
+          "scale": [ 0.95, 0.95, 0.95 ]
+        },
+        "rightItem": {
+          "scale": [ 0, 0, 0 ]
+        }
+      } 
+    },  
+    "animation.guijedy_third_person": {
+      "loop": true,
+      "bones": {
+        "JEDYGUI": {
+          "scale": [ 0, 0, 0 ]
+        },
+        "rightItem": {
+          "scale": [ 1, 1, 1 ]
+        }
+      }
+    } 
+  } 
+}

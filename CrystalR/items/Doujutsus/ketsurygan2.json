@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:ketsurygan2",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "ketsurygan2",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

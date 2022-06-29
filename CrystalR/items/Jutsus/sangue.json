@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:sangue",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "sangue",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

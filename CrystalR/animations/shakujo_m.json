@@ -1,0 +1,13 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.item.shakujo_m": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": ["query.get_equipped_item_name=='shakujo_m'&&variable.is_first_person?5:0", "query.get_equipped_item_name=='shakujo_m'&&variable.is_first_person?75:0", "query.get_equipped_item_name=='shakujo_m'&&variable.is_first_person?100:0"]
+				}
+			}
+		}
+	}
+}

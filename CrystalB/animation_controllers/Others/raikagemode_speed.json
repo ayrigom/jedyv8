@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.raikagemode_speed": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "raikagemode_speed": "query.get_equipped_item_name('main_hand') == 'raikagemode_speed'"
+            }
+          ]
+        },
+        "raikagemode_speed": {
+          "transitions": [
+            {
+              "default": "query.get_equipped_item_name('main_hand') == 'raikagemode_speed'"
+            }
+          ], 
+          "on_entry": [
+            "/effect @p speed 1 26 true"
+          ]
+        }
+      }
+    },
+    "controller.animation.slot_1": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "slot_1": "variable.attack_time > 0 && query.get_equipped_item_name('main_hand') == 'slot_1'"
+            }
+          ]
+        },
+        "slot_1": {
+          "transitions": [
+            {
+              "default": "variable.attack_time > 0 && query.get_equipped_item_name('main_hand') == 'slot_1'"
+            }
+          ],
+          "on_entry": [
+            "/function clicar/slot_1"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:venom_shukaku",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "venom_shukaku", 
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

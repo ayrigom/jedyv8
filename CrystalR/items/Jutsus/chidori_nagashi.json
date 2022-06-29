@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:chidori_nagashi",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "chidori_nagashi",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

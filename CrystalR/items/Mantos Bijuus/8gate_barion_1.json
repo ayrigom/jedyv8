@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:8barion_shukaku",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "8gate_barion_1",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

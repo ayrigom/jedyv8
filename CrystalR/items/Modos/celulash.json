@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:celulash",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "celulash",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

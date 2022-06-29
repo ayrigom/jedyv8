@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:susanoo_in4",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "susanoo_in4",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

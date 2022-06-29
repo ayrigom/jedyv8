@@ -1,0 +1,410 @@
+{
+  "tiers": [
+    {
+      "trades": [
+          
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo",
+              "quantity": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:bandana_konoha"
+            }
+          ]
+        },
+          
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo",
+              "quantity": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:bandana_areia"
+            }
+          ]
+        },
+                {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:roupa_neji"
+            }
+          ]
+        },
+          
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo",
+              "quantity": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:bandana_nevoa"
+            }
+          ]
+        },
+          
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo",
+              "quantity": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:bandana_nuvem"
+            }
+          ]
+        },
+          
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo",
+              "quantity": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:bandana_pedra"
+            }
+          ]
+        },
+          
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo",
+              "quantity": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:bandana_akatsuki"
+            }
+          ]
+        },
+          
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo",
+              "quantity": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:bandana_kara"
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 64,
+                "max": 64
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:bandana_jedy"
+            }
+          ]
+        },
+          
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 64,
+                "max": 64
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:bandana_zero"
+            }
+          ]
+        },
+          
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:roupa_taijutsu"
+            }
+          ]
+        },
+          
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:roupa_zabuza"
+            }
+          ]
+        },
+{
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:roupa_obitokid"
+            }
+          ]
+        },
+{
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:roupa_narutoc"
+            }
+          ]
+        },
+{
+              "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:boruto2"
+            }
+          ]
+        },
+        {
+              "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:roupa_boruto"
+            }
+          ]
+        },
+{
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 10,
+                "max": 10
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:roupa_akatsuki"
+            }
+          ]
+        },
+          
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 10,
+                "max": 10
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:roupa_akatsukiwhite"
+            }
+          ]
+        },
+                {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 10,
+                "max": 10
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:roupa_clan_uchiha"
+            }
+          ]
+        },
+          
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 10,
+                "max": 10
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:roupa_akatsukirasgada"
+            }
+          ]
+        },
+          
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 10,
+                "max": 10
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:roupa_senju"
+            }
+          ]
+        },
+          
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 10,
+                "max": 10
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:roupa_senjuazul"
+            }
+          ]
+        },
+          
+{
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 64,
+                "max": 64
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:roupa_otsutsuki"
+            }
+          ]
+        },
+          
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 64,
+                "max": 64
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:roupa_otsutsukisombrio"
+            }
+          ]
+        }
+           ]
+      
+    }
+  ]
+}

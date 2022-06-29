@@ -1,0 +1,49 @@
+{
+	"format_version": "1.8.0",
+	"animation_controllers": {
+		"controller.animation.jedyfly": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+           "jedydown": "query.scoreboard('perm_jedyfly') && !query.is_on_ground && query.is_sprinting && query.head_x_rotation(0) >= 0"
+						},
+						{
+           "jedyup": "query.scoreboard('perm_jedyfly') && !query.is_on_ground && query.is_sprinting && query.head_x_rotation(0) < 0"
+						}
+					]
+				},
+       "jedydown": {
+        "on_entry": [
+      "/execute @s[scores={chakra=1..99999}] ~ ~ ~ effect @s slow_falling 1 2 true",
+      "/execute @s[scores={chakra=1..99999}] ~ ~ ~ effect @s speed 600 6 true",
+      "/execute @s[scores={chakra=1..99999}] ~ ~ ~ title @p title §l§k§d||§r §l§6§6DESCENDO  §l§k§d||",
+      "/execute @s[scores={chakra=0}] ~ ~ ~ title @p title §l§k§d||§r §l§6§bIMPOSSIVEL VOAR SEM CHAKRA §l§k§d||",
+      "/scoreboard players remove @s chakra 1"
+					],
+      "transitions": [
+						{
+       "default": "1"
+						}
+					]
+				},
+       "jedyup": {
+         "on_entry": [
+       "/execute @s[scores={chakra=1..99999}] ~ ~ ~ effect @s levitation 1 4 true",
+      "/execute @s[scores={chakra=1..99999}] ~ ~ ~ effect @s speed 600 10 true",
+      "/execute @s[scores={chakra=1..99999}] ~ ~ ~ title @p title §l§k§d||§r §l§aVOANDO  §l§k§d||",
+      "/execute @s[scores={chakra=0}] ~ ~ ~ title @p title §l§k§d||§r §l§6§bIMPOSSIVEL VOAR SEM CHAKRA §l§k§d||",
+      "/scoreboard players remove @s chakra 1"
+					],
+      "transitions": [
+						{
+       "default": "1"
+						}
+					]
+				}
+			}
+		}
+	}
+}
+
+

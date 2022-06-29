@@ -1,0 +1,134 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "jedy:invocar_juubi",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "component_groups": {
+      "minecraft:mooshroom_become_cow": {
+        "minecraft:transformation": {
+          "into": "jedy:10juubi"
+        }
+      },
+
+      "minecraft:cow_adult": {
+        "minecraft:loot": {
+          "table": "loot_tables/entities/moo.json"
+        },
+
+        "minecraft:interact": [
+          {
+            "filters": {
+              "all_of": [
+                { "test" :  "is_family", "subject" : "other", "value" :  "player"}
+              ]
+            },
+                "event": "become_cow",
+            "use_item": false,
+            "interact_text": "§l§c[Invocar Juubi]"
+          }
+        ]
+      }
+    },
+
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "mushroomcow" ]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:push_through": {
+        "value": 1.0
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:collision_box": {
+        "width": 0.9,
+        "height": 1.3
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:health": {
+        "value": 9999999,
+        "max": 99999999
+      },
+      "minecraft:movement": {
+        "value": 0.0
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {    
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:fall_damage": {
+        "value": 0.0
+      },
+      "minecraft:balloonable": {
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.panic": {
+        "priority": 0,
+        "speed_multiplier": 0.0
+      },
+      "minecraft:behavior.mount_pathing": {
+        "priority": 0,
+        "speed_multiplier": 0.0,
+        "target_dist": 0.0,
+        "track_target": true
+      },
+	    "minecraft:physics": {
+      }
+    },
+
+
+    "events": {
+      "become_cow": {
+        "remove": {
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:mooshroom_become_cow"
+          ]
+        }
+      },
+      "minecraft:entity_transformed": {
+        "remove": {
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:cow_adult"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 100,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:cow_adult"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

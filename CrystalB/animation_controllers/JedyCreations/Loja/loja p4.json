@@ -1,0 +1,41 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+    "controller.animation.loja_p4_1": {
+      "states": {
+        "default": {
+          "transitions": [ { "loja_p4_1":"query.get_equipped_item_name == 'loja_p4_1' && query.is_sneaking" } ],
+          "on_exit": [ "/function loja/loja_p4_1" ]
+        },
+        "loja_p4_1": {
+          "transitions": [ {"default":"query.get_equipped_item_name == 'loja_p4_1' && !query.is_sneaking"} ],
+          "on_exit": [ "" ]
+			 }
+		 }
+	 },
+    "controller.animation.loja_p4_2": {
+      "states": {
+        "default": {
+          "transitions": [ { "loja_p4_2":"query.get_equipped_item_name == 'loja_p4_2' && query.is_sneaking" } ],
+          "on_exit": [ "/function loja/loja_p4_2" ]
+        },
+        "loja_p4_2": {
+          "transitions": [ {"default":"query.get_equipped_item_name == 'loja_p4_2' && !query.is_sneaking"} ],
+          "on_exit": [ "" ]
+        }
+      }
+    },
+    "controller.animation.loja_p4_3": {
+      "states": {
+        "default": {
+          "transitions": [ { "loja_p4_3":"query.get_equipped_item_name == 'loja_p4_3' && query.is_sneaking" } ],
+          "on_exit": [ "/function loja/loja_p4_3" ]
+        },
+        "loja_p4_3": {
+          "transitions": [ {"default":"query.get_equipped_item_name == 'loja_p4_3' && !query.is_sneaking"} ],
+          "on_exit": [ "" ]
+        }
+      }
+    }
+  }
+}

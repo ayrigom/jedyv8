@@ -1,0 +1,31 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+        "animation.flame.xxx": {
+          "loop": true,
+          "animation_length": 3.0,
+          "bones": {
+				"head" : {
+					"rotation" : [ "-query.target_x_rotation", "-query.target_y_rotation", 0.0 ]
+				}
+           },
+          "particle_effects": {
+            "0.0": [
+              {
+                "effect": "trail_effect1"
+              }
+            ],
+            "0.4": [
+              {
+                "effect": "trail_effect2"
+              }
+            ],
+            "0.5": [
+              {
+                "effect": "trail_effect3"
+              }
+            ]
+          }
+        }
+	}
+}

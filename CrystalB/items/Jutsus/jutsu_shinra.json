@@ -1,0 +1,54 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:jutsu_shinra"
+    },
+    "components": {
+    "minecraft:render_offsets": {
+        "main_hand": {
+            "first_person": { 
+                "scale": [0.002,0.002,0.002]
+            },
+            "third_person": { 
+                "scale": [0.01,0.01,0.01]
+            }
+        }
+    },
+      "minecraft:display_name": {
+		"value": "§l§c Rinnegan: Shinra Tensei \n§a✪Dano: §cAlto  \n§8✪Alcance: Alto \n§b✪Destruição: Moderado\n✪Gasto: Moderado"
+      },
+      "minecraft:icon": {
+		"texture": "jutsu_shinra"
+	  },
+      "minecraft:max_stack_size": 64,
+      "minecraft:use_duration": 2,
+
+	  "minecraft:cooldown": {
+		"category": "slc",
+		"duration": 10
+      },
+	  "minecraft:on_use": {
+		"on_use": {
+		  "event": "zero"
+		}
+	  }
+    },
+    "events": {
+	  "zero": {
+		"run_command": {
+		  "command": [
+      "execute @p[scores={chakra=80..500000}] ~ ~ ~ playsound rinne @a[x=~,y=~,z=~,r=30]",
+      "execute @p[scores={chakra=80..500000}] ~ ~ ~ effect @s resistance 3 10 true",
+      "execute @p[scores={chakra=80..500000}] ~ ~ ~ summon jedy:shinra ~~~",
+      "execute @p[scores={chakra=80..500000}] ~ ~ ~ function kill_items",
+     "execute @p[scores={chakra=0..79}] ~ ~ ~ say §l§bVocê não tem ¿ para usar este jutsu. Necessário [80¿]",
+      "execute @p[scores={chakra=80..500000}] ~ ~ ~ scoreboard players remove @p chakra 80",
+      "kill @e[type=item]"
+
+		  ]
+	    }
+	  }
+	}
+  }
+}

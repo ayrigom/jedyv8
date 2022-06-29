@@ -1,0 +1,57 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo",
+              "quantity": {
+                "min": 6,
+                "max": 6
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:bolinhodearroz"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo",
+              "quantity": {
+                "min": 12,
+                "max": 12
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:dangos"
+                  }
+              ]
+            },
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo",
+              "quantity": {
+                "min": 20,
+                "max": 20
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:ramen"
+            }
+          ]
+        }
+           ]
+      
+    }
+  ]
+}

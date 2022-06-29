@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "jedy:mk_saiken2",
+      "materials": {
+        "default": "armor",
+        "enchanted": "armor_enchanted"
+      },
+      "textures": {
+        "default": "textures/modos/mk_saiken2",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.mk_saiken2"
+      },
+      "animations": {
+        "default_controller": "controller.animation.mk_saiken2.default",
+        "default": "animation.mk_saiken2.default",
+        "gliding": "animation.mk_saiken2.gliding",
+        "sneaking": "animation.mk_saiken2.sneaking",
+        "sleeping": "animation.mk_saiken2.sleeping",
+        "swimming": "animation.mk_saiken2.swimming"
+      },
+      "scripts": {
+        "parent_setup": "variable.chest_layer_visible = 0.0;",
+        "animate": [
+          "default_controller"
+        ]
+      },
+      "render_controllers": [ "controller.render.armor" ]
+    }
+  }
+}

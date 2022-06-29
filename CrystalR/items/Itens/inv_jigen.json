@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:inv_jigen",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "inv_jigen",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

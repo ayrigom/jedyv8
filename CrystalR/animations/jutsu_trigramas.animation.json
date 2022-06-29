@@ -1,0 +1,52 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.trigramas.open": {
+			"animation_length": 2.76,
+			"bones": {
+				"ALLHUMAN": {
+					"rotation": [0, 0, 0]
+				},
+				"TrigramasJedy": {
+					"position": [0, 714.5, 0],
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.16": [0.13, 0.13, 0.13],
+						"0.36": [1, 1, 1],
+						"2.32": [1, 1, 1],
+						"2.56": [0.94, 0.94, 0.94],
+						"2.76": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"YinYangJedy": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.76": [0, 180, 0]
+					}
+				},
+				"LinhasJedy": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.76": [0, -180, 0]
+					}
+				},
+				"KanjisJedy": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.76": [0, 180, 0]
+					}
+				},
+				"KanjisJedy2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.76": [0, -180, 0]
+					}
+				}
+			}
+		}
+	}
+}

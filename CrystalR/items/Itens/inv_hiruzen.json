@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:inv_hiruzen",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "inv_hiruzen",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

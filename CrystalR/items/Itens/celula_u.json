@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:celula_u",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "celula_u",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

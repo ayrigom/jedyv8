@@ -1,0 +1,148 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	    "controller.animation.summon_shukaku": {
+      "states": {
+        "default": {
+          "transitions": [ { "summon_shukaku": "query.is_using_item && query.get_equipped_item_name('main_hand') == 'summon_shukaku'" } ],
+          "on_entry": [""]
+        },
+        "summon_shukaku": {
+          "transitions": [ { "default": "query.is_using_item && query.get_equipped_item_name('main_hand') == 'summon_shukaku'" } ],
+          "on_entry": [
+          "/summon jedy:1shukaku ~ ~ ~",
+          "/say §l§eShukaku spawnou!",
+          "/replaceitem entity @p slot.weapon.mainhand 0 air"
+          ]
+        }
+      }
+    },
+    "controller.animation.summon_matatabi": {
+      "states": {
+        "default": {
+          "transitions": [ { "summon_matatabi": "query.is_using_item > 0 && query.get_equipped_item_name('main_hand') == 'summon_matatabi'" } ],
+          "on_entry":[""]
+        },
+        "summon_matatabi": {
+          "transitions": [ { "default": "query.is_using_item > 0 && query.get_equipped_item_name('main_hand') == 'summon_matatabi'" } ],
+          "on_entry": [           "/summon jedy:2matatabi ~ ~ ~", 
+          "/say §l§eMatatabi spawnou!",
+          "/replaceitem entity @p slot.weapon.mainhand 0 air" 
+          ]
+        }
+      }
+    },
+    "controller.animation.summon_isobu": {
+      "states": {
+        "default": {
+          "transitions": [ { "summon_isobu": "query.is_using_item > 0 && query.get_equipped_item_name('main_hand') == 'summon_isobu'" } ],
+          "on_entry": [ "" ]
+        },
+        "summon_isobu": {
+          "transitions": [ { "default": "query.is_using_item > 0 && query.get_equipped_item_name('main_hand') == 'summon_isobu'" } ],
+          "on_entry": [
+          "/summon jedy:3isobu ~ ~ ~",
+          "/say §l§eIsobu spawnou!",
+          "/replaceitem entity @p slot.weapon.mainhand 0 air"
+          ]
+        }
+      }
+    },
+    "controller.animation.summon_songoku": {
+      "states": {
+        "default": {
+          "transitions": [ { "summon_songoku": "query.is_using_item > 0 && query.get_equipped_item_name('main_hand') == 'summon_songoku'" } ],
+          "on_entry": [ "" ]
+        },
+        "summon_songoku": {
+          "transitions": [ { "default": "query.is_using_item > 0 && query.get_equipped_item_name('main_hand') == 'summon_songoku'" } ],
+          "on_entry": [
+          "/summon jedy:4songoku ~ ~ ~",
+          "/say §l§eSo  Goku spawnou!",
+          "/replaceitem entity @p slot.weapon.mainhand 0 air"
+          ]
+        }
+      }
+    },
+    "controller.animation.summon_kokuo": {
+      "states": {
+        "default": {
+          "transitions": [ { "summon_kokuo": "query.is_using_item > 0 && query.get_equipped_item_name('main_hand') == 'summon_kokuo'" } ],
+          "on_entry": [ "" ]
+        },
+        "summon_kokuo": {
+          "transitions": [ { "default": "query.is_using_item > 0 && query.get_equipped_item_name('main_hand') == 'summon_kokuo'" } ],
+          "on_entry": [
+          "/summon jedy:5kokuo ~ ~ ~",
+          "/say §l§eKokuo spawnou!",
+          "/replaceitem entity @p slot.weapon.mainhand 0 air"
+          ]
+        }
+      }
+    },
+    "controller.animation.summon_saiken": {
+      "states": {
+        "default": {
+          "transitions": [ { "summon_saiken": "query.is_using_item > 0 && query.get_equipped_item_name('main_hand') == 'summon_saiken'" } ],
+          "on_entry": [ "" ]
+        },
+        "summon_saiken": {
+          "transitions": [ { "default": "query.is_using_item > 0 && query.get_equipped_item_name('main_hand') == 'summon_saiken'" } ],
+          "on_entry": [
+          "/summon jedy:6saiken ~ ~ ~",
+          "/say §l§eSaiken spawnou!",
+          "/replaceitem entity @p slot.weapon.mainhand 0 air"
+          ]
+        }
+      }
+    },
+    "controller.animation.summon_choumei": {
+      "states": {
+        "default": {
+          "transitions": [ { "summon_choumei": "query.is_using_item > 0 && query.get_equipped_item_name('main_hand') == 'summon_choumei'" } ],
+          "on_entry": [ "" ]
+        },
+        "summon_choumei": {
+          "transitions": [ { "default": "query.is_using_item > 0 && query.get_equipped_item_name('main_hand') == 'summon_choumei'" } ],
+          "on_entry": [
+          "/summon jedy:7choumei ~ ~ ~",
+          "/say §l§eChoumei spawnou!",
+          "/replaceitem entity @p slot.weapon.mainhand 0 air"
+          ]
+        }
+      }
+    },
+    "controller.animation.summon_gyuki": {
+      "states": {
+        "default": {
+          "transitions": [ { "summon_gyuki": "query.is_using_item > 0 && query.get_equipped_item_name('main_hand') == 'summon_gyuki'" } ],
+          "on_entry": [ "" ]
+        },
+        "summon_gyuki": {
+          "transitions": [ { "default": "query.is_using_item > 0 && query.get_equipped_item_name('main_hand') == 'summon_gyuki'" } ],
+          "on_entry": [
+          "/summon jedy:8gyuki ~ ~ ~",
+          "/say §l§eGyuki spawnou!",
+          "/replaceitem entity @p slot.weapon.mainhand 0 air"
+          ]
+        }
+      }
+    },
+    "controller.animation.summon_kurama": {
+      "states": {
+        "default": {
+          "transitions": [ { "summon_kurama": "query.is_using_item > 0 && query.get_equipped_item_name('main_hand') == 'summon_kurama'" } ],
+          "on_entry": [ "" ]
+        },
+        "summon_kurama": {
+          "transitions": [ { "default": "query.is_using_item > 0 && query.get_equipped_item_name('main_hand') == 'summon_kurama'" } ],
+          "on_entry": [
+          "/summon jedy:9kurama ~ ~ ~",
+          "/say §l§eKurama spawnou!",
+          "/replaceitem entity @p slot.weapon.mainhand 0 air"
+          ]
+        }
+      }
+    }
+  }
+}

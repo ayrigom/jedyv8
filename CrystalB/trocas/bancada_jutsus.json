@@ -1,0 +1,238 @@
+
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "jedy:hyper_chakra",
+              "quantity": {
+                "min": 10,
+                "max": 10
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:jutsu_cura"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "jedy:hyper_chakra",
+              "quantity": {
+                "min": 7,
+                "max": 7
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:jutsu_punhopedra",
+              "quantity": {
+                "min": 1,
+                "max": 1
+              }
+                  }
+              ]
+            },
+        {
+          "wants": [
+            {
+              "item": "jedy:giga_chakra",
+              "quantity": {
+                "min": 6,
+                "max": 6
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:jutsu_sub"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "jedy:chakra_natural",
+              "quantity": {
+                "min": 14,
+                "max": 14
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:jutsu_mokuton"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "jedy:chakra_natural",
+              "quantity": {
+                "min": 18,
+                "max": 18
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:rasenshuriken"
+                  }
+              ]
+            },       
+            {
+          "wants": [
+            {
+              "item": "jedy:giga_chakra",
+              "quantity": {
+                "min": 15,
+                "max": 15
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:dotonj"
+                  }
+              ]
+            },
+                        {
+          "wants": [
+            {
+              "item": "jedy:rasenshuriken",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:rasen"
+                  }
+              ]
+            },
+                        {
+          "wants": [
+            {
+              "item": "jedy:giga_chakra",
+              "quantity": {
+                "min": 15,
+                "max": 15
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:katonj"
+                  }
+              ]
+            },
+                        {
+          "wants": [
+            {
+              "item": "jedy:giga_chakra",
+              "quantity": {
+                "min": 15,
+                "max": 15
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:suitonj"
+                  }
+              ]
+            },
+                        {
+          "wants": [
+            {
+              "item": "jedy:giga_chakra",
+              "quantity": {
+                "min": 15,
+                "max": 15
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:raitonj"
+                  }
+              ]
+            },
+                                    {
+          "wants": [
+            {
+              "item": "jedy:katon",
+              "quantity": {
+                "min": 5,
+                "max": 5
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:bolaf"
+                  }
+              ]
+            },
+                        {
+          "wants": [
+            {
+              "item": "jedy:giga_chakra",
+              "quantity": {
+                "min": 15,
+                "max": 15
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:fuutonj"
+                  }
+              ]
+            },
+                                    {
+          "wants": [
+            {
+              "item": "jedy:hyper_chakra",
+              "quantity": {
+                "min": 15,
+                "max": 15
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:rasengan"
+                  }
+              ]
+            },
+        {
+          "wants": [
+            {
+              "item": "jedy:hyper_chakra",
+              "quantity": {
+                "min": 19,
+                "max": 19
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:chidori_onyx"
+                  }
+              ]
+            }
+           ]
+      
+    }
+  ]
+}

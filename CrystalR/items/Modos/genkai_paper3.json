@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:genkai_paper3",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "genkai_paper3",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

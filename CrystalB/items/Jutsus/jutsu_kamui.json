@@ -1,0 +1,53 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:jutsu_kamui"
+    },
+    "components": {
+    "minecraft:render_offsets": {
+        "main_hand": {
+            "first_person": { 
+                "scale": [0.002,0.002,0.002]
+            },
+            "third_person": { 
+                "scale": [0.01,0.01,0.01]
+            }
+        }
+    },
+      "minecraft:display_name": {
+		"value": "§l§c Kamui \n§a✪Dano: §cNulo  \n§8✪Alcance: Nulo \n§b✪Destruição: Nula\n✪Gasto: Moderado"
+      },
+      "minecraft:icon": {
+		"texture": "jutsu_kamui"
+	  },
+      "minecraft:max_stack_size": 1,
+      "minecraft:use_duration": 2,
+
+	  "minecraft:cooldown": {
+		"category": "slc",
+		"duration": 7
+      },
+	  "minecraft:on_use": {
+		"on_use": {
+		  "event": "1606"
+		}
+	  }
+    },
+    "events": {
+	  "1606": {
+		"run_command": {
+		  "command": [
+      "execute @p[scores={chakra=50..500000}] ~ ~ ~ playanimation @p animation.kamui_tela.up",
+      "execute @p[scores={chakra=50..500000}] ~ ~ ~ playsound kamui @a[x=~,y=~,z=~,r=30]",
+      "execute @p[scores={chakra=50..500000}] ~ ~ ~ function jutsus/kamuiitem",
+      "execute @p[scores={chakra=50..500000}] ~ ~ ~ spawnpoint @s ~~~",
+      "execute @p[scores={chakra=50..500000}] ~ ~ ~ summon jedy:kamuigo ~ ~ ~-2",
+     "execute @p[scores={chakra=0..49}] ~ ~ ~ say §l§bVocê não tem ¿ para usar este jutsu. Necessário [50¿]",
+      "execute @p[scores={chakra=50..500000}] ~ ~ ~ scoreboard players remove @p chakra 50"
+		  ]
+	    }
+	  }
+	}
+  }
+}

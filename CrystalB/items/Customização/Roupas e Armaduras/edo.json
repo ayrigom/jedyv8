@@ -1,0 +1,51 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "jedy:edo",
+			"category": "equipment"
+		},
+		"components": {
+    "minecraft:render_offsets": {
+        "main_hand": {
+            "first_person": { 
+                "scale": [0.002,0.002,0.002]
+            },
+            "third_person": { 
+                "scale": [0.01,0.01,0.01]
+            }
+        }
+    },
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.chestplate"
+			},
+			 "minecraft:icon": {
+				"texture": "edo"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:allow_off_hand": true,
+			"minecraft:display_name":  {"value":"§l§c Traje Edo \n§a✪Raridade: §d Épico\n§8✪Obtenção: Modo \n§bDurabilidade: Alta"
+            },
+			"minecraft:enchantable": {
+				"value": 30,
+				"slot": "armor_torso"
+			},
+			"minecraft:durability": {
+				"max_durability": 10000,
+					"damage_chance": {
+					"min": 5,
+					"max": 10
+				}
+			},
+			"minecraft:knockback_resistance": {
+				"protection": 2
+			},
+			"minecraft:armor": {
+				"protection": 8
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.chest"
+			}
+		}
+	}
+}

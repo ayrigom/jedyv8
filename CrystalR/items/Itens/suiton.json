@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:suiton",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "suiton",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

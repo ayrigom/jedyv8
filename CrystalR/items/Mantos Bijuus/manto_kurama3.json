@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:manto_kurama3",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "manto_kurama3", 
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

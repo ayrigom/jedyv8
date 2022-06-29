@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "jedy:menu_shinobi_p3",
+      "materials": { 
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      }, 
+      "textures": {
+   "default": "textures/gui/menushinobi/menu_shinobi_p3", 
+   "enchanted": "textures/misc/enchanted_item_glint"  
+      },
+      "geometry": {
+   "default": "geometry.guijedy"
+      },
+      "animations": {
+        "guijedy": "controller.animation.guijedy",
+        "guijedy_first_person": "animation.guijedy_first_person",
+        "guijedy_third_person": "animation.guijedy_third_person"
+      },
+      "scripts": {
+        "animate": [
+          "guijedy"
+        ]
+      },
+      "render_controllers": [ 
+       "controller.render.item_default"
+     ]
+    }
+  }
+}

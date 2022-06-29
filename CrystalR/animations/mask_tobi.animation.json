@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mask_tobi.default": {
+			"loop": true,
+			"animation_length": 1.08,
+			"bones": {
+				"espiral": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.08": [0, 0, -360]
+					}
+				}
+			}
+		}
+	}
+}

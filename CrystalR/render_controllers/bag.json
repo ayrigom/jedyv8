@@ -1,0 +1,23 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.bag": {
+            "arrays": {
+                "textures": {
+                    "Array.variants": [
+                        "Texture.undyed"
+                    ]
+                }
+            },
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Array.variants[query.variant]"
+            ]
+        }
+    }
+}

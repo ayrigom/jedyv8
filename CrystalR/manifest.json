@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+   "description": "§a§l§oMod: Crystal",
+    "name": "§e§lNaruto §a§l Jedy Crystal Edition  §c§l[R]",
+    "uuid": "7cef0fb1-bba6-4db4-8ba9-b024cfdc98b6",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 13, 0]
+  },
+  "modules": [
+    {
+   "description": "§a§l§oCriado por Jedy Tensei.",
+      "type": "resources",
+      "uuid": "36d36a3d-8d56-4dfa-9eeb-370f41d194a8",
+      "version": [0, 0, 1]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "af913d55-5647-4b70-8698-55fff1a580d4",
+      "version": [0, 0, 1]
+    }
+  ]
+}

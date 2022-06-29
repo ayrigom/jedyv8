@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:ritual",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "ritual",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:m_shins"
+    },
+    "components": {
+		"minecraft:render_offsets": {
+			"main_hand": {
+			  "first_person": { 
+				"scale": [0.002,0.002,0.002]
+			  },
+			  "third_person": { 
+				"scale": [0.006,0.006,0.006]
+			  }
+			},
+			"off_hand": {
+			  "first_person": { 
+				"scale": [0.002,0.002,0.002]
+			  },
+			  "third_person": { 
+				"scale": [0.006,0.006,0.006]
+			  }
+			}
+		  }, 
+		  "minecraft:armor": {
+			"protection": 2
+		  },
+		
+      "minecraft:display_name": {
+		"value": "§l§c Mangekyou Shin: Atração de Metal \n§a✪Dano: §cMédio  \n§8✪Alcance: Alto \n§b✪Destruição: Nula\n✪Gasto: Nula"
+      },
+      "minecraft:icon": {
+		"texture": "m_shins"
+	  },
+      "minecraft:max_stack_size": 64,
+      "minecraft:use_duration": 1,
+
+	  "minecraft:cooldown": {
+		"category": "use_time",
+		"duration": 0.1
+	  },
+	  "minecraft:on_use": {
+		"on_use": {
+		  "event": "skill"
+		}
+	  }
+    },
+    "events": {
+	  "skill": {
+	    "shoot": {
+		  "projectile": "jedy:m_shins",
+		  "launch_power": 1
+		
+		},
+		"run_command": {
+			"command": [	
+		  "effect @p slowness 2 5 true"
+	    
+	    ]
+	}
+  }
+ }
+}
+}

@@ -1,0 +1,28 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "genkai": {
+      "textures": [
+        "textures/blocks/genkai"
+      ]
+    },
+    "training": {
+      "textures": [
+        "textures/blocks/treino1"
+        ]
+    },
+            "skin": {
+    "textures": [
+     "textures/blocks/skin"
+      ]
+            },
+    "craft": {
+    "textures": [
+     "textures/blocks/craft"
+      ]
+    }
+  }
+}

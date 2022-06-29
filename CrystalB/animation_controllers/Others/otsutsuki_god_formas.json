@@ -1,0 +1,41 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+    "controller.animation.otsutsuki_god_branco": {
+      "states": {
+        "default": {
+          "transitions": [ { "otsutsuki_god_branco":"query.get_equipped_item_name == 'otsutsuki_god_branco' && query.is_sneaking" } ],
+          "on_exit": [ "/function otsutsuki_god_formas/otsutsuki_god_branco" ]
+        },
+        "otsutsuki_god_branco": {
+          "transitions": [ {"default":"query.get_equipped_item_name == 'otsutsuki_god_branco' && !query.is_sneaking"} ],
+          "on_exit": [ "" ]
+			 }
+		 }
+	 },
+    "controller.animation.otsutsuki_god_amarelo": {
+      "states": {
+        "default": {
+          "transitions": [ { "otsutsuki_god_amarelo":"query.get_equipped_item_name == 'otsutsuki_god_amarelo' && query.is_sneaking" } ],
+          "on_exit": [ "/function otsutsuki_god_formas/otsutsuki_god_amarelo" ]
+        },
+        "otsutsuki_god_amarelo": {
+          "transitions": [ {"default":"query.get_equipped_item_name == 'otsutsuki_god_amarelo' && !query.is_sneaking"} ],
+          "on_exit": [ "" ]
+        }
+      }
+    },
+    "controller.animation.otsutsuki_god_azul": {
+      "states": {
+        "default": {
+          "transitions": [ { "otsutsuki_god_azul":"query.get_equipped_item_name == 'otsutsuki_god_azul' && query.is_sneaking" } ],
+          "on_exit": [ "/function otsutsuki_god_formas/otsutsuki_god_azul" ]
+        },
+        "otsutsuki_god_azul": {
+          "transitions": [ {"default":"query.get_equipped_item_name == 'otsutsuki_god_azul' && !query.is_sneaking"} ],
+          "on_exit": [ "" ]
+        }
+      }
+    }
+  }
+}

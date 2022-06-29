@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:suitonj",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "suitonj",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

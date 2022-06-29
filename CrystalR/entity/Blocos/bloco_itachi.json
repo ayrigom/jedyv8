@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "jedy:bloco_itachi",
+      "materials": {
+        "default": "glow"
+      },
+      "textures": {
+        "default": "textures/modos/susanoo_i3"
+      },
+      "geometry": {
+        "default": "geometry.bloco_itachi"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 0
+      },
+      "render_controllers": [ "controller.render.glow" ]
+    }
+  }
+}

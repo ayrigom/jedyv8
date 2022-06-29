@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:yagai",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "yagai",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

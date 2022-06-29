@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:moeda_de_ouro",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "moeda_de_ouro",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

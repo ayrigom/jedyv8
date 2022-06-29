@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "jedy:invocar_juubi",
+      "materials": {
+        "default": "glow"
+      },
+      "textures": {
+        "default": "textures/mobs/invocar_juubi"
+      },
+      "geometry": {
+        "default": "geometry.invocar_juubi"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 0
+      },
+      "render_controllers": [ "controller.render.glow" ]
+    }
+  }
+}

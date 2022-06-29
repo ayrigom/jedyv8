@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:arma_kakashi",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "arma_kakashi",
+      "minecraft:render_offsets": "tools"
+    }
+  }
+}

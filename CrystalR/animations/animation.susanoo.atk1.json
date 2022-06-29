@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.susanoo.atk1": {
+			"animation_length": 0.64,
+			"bones": {
+				"rightBraco": {
+					"rotation": {
+						"0.0": [-52.5, 67.5, 5],
+						"0.64": [-42.5, -37.5, 12.5]
+					},
+					"position": [1.248, 0, 0]
+				},
+				"JEDYALL1": {
+					"rotation": {
+						"0.0": [0, 0, 20],
+						"0.64": [10, -30, -32.5]
+					}
+				},
+				"rightBracoBaixo": {
+					"rotation": {
+						"0.0": [47.5, 15, -80],
+						"0.64": [47.5, 15, -112.5]
+					}
+				}
+			}
+		}
+	}
+}

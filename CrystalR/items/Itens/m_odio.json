@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:m_odio",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "m_odio",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

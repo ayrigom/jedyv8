@@ -1,0 +1,4603 @@
+{
+  "format_version": "1.11.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "is_spawnable": false,
+      "is_summonable": false,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"jedyart",
+					"jedyfly",
+					"jedybijuu",
+                    "jedychakra",
+                    "jedyremove",                                  "hp1606",
+                    "olho",
+					"menu",
+					"walk",
+					"hiraishin",
+					"loja_p1_1",
+					"loja_p1_2",
+					"loja_p1_3",
+					"loja_p2_1",
+					"loja_p2_2",
+					"loja_p2_3",
+					"loja_p3_1",
+					"loja_p3_2",
+					"loja_p4_1",
+					"loja_p4_2",
+					"loja_p4_3",
+					"loja_p5_1",
+					"summon_kurama",
+					"treino_nv1",
+					"treino_nv1_fechar",
+					"jutsu_mokuton",
+					"jutsu_genjutsu",
+					"jutsu_shinra",
+					"jutsu_bansho",
+					"jutsu_cura",
+					"jutsu_sub",
+					"jutsu_sexy",
+					"jutsu_punhopedra",
+					"bancada_jutsus",
+					"bancada_roupas",
+                    "raikagemode_speed",
+                    "kusanagi_sasuke",
+                    "susanoo_perfeito_atk",
+                     "jutsu",
+					"otsutsuki_god_branco",
+					"otsutsuki_god_amarelo",
+                     "otsutsuki_god_azul",
+                    "menu_shinobi_p1",
+                    "menu_shinobi_p2",
+                    "menu_shinobi_p3"
+				]   
+			},  
+			"animations": {
+				"jedyart": "controller.animation.jedyart",
+								"walk": "controller.animation.walk",
+				"jedybijuu": "controller.animation.jedybijuu",
+				"menu": "controller.animation.menu",
+				"hiraishin": "controller.animation.hiraishin",
+				"loja_p1_1": "controller.animation.loja_p1_1",
+				"loja_p1_2": "controller.animation.loja_p1_2",
+				"loja_p1_3": "controller.animation.loja_p1_3",
+				"loja_p2_1": "controller.animation.loja_p2_1",
+				"loja_p2_2": "controller.animation.loja_p2_2",
+				"loja_p2_3": "controller.animation.loja_p2_3",
+				"loja_p3_1": "controller.animation.loja_p3_1",
+								"loja_p5_1": "controller.animation.loja_p5_1",
+        "menu_shinobi_p1": "controller.animation.menu_shinobi_p1",
+        "menu_shinobi_p2": "controller.animation.menu_shinobi_p2",
+        "menu_shinobi_p3": "controller.animation.menu_shinobi_p3",
+				"loja_p3_2": "controller.animation.loja_p3_2",
+				"summon_kurama": "controller.animation.summon_kurama",
+				"treino_nv1": "controller.animation.treino_nv1",
+				"treino_nv1_fechar": "controller.animation.treino_nv1_fechar",
+				"jutsu_mokuton": "controller.animation.jutsu_mokuton",
+				"jutsu_genjutsu": "controller.animation.jutsu_genjutsu",
+				"jutsu_shinra": "controller.animation.jutsu_shinra",
+				"jutsu_bansho": "controller.animation.jutsu_bansho",
+				"jutsu_cura": "controller.animation.jutsu_cura",
+				"jutsu_punhopedra": "controller.animation.jutsu_punhopedra",
+				"jutsu_sexy": "controller.animation.jutsu_sexy",
+				"jutsu_sub": "controller.animation.jutsu_sub",
+				"bancada_jutsus": "controller.animation.bancada_jutsus",
+				"bancada_roupas": "controller.animation.bancada_roupas",
+          "raikagemode_speed": "controller.animation.raikagemode_speed",
+          "kusanagi_sasuke": "controller.animation.kusanagi_sasuke",
+          "susanoo_perfeito_atk": "controller.animation.susanoo_perfeito_atk",
+          "jutsu": "controller.animation.jutsu",
+          "hp1606": "controller.animation.hp1606",
+          "jedychakra": "controller.animation.jedychakra",
+          "jedyfly": "controller.animation.jedyfly",
+          "jedyremove": "controller.animation.jedyremove",
+                    "olho": "controller.animation.olho",
+				"otsutsuki_god_branco": "controller.animation.otsutsuki_god_branco",
+				"otsutsuki_god_amarelo": "controller.animation.otsutsuki_god_amarelo",
+				"otsutsuki_god_azul": "controller.animation.otsutsuki_god_azul"
+			}  
+    },
+ 
+    "component_groups": {
+      "minecraft:normal_player": {
+        "minecraft:attack": {
+          "damage": 2
+        }
+      },
+      "minecraft:kunai": {
+        "minecraft:attack": {
+          "damage": 3
+        }
+      },
+      "minecraft:foice_tripla": {
+        "minecraft:attack": {
+          "damage": 5
+        }
+      },
+            "smallremove": {
+        "minecraft:scale": {
+          "value": 1
+        }
+      },
+      
+      
+      "smallact": {
+        "minecraft:scale": {
+          "value": 0.3
+        }
+      },
+            "minecraft:foice_dupla": {
+        "minecraft:attack": {
+          "damage": 4
+        }
+      },
+      "minecraft:bag.is_rideable": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "bag"
+          ],
+          "pull_in_entities": true,
+          "seats": [
+            {
+              "position": [
+                0,
+                -0.90,
+                0
+              ],
+              "min_rider_count": 1,
+              "max_rider_count": 1,
+              "lock_rider_rotation": 0
+            }
+          ]
+        }
+      },
+      "minecraft:kubikiribocho": {
+        "minecraft:attack": {
+          "damage": 7
+        }
+      },
+      "minecraft:gunbai": {
+        "minecraft:attack": {
+          "damage": 9
+        }
+      },
+            "minecraft:vara": {
+        "minecraft:attack": {
+          "damage": 40
+        }
+      },
+      "minecraft:shakujo_h": {
+        "minecraft:attack": {
+          "damage": 15
+        }
+      },
+            "minecraft:shakujo_t": {
+        "minecraft:attack": {
+          "damage": 25
+        }
+      },
+      "minecraft:shakujo_m": {
+        "minecraft:attack": {
+          "damage": 13
+        }
+      },
+            "minecraft:shakujo_n": {
+        "minecraft:attack": {
+          "damage": 12
+        }
+      },
+      "minecraft:samehada": {
+        "minecraft:attack": {
+          "damage": 8
+        }
+      },
+      "minecraft:samehada_selada": {
+        "minecraft:attack": {
+          "damage": 7
+        }
+      },
+      "minecraft:nunoboko": {
+        "minecraft:attack": {
+          "damage": 12
+        }
+      },
+      "minecraft:arma_madara": {
+        "minecraft:attack": {
+          "damage": 10
+        }
+      },
+      "minecraft:arma_sasuke": {
+        "minecraft:attack": {
+          "damage": 10
+        }
+      },
+      "minecraft:arma_itachi": {
+        "minecraft:attack": {
+          "damage": 10
+        }
+      },
+      "minecraft:arma_shisui": {
+        "minecraft:attack": {
+          "damage": 10
+        }
+      },
+      "minecraft:arma_kakashi": {
+        "minecraft:attack": {
+          "damage": 10
+        }
+      },
+      "minecraft:arma_jedy": {
+        "minecraft:attack": {
+          "damage": 10
+        }
+      },
+	  "minecraft:rasengan": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:rasengan",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:ketsurygan": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:ketsurygan",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  	  "minecraft:gojo": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:gojo",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:genkai_paper": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:genkai_paper",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  	  "minecraft:genkai_ironsand": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:genkai_ironsand",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:sharingan": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:sharingan",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:m_kakashi": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:m_kakashi",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:m_shisui": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:m_shisui",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	        "jedy:reduzir_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:scale": {
+          "value": 0.5
+        },
+        "minecraft:movement": {
+          "value": 0.6
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+	  "minecraft:m_itachi": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:m_itachi",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:m_sasuke": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:m_sasuke",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  	  "minecraft:ketsu_sharingan": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:ketsu_sharingan",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:m_madara": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:m_madara",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_jedy": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_jedy",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  	  "minecraft:kaguya": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:kaguya",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_k1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_k1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_k2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_k2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_k3": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_k3",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_k4": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_k4",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_sh1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_sh1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_sh2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_sh2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_sh3": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_sh3",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_sh4": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_sh4",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_i1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_i1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_i2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_i2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_i3": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_i3",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_i4": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_i4",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  	  "minecraft:mantoj": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mantoj",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_s1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_s1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  	  "minecraft:mr": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mr",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  	  	  "minecraft:mc_sasuke": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mc_sasuke",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  	  	  "minecraft:mc_shisui": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mc_shisui",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  	  	  "minecraft:mc_obito": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mc_obito",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  	  	  "minecraft:mc_itachi": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mc_itachi",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  	  	  "minecraft:mc_madara": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mc_madara",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_s2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_s2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_s3": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_s3",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_s4": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_s4",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_m1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_m1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_m2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_m2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_m3": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_m3",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:susanoo_m4": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:susanoo_m4",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:byakugan": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:byakugan",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:jogan": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:jogan",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:karma": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:karma",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:karma2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:karma2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:tenseigan": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:tenseigan",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:rinnegan": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:rinnegan",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:rinnesharingan": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:rinnesharingan",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:rinnegan_supremo": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:rinnegan_supremo",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  	  "minecraft:mkm": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mkm",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  	  	  "minecraft:mkr2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mkr2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:senpo_hashirama": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:senpo_hashirama",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:senpo_hashirama2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:senpo_hashirama2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:senpo_sapos": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:senpo_sapos",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:senpo_cobras": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:senpo_cobras",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:senpo_lesmas": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:senpo_lesmas",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_shukaku1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_shukaku1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_matatabi1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_matatabi1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_matatabi2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_matatabi2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_isobu1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_isobu1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_isobu2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_isobu2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_songoku1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_songoku1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_songoku2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_songoku2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_kokuo1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_kokuo1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_kokuo2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_kokuo2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_saiken1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_saiken1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_saiken2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_saiken2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_choumei1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_choumei1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_choumei2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_choumei2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  	  "minecraft:jogand": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:jogand",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_gyuki1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_gyuki1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  	  "minecraft:meios": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:meios",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_kurama1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_kurama1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:hiraishin": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 1,
+		    "max_wait_time": 1,
+			"spawn_entity": "jedy:hiraishin",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:voar": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:voar",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:agua": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:agua",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_kurama2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_kurama2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_kurama3": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_kurama3",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:manto_gyuki2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:manto_gyuki2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:mk_shukaku1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_shukaku1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:mk_shukaku2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_shukaku2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+
+	  "minecraft:mk_matatabi1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_matatabi1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:mk_matatabi2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_matatabi2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+
+	  "minecraft:mk_isobu1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_isobu1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:mk_isobu2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_isobu2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+
+	  "minecraft:mk_son_goku1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_son_goku1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:mk_songoku2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_songoku2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+
+	  "minecraft:mk_kokuo1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_kokuo1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:mk_kokuo2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_kokuo2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+
+	  "minecraft:mk_saiken1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_saiken1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:mk_saiken2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_saiken2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+
+	  "minecraft:mk_choumei1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_choumei1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:mk_choumei2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_choumei2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+
+	  "minecraft:mk_gyuki1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_gyuki1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:mk_gyuki2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_gyuki2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+
+	  "minecraft:mk_kurama1": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_kurama1",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:mk_kurama2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:mk_kurama2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:modo_juubi": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:modo_juubi",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:rrikudo_madara": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:rikudo_madara",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:rikudo_naruto": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:rikudo_naruto",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:genkai_ironsand2": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:genkai_ironsand2",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:genkai_ironsand3": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:genkai_ironsand3",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:genkai_ironsand4": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:genkai_ironsand4",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+	  "minecraft:SLOTJEDY3": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:SLOTJEDY3",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+
+	  "minecraft:barion_kurama": {
+		"minecraft:spawn_entity": [
+		  {
+		    "min_wait_time": 0,
+		    "max_wait_time": 0,
+			"spawn_entity": "jedy:barion_kurama",
+			"num_to_spawn": 1,
+			"single_use": true
+		  }
+		]
+	  },
+      "minecraft:add_bad_omen": {
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "bad_omen",
+              "duration": 6000,
+              "display_on_screen_animation": true
+            }
+          ]
+        },
+        "minecraft:timer": {
+          "time": [
+            0,
+            0
+          ],
+          "looping": false,
+          "time_down_event": {
+            "event": "minecraft:clear_add_bad_omen",
+            "target": "self"
+          }
+        }
+      },
+      "minecraft:clear_bad_omen_spell_effect": {
+        "minecraft:spell_effects": {}
+      },
+      "minecraft:raid_trigger": {
+        "minecraft:raid_trigger": {
+          "triggered_event": {
+            "event": "minecraft:remove_raid_trigger",
+            "target": "self"
+          }
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": "bad_omen"
+        }
+      }
+    },
+    "components": {
+    "minecraft:npc": {},
+      "minecraft:type_family": {
+        "family": [
+          "player"
+        ]
+      },
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/playerjedy.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {},
+      "minecraft:player.saturation": {
+        "value": 20
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 4
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": -1,
+        "inhaleTime": 3.75,
+        "generatesBubbles": false
+      },
+      "minecraft:nameable": {
+        "alwaysShow": true,
+        "allowNameTagRenaming": false
+      },
+      "minecraft:physics": {},
+      "minecraft:insomnia": {
+        "days_until_insomnia": 3
+      },
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+        "pull_in_entities": true,
+        "seats": [
+          {
+            "position": [
+              0.4,
+              -0.15,
+              0.04
+            ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0
+          },
+          {
+            "position": [
+              -0.4,
+              -0.15,
+              0.04
+            ],
+            "min_rider_count": 1,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 0
+          }
+        ]
+      },
+      "minecraft:scaffolding_climber": {},
+      "minecraft:environment_sensor": [
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_mob_effect",
+                  "subject": "self",
+                  "value": "bad_omen"
+                },
+                {
+                  "test": "is_in_village",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:trigger_raid"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "minecraft:event_normal_player"
+          }
+        },
+          {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:rasengan"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:rasengan"
+		  }
+		},
+		          {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "head",
+                  "value": "jedy:reduzir"
+                }
+              ]
+            },
+            "event": "minecraft:reduzir_play"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:sharingan"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:sharingan"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:ketsurygan"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:ketsurygan"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:genkai_paper"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:genkai_paper"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:genkai_ironsand"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:genkai_ironsand"
+		  }
+		},
+		
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:m_kakashi"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:m_kakashi"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:m_shisui"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:m_shisui"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:m_itachi"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:m_itachi"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:m_sasuke"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:m_sasuke"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:m_madara"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:m_madara"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_jedy"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_jedy"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_k1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_k1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_k2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_k2"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_k3"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_k3"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_k4"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_k4"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_sh1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_sh1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_sh2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_sh2"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_sh3"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_sh3"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_sh4"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_sh4"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_i1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_i1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_i2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_i2"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_i3"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_i3"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_i4"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_i4"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_s1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_s1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_s2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_s2"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_s3"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_s3"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_s4"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_s4"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_m1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_m1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_m2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_m2"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_m3"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_m3"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:susanoo_m4"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:susanoo_m4"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:byakugan"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:byakugan"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:jogan"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:jogan"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:karma"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:karma"
+		  }
+		},
+{
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:karma2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:karma2"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:tenseigan"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:tenseigan"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:rinnegan"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:rinnegan"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:rinnesharingan"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:rinnesharingan"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:rinnegan_supremo"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:rinnegan_supremo"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:senpo_hashirama"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:senpo_hashirama"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:senpo_hashirama2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:senpo_hashirama2"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:senpo_sapos"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:senpo_sapos"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:senpo_cobras"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:senpo_cobras"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:senpo_lesmas"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:senpo_lesmas"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_shukaku1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_shukaku1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_matatabi1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_matatabi1"
+		  }
+		},
+		{
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_matatabi2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_matatabi2"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_isobu1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_isobu1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_songoku1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_songoku1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_songoku2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_songoku2"
+		  }
+		},
+		{
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_isobu2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_isobu2"
+		  }
+		},
+		
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_kokuo1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_kokuo1"
+		  }
+		},
+{
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_kokuo2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_kokuo2"
+		  }
+		},
+{
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_saiken1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_saiken1"
+		  }
+		},
+{
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_saiken2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_saiken2"
+		  }
+		},
+{
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_choumei1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_choumei1"
+		  }
+		},
+{
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_choumei2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_choumei2"
+		  }
+		},
+{
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_gyuki1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_gyuki1"
+		  }
+		},
+{
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_gyuki2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_gyuki2"
+		  }
+		},
+{
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_kurama1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_kurama1"
+		  }
+		},
+{
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_kurama2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_kurama2"
+		  }
+		},
+{
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:manto_kurama3"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:manto_kurama3"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_shukaku1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_shukaku1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_shukaku2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_shukaku2"
+		  }
+		},
+
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_matatabi1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_matatabi1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_matatabi2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_matatabi2"
+		  }
+		},
+
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_isobu1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_isobu1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_isobu2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_isobu2"
+		  }
+		},
+
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_son_goku1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_son_goku1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_songoku2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_songoku2"
+		  }
+		},
+
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_kokuo1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_kokuo1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_kokuo2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_kokuo2"
+		  }
+		},
+
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_saiken1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_saiken1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_saiken2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_saiken2"
+		  }
+		},
+
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_choumei1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_choumei1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_choumei2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_choumei2"
+		  }
+		},
+
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_gyuki1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_gyuki1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_gyuki2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_gyuki2"
+		  }
+		},
+
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_kurama1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_kurama1"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:mk_kurama2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:mk_kurama2"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:modo_juubi"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:modo_juubi"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:rikudo_madara"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:rikudo_madara"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:rikudo_naruto"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:rikudo_naruto"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:genkai_ironsand2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:genkai_ironsand2"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:genkai_ironsand3"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:genkai_ironsand3"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:genkai_ironsand4"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:genkai_ironsand4"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:SLOTJEDY3"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:SLOTJEDY3"
+		  }
+		},
+
+ {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:barion_kurama"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:barion_kurama"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:hiraishin"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:hiraishin"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:voar"
+                }
+              ]
+            },
+            "event": "minecraft:voar"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:agua"
+                }
+              ]
+            },
+            "event": "minecraft:agua"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:kunai"
+                }
+              ]
+            },
+            "event": "minecraft:kunai"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:foice_tripla"
+                }
+              ]
+            },
+            "event": "minecraft:foice_tripla"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:kubikiribocho"
+                }
+              ]
+            },
+            "event": "minecraft:kubikiribocho"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:gunbai"
+                }
+              ]
+            },
+            "event": "minecraft:gunbai"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:samehada"
+                }
+              ]
+            },
+            "event": "minecraft:samehada"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:samehada_selada"
+                }
+              ]
+            },
+            "event": "minecraft:samehada_selada"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:shakujo_h"
+                }
+              ]
+            },
+            "event": "minecraft:shakujo_h"
+		  }
+		},
+			    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:shakujo_n"
+                }
+              ]
+            },
+            "event": "minecraft:shakujo_n"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:shakujo_m"
+                }
+              ]
+            },
+            "event": "minecraft:shakujo_m"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:nunoboko"
+                }
+              ]
+            },
+            "event": "minecraft:nunoboko"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:arma_jedy"
+                }
+              ]
+            },
+            "event": "minecraft:arma_jedy"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:arma_madara"
+                }
+              ]
+            },
+            "event": "minecraft:arma_madara"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:arma_shisui"
+                }
+              ]
+            },
+            "event": "minecraft:arma_shisui"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:arma_itachi"
+                }
+              ]
+            },
+            "event": "minecraft:arma_itachi"
+		  }
+		},
+	    {
+		  "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:arma_sasuke"
+                }
+              ]
+            },
+            "event": "minecraft:arma_sasuke"
+		  }
+		},
+	    {
+	      "on_environment": {  
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+				  "domain": "hand",
+                  "value": "jedy:arma_kakashi"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:arma_kakashi"
+          }
+        }
+      ]
+    },
+    "events": {
+      "minecraft:set_rideable": {
+        "add": {
+          "component_groups": [
+            "minecraft:bag.is_rideable"
+          ]
+        }
+      },
+            "smallremove": {
+        "remove": {
+          "component_groups": [
+            "smallact"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "smallremove"
+          ]
+        }
+      },
+      "smallact": {
+        "remove": {
+          "component_groups": [
+            "smallremove"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "smallact"
+          ]
+        }
+      },
+      "minecraft:set_not_rideable": {
+        "remove": {
+          "component_groups": [
+            "minecraft:bag.is_rideable"
+          ]
+        }
+      },
+      "minecraft:event_normal_player": {
+        "add": {
+          "component_groups": [
+            "minecraft:normal_player",
+            "minecraft:bag.is_rideable"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+		    "minecraft:sharingan",
+		    "minecraft:ketsurygan",
+		    "minecraft:genkai_paper",
+		    "minecragt:genkai_ironsand",
+		    "minecraft:m_kakashi",
+		    "minecraft:m_shisui",
+		    "minecraft:m_itachi",
+		    "minecraft:m_sasuke",
+            "minecraft:m_madara",
+            "minecraft:reduzir_play",
+            "minecraft:susanoo_k1",
+            "minecraft:susanoo_k2",
+            "minecraft:susanoo_k3",
+            "minecraft:susanoo_k4",
+            "minecraft:susanoo_sh1",
+            "minecraft:susanoo_sh2",
+            "minecraft:susanoo_sh3",
+            "minecraft:susanoo_sh4",
+            "minecraft:susanoo_i1",
+            "minecraft:susanoo_i2",
+            "minecraft:susanoo_i3",
+            "minecraft:susanoo_i4",
+            "minecraft:susanoo_s1",
+            "minecraft:susanoo_s2",
+            "minecraft:susanoo_s3",
+            "minecraft:susanoo_s4",
+            "minecraft:susanoo_m1",
+            "minecraft:susanoo_m2",
+            "minecraft:susanoo_m3",
+            "minecraft:susanoo_m4",
+            "minecraft:susanoo_jedy",
+            "minecraft:byakugan",
+            "minecraft:jogan",
+            "minecraft:karma",
+            "minecraft:karma2",
+            "minecraft:tenseigan",
+            "minecraft:rinnegan",
+            "minecraft:rinnesharingan",
+            "minecraft:rinnegan_supremo",
+            "minecraft:senpo_hashirama",
+            "minecraft:senpo_hashirama2",
+            "minecraft:senpo_sapos",
+            "minecraft:senpo_cobras",
+            "minecraft:senpo_lesmas",
+            "minecraft:manto_shukaku1",
+            "minecraft:manto_matatabi1",
+            "minecraft:manto_matatabi2",
+            "minecraft:manto_isobu1",
+            "minecraft:manto_isobu2",
+            "minecraft:manto_songoku1",
+            "minecraft:manto_songoku2",
+            "minecraft:manto_kokuo1",
+            "minecraft:manto_kokuo2",
+            "minecraft:manto_saiken1",
+            "minecraft:manto_saiken2",
+            "minecraft:manto_choumei1",
+            "minecraft:manto_choumei2",
+            "minecraft:manto_gyuki1",
+            "minecraft:manto_gyuki2",
+            "minecraft:manto_kurama1",
+            "minecraft:manto_kurama2",
+            "minecraft:manto_kurana3",
+            "minecraft:hiraishin",
+            "minecraft:voar",
+            "minecraft:agua",
+            "minecraft:kunai",
+            "minecraft:foice_tripla",
+            "minecraft:kubikiribocho",
+            "minecraft:gunbai",
+            "minecraft:samehada",
+            "minecraft:samehada_selada",
+            "minecraft:shakujo_h",
+            "minecraft:shakujo_m",
+            "minecraft:nunoboko",
+            "minecraft:arma_jedy",
+            "minecraft:arma_madara",
+            "minecraft:arma_sasuke",
+            "minecraft:arma_itachi",
+            "minecraft:arma_shisui",
+            "minecraft:arma_kakashi",
+            "minecraft:rasengan",
+            "minecraft:mk_shukaku1",
+            "minecraft:mk_matatabi1",
+            "minecraft:mk_isobu1",
+            "minecraft:mk_kokuo1",
+            "minecraft:mk_son_goku1",
+            "minecraft:mk_saiken1",
+            "minecraft:mk_choumei1",
+            "minecraft:mk_gyuki1",
+            "minecraft:mk_shukaku1",
+            "minecraft:mk_matatabi2",
+            "minecraft:mk_isobu2",
+            "minecraft:mk_songoku2",
+            "minecraft:mk_kokuo2",
+            "minecraft:mk_saiken2",
+            "minecraft:mk_choumei2",
+            "minecraft:mk_gyuki2",
+            "minecraft:mk_kurama2",
+            "minecraft:modo_juubi",
+            "minecraft:rikudo_madara",
+            "minecraft:rikudo_naruto",
+            "minecraft:genkai_ironsand2",
+            "minecraft:genkai_ironsand3",
+            "minecraft:genkai_ironsand4",
+            "minecraft:SLOTJEDY3",
+            "minecraft:bag.is_rideable",
+            "minecraft:barion_kurama",
+            "minecraft:barion_shukaku2",
+            "minecraft:barion_matatabi2",
+            "minecraft:barion_isobu2",
+            "minecraft:barion_songoku2",
+            "minecraft:barion_kokuo2",
+            "minecraft:barion_saiken2",
+            "minecraft:barion_choumei2",
+            "minecraft:barion_gyuki2",
+            "minecraft:barion_kurama2",
+            "minecraft:barion_juubi2"
+          ]
+        }
+      },
+            "minecraft:rasengan": {
+        "add": {
+          "component_groups": [
+            "minecraft:rasengan"
+          ]
+        }
+      },
+                  "minecraft:reduzir_play": {
+        "add": {
+          "component_groups": [
+            "minecraft:reduzir_play"
+          ]
+        }
+      },
+            "minecraft:ketsurygan": {
+        "add": {
+          "component_groups": [
+            "minecraft:ketsurygan"
+          ]
+        }
+      },
+            "minecraft:genkai_paper": {
+        "add": {
+          "component_groups": [
+            "minecraft:genkai_paper"
+          ]
+        }
+      },
+                  "minecraft:manto_isobu2": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_isobu2"
+          ]
+        }
+      },
+                  "minecraft:manto_songoku1": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_songoku1"
+          ]
+        }
+      },
+                  "minecraft:manto_songoku2": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_songoku2"
+          ]
+        }
+      },
+                  "minecraft:manto_matatabi2": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_matatabi2"
+          ]
+        }
+      },
+                  "minecraft:manto_kokuo2": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_kokuo2"
+          ]
+        }
+      },
+                  "minecraft:manto_saiken1": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_saiken1"
+          ]
+        }
+      },
+                  "minecraft:manto_saiken2": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_saiken2"
+          ]
+        }
+      },
+                  "minecraft:manto_choumei1": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_choumei1"
+          ]
+        }
+      },
+                  "minecraft:manto_choumei2": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_choumei2"
+          ]
+        }
+      },
+                  "minecraft:manto_gyuki1": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_gyuki1"
+          ]
+        }
+      },
+                  "minecraft:manto_gyuki2": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_gyuki2"
+          ]
+        }
+      },
+                  "minecraft:manto_kurama1": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_kurama1"
+          ]
+        }
+      },
+                  "minecraft:manto_kurama2": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_kurama2"
+          ]
+        }
+      },
+                  "minecraft:manto_kurama3": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_kurama3"
+          ]
+        }
+      },
+            "minecraft:mk_shukaku1": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_shukaku1"
+          ]
+        }
+      },
+            "minecraft:mk_matatabi1": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_matatabi1"
+          ]
+        }
+      },
+                  "minecraft:mk_isobu1": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_isobu1"
+          ]
+        }
+      },
+                  "minecraft:mk_son_goku1": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_son_goku1"
+          ]
+        }
+      },
+                  "minecraft:mk_kokuo1": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_kokuo1"
+          ]
+        }
+      },
+                  "minecraft:mk_saiken1": { 
+        "add": {
+          "component_groups": [
+            "minecraft:mk_saiken1"
+          ]
+        }
+      },
+                  "minecraft:mk_choumei1": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_choumei1"
+          ]
+        }
+      },
+
+                  "minecraft:mk_gyuki1": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_gyuki1"
+          ]
+        }
+      },
+
+                  "minecraft:mk_kurama1": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_kurama1"
+          ]
+        }
+                  },
+                  "minecraft:mk_shukaku2": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_shukaku2"
+          ]
+        }
+      },
+
+                  "minecraft:mk_matatabi2": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_matatabi2"
+          ]
+        }
+      },
+                  "minecraft:mk_isobu2": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_isobu2"
+          ]
+        }
+      },
+                  "minecraft:mk_songoku2": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_songoku2"
+          ]
+        }
+      },
+                  "minecraft:mk_kokuo2": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_kokuo2"
+          ]
+        }
+      },
+
+                  "minecraft:mk_saiken2": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_saiken2"
+          ]
+        }
+      },
+                  "minecraft:mk_choumei2": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_choumei2"
+          ]
+        }
+      },
+
+                  "minecraft:mk_gyuki2": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_gyuki2"
+          ]
+        }
+      },
+
+                  "minecraft:mk_kurama2": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_kurama2"
+          ]
+        }
+      },
+
+                  "minecraft:modo_juubi": {
+        "add": {
+          "component_groups": [
+            "minecraft:modo_juubi"
+          ]
+        }
+      },
+
+                  "minecraft:rikudo_madara": {
+        "add": {
+          "component_groups": [
+            "minecraft:rikudo_madara"
+          ]
+        }
+      },
+                  "minecraft:rikudo_naruto": {
+        "add": {
+          "component_groups": [
+            "minecraft:mk_"
+          ]
+        }
+      },
+
+                  "minecraft:genkai_ironsand2": {
+        "add": {
+          "component_groups": [
+            "minecraft:genkai_ironsand2"
+          ]
+        }
+      },
+                  "minecraft:genkai_ironsand3": {
+        "add": {
+          "component_groups": [
+            "minecraft:genkai_ironsand3"
+          ]
+        }
+      },
+                  "minecraft:genkai_ironsand4": {
+        "add": {
+          "component_groups": [
+            "minecraft:genkai_ironsand4"
+          ]
+        }
+      },
+                  "minecraft:SLOTJEDY3": {
+        "add": {
+          "component_groups": [
+            "minecraft:SLOTJEDY3" 
+          ]
+        }
+      },
+                  "minecraft:barion_kurama": {
+        "add": {
+          "component_groups": [
+            "minecraft:barion_kurama"
+          ]
+        }
+                  },
+            "minecraft:genkai_ironsand": {
+        "add": {
+          "component_groups": [
+            "minecraft:genkai_ironsand"
+          ]
+        }
+      },
+      "minecraft:sharingan": {
+        "add": {
+          "component_groups": [
+            "minecraft:sharingan"
+          ]
+        }
+      },
+      "minecraft:m_kakashi": {
+        "add": {
+          "component_groups": [
+            "minecraft:m_kakashi"
+          ]
+        }
+      },
+      "minecraft:m_shisui": {
+        "add": {
+          "component_groups": [
+            "minecraft:m_shisui"
+          ]
+        }
+      },
+      "minecraft:m_itachi": {
+        "add": {
+          "component_groups": [
+            "minecraft:m_itachi"
+          ]
+        }
+      },
+      "minecraft:m_sasuke": {
+        "add": {
+          "component_groups": [
+            "minecraft:m_sasuke"
+          ]
+        }
+      },
+      "minecraft:m_madara": {
+        "add": {
+          "component_groups": [
+            "minecraft:m_madara"
+          ]
+        }
+      },
+      "minecraft:susanoo_jedy": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_jedy"
+          ]
+        }
+      },
+      "minecraft:susanoo_k1": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_k1"
+          ]
+        }
+      },
+      "minecraft:susanoo_k2": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_k2"
+          ]
+        }
+      },
+      "minecraft:susanoo_k3": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_k3"
+          ]
+        }
+      },
+      "minecraft:susanoo_k4": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_k4"
+          ]
+        }
+      },
+      "minecraft:susanoo_sh1": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_sh1"
+          ]
+        }
+      },
+      "minecraft:susanoo_sh2": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_sh2"
+          ]
+        }
+      },
+      "minecraft:susanoo_sh3": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_sh3"
+          ]
+        }
+      },
+      "minecraft:susanoo_sh4": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_sh4"
+          ]
+        }
+      },
+      "minecraft:susanoo_i1": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_i1"
+          ]
+        }
+      },
+      "minecraft:susanoo_i2": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_i2"
+          ]
+        }
+      },
+      "minecraft:susanoo_i3": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_i3"
+          ]
+        }
+      },
+      "minecraft:susanoo_i4": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_i4"
+          ]
+        }
+      },
+      "minecraft:susanoo_s1": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_s1"
+          ]
+        }
+      },
+      "minecraft:susanoo_s2": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_s2"
+          ]
+        }
+      },
+      "minecraft:susanoo_s3": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_s3"
+          ]
+        }
+      },
+      "minecraft:susanoo_s4": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_s4"
+          ]
+        }
+      },
+      "minecraft:susanoo_m1": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_m1"
+          ]
+        }
+      },
+      "minecraft:susanoo_m2": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_m2"
+          ]
+        }
+      },
+      "minecraft:susanoo_m3": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_m3"
+          ]
+        }
+      },
+      "minecraft:susanoo_m4": {
+        "add": {
+          "component_groups": [
+            "minecraft:susanoo_m4"
+          ]
+        }
+      },
+      "minecraft:byakugan": {
+        "add": {
+          "component_groups": [
+            "minecraft:byakugan"
+          ]
+        }
+      },
+      "minecraft:jogan": {
+        "add": {
+          "component_groups": [
+            "minecraft:jogan"
+          ]
+        }
+      },
+      "minecraft:karma": {
+        "add": {
+          "component_groups": [
+            "minecraft:karma"
+          ]
+        }
+      },
+      "minecraft:karma2": {
+        "add": {
+          "component_groups": [
+            "minecraft:karma"
+          ]
+        }
+      },
+      "minecraft:tenseigan": {
+        "add": {
+          "component_groups": [
+            "minecraft:tenseigan"
+          ]
+        }
+      },
+      "minecraft:rinnegan": {
+        "add": {
+          "component_groups": [
+            "minecraft:rinnegan"
+          ]
+        }
+      },
+      "minecraft:rinnesharingan": {
+        "add": {
+          "component_groups": [
+            "minecraft:rinnesharingan"
+          ]
+        }
+      },
+      "minecraft:rinnegan_supremo": {
+        "add": {
+          "component_groups": [
+            "minecraft:rinnegan_supremo"
+          ]
+        }
+      },
+      "minecraft:senpo_hashirama": {
+        "add": {
+          "component_groups": [
+            "minecraft:senpo_hashirama"
+          ]
+        }
+      },
+            "minecraft:senpo_hashirama2": {
+        "add": {
+          "component_groups": [
+            "minecraft:senpo_hashirama2"
+          ]
+        }
+      },
+      "minecraft:senpo_sapos": {
+        "add": {
+          "component_groups": [
+            "minecraft:senpo_sapos"
+          ]
+        }
+      },
+      "minecraft:senpo_cobras": {
+        "add": {
+          "component_groups": [
+            "minecraft:senpo_cobras"
+          ]
+        }
+      },
+      "minecraft:senpo_lesmas": {
+        "add": {
+          "component_groups": [
+            "minecraft:senpo_lesmas"
+          ]
+        }
+      },
+      "minecraft:manto_shukaku1": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_shukaku1"
+          ]
+        }
+      },
+      "minecraft:manto_matatabi1": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_matatabi1"
+          ]
+        }
+      },
+      "minecraft:manto_isobu1": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_isobu1"
+          ]
+        }
+      },
+      "minecraft:manto_kokuo1": {
+        "add": {
+          "component_groups": [
+            "minecraft:manto_kokuo1"
+          ]
+        }
+      },
+      "minecraft:voar": {
+        "add": {
+          "component_groups": [
+            "minecraft:voar"
+          ]
+        }
+      },
+      "minecraft:agua": {
+        "add": {
+          "component_groups": [
+            "minecraft:agua"
+          ]
+        }
+      },
+      "minecraft:kunai": {
+        "add": {
+          "component_groups": [
+            "minecraft:kunai"
+          ]
+        }
+      },
+      "minecraft:hiraishin": {
+        "add": {
+          "component_groups": [
+            "minecraft:hiraishin"
+          ]
+        }
+      },
+      "minecraft:foice_tripla": {
+        "add": {
+          "component_groups": [
+            "minecraft:foice_tripla"
+          ]
+        }
+      },
+      "minecraft:kubikiribocho": {
+        "add": {
+          "component_groups": [
+            "minecraft:kubikiribocho"
+          ]
+        }
+      },
+      "minecraft:gunbai": {
+        "add": {
+          "component_groups": [
+            "minecraft:gunbai"
+          ]
+        }
+      },
+      "minecraft:samehada": {
+        "add": {
+          "component_groups": [
+            "minecraft:samehada"
+          ]
+        }
+      },
+      "minecraft:samehada_selada": {
+        "add": {
+          "component_groups": [
+            "minecraft:samehada_selada"
+          ]
+        }
+      },
+      "minecraft:shakujo_h": {
+        "add": {
+          "component_groups": [
+            "minecraft:shakujo_h"
+          ]
+        }
+      },
+      "minecraft:shakujo_m": {
+        "add": {
+          "component_groups": [
+            "minecraft:shakujo_m"
+          ]
+        }
+      },
+      "minecraft:nunoboko": {
+        "add": {
+          "component_groups": [
+            "minecraft:nunoboko"
+          ]
+        }
+      },
+      "minecraft:arma_madara": {
+        "add": {
+          "component_groups": [
+            "minecraft:arma_madara"
+          ]
+        }
+      },
+      "minecraft:arma_sasuke": {
+        "add": {
+          "component_groups": [
+            "minecraft:arma_sasuke"
+          ]
+        }
+      },
+      "minecraft:arma_shisui": {
+        "add": {
+          "component_groups": [
+            "minecraft:arma_shisui"
+          ]
+        }
+      },
+      "minecraft:arma_itachi": {
+        "add": {
+          "component_groups": [
+            "minecraft:arma_itachi"
+          ]
+        }
+      },
+      "minecraft:arma_jedy": {
+        "add": {
+          "component_groups": [
+            "minecraft:arma_jedy"
+          ]
+        }
+      },
+      "minecraft:arma_kakashi": {
+        "add": {
+          "component_groups": [
+            "minecraft:arma_kakashi"
+          ]
+        }
+      },
+      "minecraft:clear_add_bad_omen": {
+        "remove": {
+          "component_groups": [
+            "minecraft:add_bad_omen"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:clear_bad_omen_spell_effect"
+          ]
+        }
+      },
+      "minecraft:trigger_raid": {
+        "add": {
+          "component_groups": [
+            "minecraft:raid_trigger"
+          ]
+        }
+      },
+      "minecraft:remove_raid_trigger": {
+        "remove": {
+          "component_groups": [
+            "minecraft:raid_trigger"
+          ]
+        }
+      }
+    }
+  }
+}

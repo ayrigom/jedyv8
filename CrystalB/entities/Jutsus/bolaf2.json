@@ -1,0 +1,62 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "jedy:bolaf2",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:snowball"
+		},
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "despawer", "despawer_despawning"
+        ]
+      },
+			"minecraft:collision_box": {
+				"width": 0.25,
+				"height": 0.25
+			},
+            "minecraft:spawn_entity": [
+              {
+                "min_wait_time": 0,
+                "max_wait_time": 0,
+                "single_use": true,
+                "spawn_entity": "xx:xx",
+                "spawn_sound": "purr",
+                "num_to_spawn": 1
+              }
+            ],
+            "minecraft:explode": {
+            "fuseLength": 0.5,
+            "fuseLit": true,
+            "power": 0,
+            "causesFire": false
+            },
+			"minecraft:projectile": {
+				"onHit": {
+					"impact_damage": {
+	    				"damage": [ 19, 14 ],
+                        "catchFire": true,
+						"knockback": true
+					},
+                    "catch_fire": {
+                        "fireAffectedByGriefing": false
+                    }
+				},
+				"power": 0.70,
+				"gravity": 0,
+				"inertia": 1.5,
+				"uncertaintyBase": 0,
+				"uncertaintyMultiplier": 0,
+				"offset": [0, 0, 0],
+                "catchFire": true
+			},
+            "minecraft:pushable": {
+              "is_pushable": false,
+              "is_pushable_by_piston": true
+            },
+			"minecraft:physics": {}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers": {
+"controller.animation.8gates": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [ "default" ],
+					"transitions": [
+      { "sneaking": "query.is_sneaking" },
+      { "sprinting": "query.is_sprinting" },
+      { "atk1": "variable.attack" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"sneaking": {
+					"animations": [ "sneaking" ],
+					"transitions": [
+						{ "sprinting": "query.is_sprinting" },
+						{ "atk1": "variable.attack" },
+						{ "default": "!query.is_sneaking" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"sprinting": {
+					"animations": [ "sprinting" ],
+					"transitions": [
+						{ "sneaking": "query.is_sneaking" },
+						{ "atk1": "variable.attack" },
+						{ "default": "!query.is_sprinting" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

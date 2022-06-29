@@ -1,0 +1,74 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "jedy:c0",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+				"runtime_identifier": "minecraft:egg"
+		},
+
+		"component_groups": {
+			"minecraft:exploding": {
+				"minecraft:explode": {
+					"fuseLength": 0,
+					"fuseLit": true,
+					"power": 1200.0,
+
+     "destroyAffectedByGriefing": false,
+					"causesFire": false
+				}
+			}
+		},
+
+
+		"components": {
+			"minecraft:type_family": {
+				"family": ["jedy","snowball"]
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			},
+			"minecraft:projectile": {
+
+				"onHit": {
+					"impact_damage": {
+						"damage": 20,
+						"knockback": true,
+						"semirandomdiffdamage": false,
+						"destroyonhit": false
+					},
+					"definition_event": {
+						"affectProjectile": true,
+						"eventTrigger": {
+							"event": "minecraft:explode",
+							"target": "self"
+						}
+					}
+				},
+
+				"power": 1,
+				"gravity": 0.1,
+				"inertia": 1,
+				"uncertaintyBase": 1,
+				"uncertaintyMultiplier": 2,
+				"anchor": 1,
+				"offset": [0, -0.1, 0],
+				"reflectOnHurt": true,
+				"catchFire": false
+			},
+			"minecraft:physics": {}
+		},
+		"events": {
+			"minecraft:explode": {
+				"add": {
+					"component_groups": [
+						"minecraft:exploding"
+					]
+				}
+			}
+		}
+	}
+}

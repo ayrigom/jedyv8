@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "jedy:arma_sasuke",
+      "materials": {"default": "entity_alphatest"},
+      "textures": {
+        "default": "textures/icones/arma_sasuke"
+      },
+      "geometry": {
+        "default": "geometry.arma_bijuu"
+      },
+      "render_controllers": [ "controller.render.agent" ]
+    }
+  }
+}

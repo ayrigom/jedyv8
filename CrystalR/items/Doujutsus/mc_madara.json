@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:mc_madara",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "mc_madara",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

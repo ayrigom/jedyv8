@@ -1,0 +1,28 @@
+{
+   "format_version": "1.10.0",
+     "animation_controllers": {
+        "controller.animation.jedyremove": {
+      "states": {
+      "default": {
+        "transitions": [
+            {
+       "walking": "!query.has_armor_slot(0)"
+            }
+          ],
+          "on_entry": [
+
+        "/function jedyremove"
+
+          ]
+        },
+       "walking": {
+        "transitions": [
+            {
+       "default": "!query.has_armor_slot(0)"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

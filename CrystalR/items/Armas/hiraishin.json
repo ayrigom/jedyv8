@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:hiraishin",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "hiraishin",
+      "minecraft:render_offsets": "tools"
+    }
+  }
+}

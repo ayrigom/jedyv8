@@ -1,0 +1,158 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "jedy:spin",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "component_groups": {
+      "minecraft:mooshroom_become_cow": {
+        "minecraft:transformation": {
+          "into": "jedy:spin2"
+        }
+      },
+      
+      "jedy:click_form": {
+        "minecraft:transformation": {
+          "into": "jedy:fechar"
+        }
+      },
+
+      "minecraft:cow_adult": {
+        "minecraft:loot": {
+          "table": "loot_tables/entities/moo.json"
+        },
+
+        "minecraft:interact": [
+          {
+            "filters": {
+              "all_of": [
+                { "test" :  "is_family", "subject" : "other", "value" :  "player"}
+              ]
+            },
+                "event": "become_cow",
+            "use_item": false,
+            "interact_text": "§l[SPIN!]"
+          }
+        ]
+      }
+    },
+
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "mushroomcow" ]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+   "minecraft:damage_sensor": {
+        "triggers": {
+          "on_damage": {
+            "filters": { "test" : "is_family", "subject" : "other", "value" : "player"},
+            "event": "click_form"
+          },
+          "deals_damage": false
+        }
+      },
+      "minecraft:push_through": {
+        "value": 1.0
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:collision_box": {
+        "width": 1.7,
+        "height": 3
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:health": {
+        "value": 999999,
+        "max": 999999
+      },
+      "minecraft:movement": {
+        "value": 0.0
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {    
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:fall_damage": {
+        "value": 0.0
+      },
+      "minecraft:balloonable": {
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.panic": {
+        "priority": 0,
+        "speed_multiplier": 0.0
+      },
+      "minecraft:behavior.mount_pathing": {
+        "priority": 0,
+        "speed_multiplier": 0.0,
+        "target_dist": 0.0,
+        "track_target": true
+      },
+	    "minecraft:physics": {
+      }
+    },
+
+
+    "events": {
+      "become_cow": {
+        "remove": {
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:mooshroom_become_cow"
+          ]
+        }
+      },
+      "click_form": {
+        "remove": {
+        },
+        "add": {
+          "component_groups": [
+            "jedy:click_form"
+          ]
+        }
+      },
+      "minecraft:entity_transformed": {
+        "remove": {
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:cow_adult"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 100,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:cow_adult"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

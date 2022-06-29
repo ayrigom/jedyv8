@@ -1,0 +1,29 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "jedy:craft",
+            "register_to_creative_menu": true
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "craft",
+                    "render_method": "alpha_test"
+                }
+            },
+                        "minecraft:pick_collision": {
+                "origin": [ -7, 0, -8 ],
+                "size": [ 15, 23, 17 ]
+            },
+                        "minecraft:block_light_emission": 1,
+            "minecraft:geometry": "geometry.nin",
+            "minecraft:crafting_table": {
+                "grid_size": 3,
+                "crafting_tags": [
+                    "ccc"
+                ]
+            }
+		}
+    }
+}

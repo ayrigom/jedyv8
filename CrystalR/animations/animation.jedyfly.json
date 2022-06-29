@@ -1,0 +1,34 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.jedyfly": {
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": [90, 0, 0],
+					"position": [0, -7.776, 0]
+				},
+				"rightArm": {
+					"rotation": [0, 2, 12.5],
+					"position": [0, -5.488, 1.28]
+				},
+				"leftArm": {
+					"rotation": [0, 0, -12.5],
+					"position": [0, -5.296, 0.896]
+				},
+				"rightLeg": {
+					"rotation": [90, -7.5, 0],
+					"position": [0, 4.36806, 12]
+				},
+				"leftLeg": {
+					"rotation": [90, 7.41606, 0],
+					"position": [0, 4.544, 12]
+				},
+				"head": {
+					"position": [0, -7.456, 0]
+				}
+			}
+		}
+	}
+}

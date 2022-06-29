@@ -1,0 +1,269 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "jedy:dna_uchiha",
+              "quantity": {
+                "min": 32,
+                "max": 32
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:dna_sasuke"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "jedy:dna_uchiha",
+              "quantity": {
+                "min": 32,
+                "max": 32
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:dna_itachi"
+              }
+           ]
+        },
+        {
+          "wants": [
+            {
+              "item": "jedy:dna_uchiha",
+              "quantity": {
+                "min": 32,
+                "max": 32
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:dna_madara"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "jedy:dna_uchiha",
+              "quantity": {
+                "min": 32,
+                "max": 32
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:dna_shisui"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "jedy:dna_uchiha",
+              "quantity": {
+                "min": 32,
+                "max": 32
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:dna_obito"
+                  }
+              ]
+            },
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 64,
+                "max": 64
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:marca1"
+              
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 26,
+                "max": 26
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:celula_h"
+              
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 64,
+                "max": 64
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:craft"
+              
+            }
+          ]
+        },
+
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 64,
+                "max": 64
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:diamond"
+              
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 64,
+                "max": 64
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:golden_apple"
+              
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "minecraft:diamond",
+              "quantity": {
+                "min": 3,
+                "max": 10
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:maleta"
+              
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 10,
+                "max": 10
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:frasco"
+              
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 40,
+                "max": 50
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_block"
+              
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 256,
+                "max": 300
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:diamond_block"
+              
+            }
+          ]
+        },
+
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 5,
+                "max": 60
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:genkai"
+              
+            }
+          ]
+        }
+           ]
+      
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "jedy:mini_rasenshuriken",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier":"minecraft:egg"
+    },
+	
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "despawer", "despawer_despawning"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:scale": {
+      	 "value": 0.5
+      },
+      "minecraft:health": {
+        "value": 10
+      },
+     "minecraft:movement": {
+        "value": 0.0
+      },     
+      "minecraft:explode": {
+        "fuseLength": 2,
+        "fuseLit": true,
+        "power": 1,
+        "breaks_blocks": true,
+        "causesFire": false,
+        "fire_affected_by_griefing": false,
+     "destroy_affected_by_griefing": true
+      },
+	    "minecraft:physics": {
+      },
+      "minecraft:projectile": {
+      "onHit": { "stick_in_ground": { } },
+       "power": 10,
+       "anchor": 1,
+       "gravity": 0,
+       "offset": [ 0, 10, 0 ]
+      }
+    }
+  }
+}
+
+
+
+
+
+
+

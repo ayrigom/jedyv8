@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:bolinhodearroz",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "bolinhodearroz",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

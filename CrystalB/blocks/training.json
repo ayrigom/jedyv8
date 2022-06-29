@@ -1,0 +1,81 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "jedy:training",
+            "register_to_creative_menu": true,
+            "category": "jedy",
+            "properties": {
+                "jedyz:on": [ false, true ],
+                "jedy:face": [ 1, 2, 3, 4, 5 ]
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "training",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:loot": "loot_tables/blocks/training.json",
+            "minecraft:geometry": "geometry.treino1",
+            "minecraft:on_player_placing": {
+                "event": "jedy:rotate"
+            },
+            "minecraft:destroy_time": 1.0,
+            "minecraft:friction": 0.6,
+            "minecraft:on_interact": {
+                "event": "jedyz:on",
+                "target": "self"
+            },
+            "minecraft:map_color": "#00ff00",
+            "minecraft:flammable": {
+                "flame_odds": 0,
+                "burn_odds": 0
+            },
+            "minecraft:block_light_absorption": 0.5,
+            "minecraft:block_light_emission": 0.2
+        },
+        "events": {
+            "jedyz:on": {
+		"run_command": {
+		  "command": [
+       "execute @p[scores={chakra=1..99999}] ~~~ scoreboard players add @p tp 1",
+       "scoreboard players remove @p chakra 1"
+		  ]
+	    }
+            },
+            "jedy:rotate": {
+                "set_block_property": {
+                    "jedy:face": "(query.cardinal_player_facing)"
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('jedy:face') == 2",
+                "components": {
+                    "minecraft:block_light_emission": 0.0
+                }
+            },
+            {
+                "condition": "query.block_property('jedy:face') == 3",
+                "components": {
+                    "minecraft:rotation": [ 0, 180, 0 ]
+                }
+            },
+            {
+                "condition": "query.block_property('jedy:face') == 4",
+                "components": {
+                    "minecraft:rotation": [ 0, 90, 0 ]
+                }
+            },
+            {
+                "condition": "query.block_property('jedy:face') == 5",
+                "components": {
+                    "minecraft:rotation": [ 0, 270, 0 ]
+                }
+            }
+        ]
+    }
+}

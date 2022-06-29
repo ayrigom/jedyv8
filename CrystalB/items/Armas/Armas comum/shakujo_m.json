@@ -1,0 +1,61 @@
+{                                                                      
+  "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "jedy:shakujo_m" ,
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.sword"
+      },
+          "minecraft:icon": {
+            "texture": "shakujo_m"
+          },
+      "minecraft:display_name": {"value":"§l§c Shakujo Madara \n§a✪Raridade: §d Arma Lendária\n§8✪Nível: Em breve \n§bAjuste: Skill"
+      },
+	  "minecraft:render_offsets": "tools",
+	  "minecraft:allow_off_hand": true,
+      "minecraft:use_duration": 5000,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 5000
+      },
+      "minecraft:mining_speed": 1,
+      "minecraft:damage": 38,
+      "minecraft:enchantable": {
+        "value": 38,
+        "slot": "sword"
+      },
+          "tag:1606": {},
+          "minecraft:max_stack_size": 1,
+          "minecraft:cooldown": {
+           "category": "ender_pearl",
+            "duration": 2
+         },
+          "minecraft:throwable": {
+            "do_swing_animation": true
+          },
+          "minecraft:on_use": {
+            "on_use": {
+              "event": "jedy",
+              "target": "self"
+            }
+          }
+        },
+        "events": {
+          "jedy": {
+            "shoot": {
+              "projectile": "jedy:gudoudama",
+              "launch_power": 1,
+              "angle_offset": 20
+            },
+		"run_command": {
+		  "command": [
+       "function jutsus/gudoudama1"
+		  ]
+	    }
+          }
+        }
+      }
+    }

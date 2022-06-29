@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": { 
+			"identifier": "jedy:otsutsuki_god_branco1.player",
+			"item": { 
+				"jedy:otsutsuki_god_branco1": "query.owner_identifier == 'minecraft:player'"
+			},
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"default": "textures/modos/otsutsuki_god_branco1",
+				"enchanted": "textures/misc/emerald_enchanted_glint"
+			},
+			"geometry": {
+				"default": "geometry.otsutsuki_god"
+			},
+			"scripts": {
+				"parent_setup": "variable.chest_layer_visible = 0.0;"
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			]
+		}
+	}
+}

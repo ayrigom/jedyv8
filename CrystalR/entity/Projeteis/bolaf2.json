@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "jedy:bolaf2",
+      "materials": { "default": "slime" },
+      "textures": {
+        "default": "textures/jutsus/bolaf2"
+      },
+      "geometry": {
+        "default": "geometry.bolaf"
+      },
+      "scripts": {
+        "animate": [
+          "xxx",
+          "particles"
+        ]
+      },
+      "animations": {
+        "xxx": "animation.flame.xxx",
+        "particles": "controller.animation.bullet_flame2.particles"
+      },
+      "particle_effects": {
+        "trail_effect1": "bullet:flame_trail4",
+        "trail_effect2": "bullet:flame_trail5",
+        "trail_effect3": "bullet:flame_trail6"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 57
+      },
+      "render_controllers": [ "controller.render.slime" ]
+    }
+  }
+}

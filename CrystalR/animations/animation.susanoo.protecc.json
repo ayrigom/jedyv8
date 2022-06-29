@@ -1,0 +1,40 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.susanoo.protecc": {
+			"loop": true,
+			"animation_length": 0.099,
+			"override_previous_animation": true,
+			"bones": {
+				"JEDYALL1": {
+					"position": [0, -21.408, 2.24]
+				},
+				"asas": {
+					"position": [0, 0, 7.296],
+					"scale": [1.1, 1.1, 1]
+				},
+				"rightAsa": {
+					"rotation": [0, -77.5, 0],
+					"position": [0, 3.648, 0]
+				},
+				"leftAsa": {
+					"rotation": [0, 77, 0],
+					"position": [0, 3.2, 0],
+					"scale": 1
+				},
+				"rightBraco": {
+					"rotation": [-42.5, -42.5, 40]
+				},
+				"leftBraco": {
+					"rotation": [-40, 42.5, -32.5]
+				},
+				"rightPerna": {
+					"rotation": [17.5, 0, 0]
+				},
+				"leftPerna": {
+					"rotation": [22.5, 0, 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:m_itachi",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "m_itachi",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:jutsu_shinra",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "jutsu_shinra",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

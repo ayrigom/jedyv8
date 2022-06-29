@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:byakugan3",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "byakugan3",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

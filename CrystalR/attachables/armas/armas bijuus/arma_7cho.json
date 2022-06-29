@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "jedy:arma_7cho", 
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": { 
+        "default": "textures/armas/armabijuu/arma_7cho",   
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.arma_bijuu"
+      },
+      "animations": {
+        "1jedyhold": "controller.animation.1jedyhold",
+        "1jedyhold_first_person": "animation.1jedyhold_first_person",
+        "1jedyhold_third_person": "animation.1jedyhold_third_person"
+      },
+      "scripts": {
+        "animate": [
+          "1jedyhold"
+        ]
+      },
+      "render_controllers": [ "controller.render.item_default" ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:rasenganc",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "rasenganc",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

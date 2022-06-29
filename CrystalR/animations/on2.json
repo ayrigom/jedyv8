@@ -1,0 +1,14 @@
+{
+	"format_version": "1.8.0",
+	"animations": { 
+		"animation.on2": { 
+		    "loop": true,
+			"bones": {
+			    "rightItem": {
+			        "scale": 0.10,
+			        "position": [5,-4,-4.5]
+			    }
+			}
+		}
+	}
+}

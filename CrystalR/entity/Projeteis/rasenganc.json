@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "jedy:rasenganc",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/jutsus/rasen"
+      },
+      "geometry": {
+        "default": "geometry.esfera"
+      },
+      "scripts": {
+        "scale": "5"
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

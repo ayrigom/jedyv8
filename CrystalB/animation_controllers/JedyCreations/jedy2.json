@@ -1,0 +1,355 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.manto_kurama3": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_kurama3" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_kurama3" ]
+        }
+      }
+    },
+        "controller.animation.mk_shukaku1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_shukaku1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_shukaku1" ]
+        }
+      }
+    },
+        "controller.animation.mk_matatabi1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_matatabi1" ]
+        },
+
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_matatabi1" ]
+        }
+      }
+    },
+        "controller.animation.mk_isobu1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_isobu1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_isobu1" ]
+        }
+      }
+    },
+    "controller.animation.mk_son_goku1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_son_goku1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_son_goku1" ]
+        }
+      }
+    },
+    "controller.animation.mk_kokuo1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_kokuo1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_kokuo1" ]
+        }
+      }
+    },
+    "controller.animation.mk_saiken1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_saiken1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_saiken1" ]
+        }
+      }
+    },
+    "controller.animation.mk_choumei1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_choumei1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_choumei1" ]
+        }
+      }
+    },
+    "controller.animation.mk_gyuki1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_gyuki1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_gyuki1" ]
+        }
+      }
+    },
+    "controller.animation.mk_kurama1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_kurama1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_kurama1" ]
+        }
+      }
+    },
+    "controller.animation.mk_shukaku2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_shukaku2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_shukaku2" ]
+        }
+      }
+    },
+    "controller.animation.mk_matatabi2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_matatabi2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_matatabi2" ]
+        }
+      }
+    },
+    "controller.animation.mk_isobu2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_isobu2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_isobu2" ]
+        }
+      }
+    },
+    "controller.animation.mk_songoku2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_songoku2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_songoku2" ]
+        }
+      }
+    },
+    "controller.animation.mk_kokuo2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_kokuo2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_kokuo2" ]
+        }
+      }
+    },
+    "controller.animation.mk_saiken2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_saiken2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_saiken2" ]
+        }
+      }
+    },
+    "controller.animation.mk_choumei2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_choumei2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_choumei2" ]
+        }
+      }
+    },
+    "controller.animation.mk_gyuki2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_gyuki2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_gyuki2" ]
+        }
+      }
+    },
+    "controller.animation.mk_kurama2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function mk_kurama2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function mk_kurama2" ]
+        }
+      }
+    },
+    "controller.animation.modo_juubi": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function modo_juubi" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function modo_juubi" ]
+        }
+      }
+    },
+    "controller.animation.rikudo_madara": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function rikudo_madara" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function rikudo_madara" ]
+        }
+      }
+    },
+    "controller.animation.rikudo_naruto": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function rikudo_naruto" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function rikudo_naruto" ]
+        }
+      }
+    },
+    "controller.animation.genkai_ironsand2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function genkai_ironsand2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function genkai_ironsand2" ]
+        }
+      }
+    },
+    "controller.animation.genkai_ironsand3": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function genkai_ironsand3" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function genkai_ironsand3" ]
+        }
+      }
+    },
+    "controller.animation.genkai_ironsand4": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function genkai_ironsand4" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function genkai_ironsand4" ]
+        }
+      }
+    },
+    "controller.animation.karma2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function karma2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function karma2" ]
+        }
+      }
+    },
+
+    "controller.animation.barion_kurama": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function barion_kurama" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function barion_kurama" ]
+        }
+      }
+    },
+    "controller.animation.manto_son_goku1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_son_goku1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_son_goku1" ]
+        }
+      }
+    },
+    "controller.animation.manto_son_goku2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_son_goku2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_son_goku2" ]
+        }
+      }
+    }
+  }
+}

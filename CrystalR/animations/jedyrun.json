@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.jedyrun": {
+			"loop": true,
+			"animation_length": 0.1,
+			"override_previous_animation": true,
+			"bones": {
+				"head": {
+					"rotation": [-17.5, 0, 0],
+					"position": [0, 0, -3.28]
+				},
+				"body": {
+					"rotation": [377.5, 0, 0],
+					"position": [0, 0, -2]
+				},
+				"leftArm": {
+					"rotation": [422.5, 0, 0],
+					"position": [0, 0, -1.2]
+				},
+				"rightArm": {
+					"rotation": [422.5, 0, 0],
+					"position": [0, 0, -1.2]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "jedy:bloco_foice_tripla",
+      "materials": {
+        "default": "glow"
+      },
+      "textures": {
+        "default": "textures/armas/foice_tripla"
+      },
+      "geometry": {
+        "default": "geometry.bloco_foice_tripla"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 0
+      },
+      "render_controllers": [ "controller.render.glow" ]
+    }
+  }
+}

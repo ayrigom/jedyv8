@@ -1,0 +1,19 @@
+{
+ "format_version": "1.10.0",
+ "minecraft:block": {
+        "description":  {
+            "category": "nature",
+         "identifier": "jedy:genkai",
+        "is_experimental": false,
+         "register_to_creative_menu": true
+  },
+  "components": {
+      "minecraft:loot": "loot_tables/blocks/genkaijedy.json",
+      "minecraft:destroy_time": 0.5,
+      "minecraft:explosion_resistance": 9999,
+      "minecraft:block_light_emission": 0,
+      "minecraft:block_light_absorption": 0,
+      "minecraft:map_color": "#e2fb00"
+   }
+  }
+ }

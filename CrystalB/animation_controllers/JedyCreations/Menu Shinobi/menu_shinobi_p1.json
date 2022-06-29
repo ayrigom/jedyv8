@@ -1,0 +1,41 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+    "controller.animation.menu_shinobi_p1": {
+      "states": {
+        "default": {
+          "transitions": [ { "menu_shinobi_p1":"query.get_equipped_item_name == 'menu_shinobi_p1' && query.is_sneaking" } ],
+          "on_exit": [ "/function menushinobi/menu_shinobi_p1" ]
+        },
+        "menu_shinobi_p1": {
+          "transitions": [ {"default":"query.get_equipped_item_name == 'menu_shinobi_p1' && !query.is_sneaking"} ],
+          "on_exit": [ "" ]
+			 }
+		 }
+	 },
+    "controller.animation.menu_shinobi_p2": {
+      "states": {
+        "default": {
+          "transitions": [ { "menu_shinobi_p2":"query.get_equipped_item_name == 'menu_shinobi_p2' && query.is_sneaking" } ],
+          "on_exit": [ "/function menushinobi/menu_shinobi_p2" ]
+        },
+        "menu_shinobi_p2": {
+          "transitions": [ {"default":"query.get_equipped_item_name == 'menu_shinobi_p2' && !query.is_sneaking"} ],
+          "on_exit": [ "" ]
+        }
+      }
+    },
+    "controller.animation.menu_shinobi_p3": {
+      "states": {
+        "default": {
+          "transitions": [ { "menu_shinobi_p3":"query.get_equipped_item_name == 'menu_shinobi_p3' && query.is_sneaking" } ],
+          "on_exit": [ "/function menushinobi/menu_shinobi_p3" ]
+        },
+        "menu_shinobi_p3": {
+          "transitions": [ {"default":"query.get_equipped_item_name == 'menu_shinobi_p3' && !query.is_sneaking"} ],
+          "on_exit": [ "" ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "jedy:sub",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "component_groups": {
+    },
+
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "mushroomcow" ]
+      },
+      "minecraft:loot": {
+          "table": "loot_tables/treino1.json"
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:push_through": {
+        "value": 1.0
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:collision_box": {
+        "width": 1,
+        "height": 1
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:movement": {
+        "value": 0.0
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {    
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:fall_damage": {
+        "value": 0.0
+      },
+      "minecraft:balloonable": {
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.panic": {
+        "priority": 0,
+        "speed_multiplier": 0.0
+      },
+      "minecraft:behavior.mount_pathing": {
+        "priority": 0,
+        "speed_multiplier": 0.0,
+        "target_dist": 0.0,
+        "track_target": true
+      },
+	    "minecraft:physics": {
+      }
+    },
+
+
+    "events": {
+    }
+  }
+}

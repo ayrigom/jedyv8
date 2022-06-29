@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "jedy:tengai",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/jutsus/chibaku"
+      },
+      "geometry": {
+        "default": "geometry.gudoudama"
+      },
+      "scripts": {
+        "scale": "40"
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

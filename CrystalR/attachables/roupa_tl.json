@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": { 
+			"identifier": "jedy:roupa_tl.player",
+			"item": { 
+				"jedy:roupa_tl": "query.owner_identifier == 'minecraft:player'"
+			},
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"default": "textures/roupas/roupa_tl",
+				"enchanted": "textures/misc/emerald_enchanted_glint"
+			},
+			"geometry": {
+				"default": "geometry.roupa_tl"
+			},
+			"scripts": {
+				"parent_setup": "variable.chest_layer_visible = 0.0;"
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			]
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "jedy:pergaminho_invocacao",
+      "materials": {
+        "default": "glow"
+      },
+      "textures": {
+        "default": "textures/mobs/pergaminho_invocacao"
+      },
+      "geometry": {
+        "default": "geometry.pergaminho_invocacao"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 52
+      },
+      "render_controllers": [ "controller.render.glow" ]
+    }
+  }
+}

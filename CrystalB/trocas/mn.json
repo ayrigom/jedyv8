@@ -1,0 +1,106 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:diamond",
+              "quantity": {
+                "min": 1,
+                "max": 32
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:skin1"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:diamond",
+              "quantity": {
+                "min": 1,
+                "max": 32
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:maleta"
+              }
+           ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:diamond",
+              "quantity": {
+                "min": 1,
+                "max": 32
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:skin2"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 32,
+                "max": 32
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:roupa_narutob"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:diamond",
+              "quantity": {
+                "min": 1,
+                "max": 32
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:skin"
+                  }
+              ]
+            },
+        {
+          "wants": [
+            {
+              "item": "jedy:ryo_acumulado",
+              "quantity": {
+                "min": 30,
+                "max": 64
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:skin3"
+              
+            }
+          ]
+        }
+          ]
+        }
+           ]
+      
+    }

@@ -1,0 +1,961 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.sharingan": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function sharingan" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function sharingan" ]
+        }
+      }
+    },
+  "controller.animation.rinnesharingan": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function rinnesharingan" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function rinnesharingan" ]
+        }
+      }
+    },
+        "controller.animation.ketsurygan": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function ketsurygan" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function ketsurygan" ]
+        }
+      }
+    },
+         "controller.animation.walk": {
+      "states": {
+        "default": {
+          "transitions": [ { "walk": "(1.0)" } ],
+          "on_entry": [ 
+              "/function encolher",
+              "/function jedyart"
+              ]
+        },
+        "walk": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [ 
+              "/function encolher",
+              "/function jedyart"
+          ]
+        }
+      }
+    },
+      "controller.animation.8barion_shukaku": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_shukaku" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_shukaku" ]
+        }
+      }
+    },
+          "controller.animation.8barion_matatabi": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_matatabi" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_matatabi" ]
+        }
+      }
+    },
+              "controller.animation.8barion_isobu": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_isobu" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_isobu" ]
+        }
+      }
+    },
+            "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function encolher" ]
+        }
+    },
+                  "controller.animation.encolher": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function encolher" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function encolher" ]
+        }
+      }
+    },
+              "controller.animation.8barion_songoku": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_songoku" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_songoku" ]
+        }
+      }
+    },
+              "controller.animation.8barion_kokuo": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_kokuo" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_kokuo" ]
+        }
+      }
+    },
+              "controller.animation.8barion_saiken": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_saiken" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_saiken" ]
+        }
+      }
+    },
+              "controller.animation.8barion_choumei": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_choumei" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_choumei" ]
+        }
+      }
+    },
+              "controller.animation.8barion_gyuki": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_gyuki" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_gyuki" ]
+        }
+      }
+    },
+              "controller.animation.8barion_kurama": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_kurama" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_kurama" ]
+        }
+      }
+    },
+              "controller.animation.8barion_juubi": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_juubi" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function 8barion_juubi" ]
+        }
+      }
+    },
+                    "controller.animation.instinto": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function instinto" ]
+        },
+            "controller.animation.ketsu_sharingan": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function ketsu_sharingan" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function ketsu_sharingan" ]
+        }
+      }
+    },
+        "controller.animation.genkai_ironsand": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function genkai_ironsand" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function genkai_ironsand" ]
+        }
+      }
+    },
+        "controller.animation.genkai_paper": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function genkai_paper" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function genkai_paper" ]
+        }
+      }
+    },
+    "controller.animation.m_kakashi": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function m_kakashi" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function m_kakashi" ]
+        }
+      }
+    },
+    "controller.animation.m_shisui": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function m_shisui" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function m_shisui" ]
+        }
+      }
+    },
+    "controller.animation.m_itachi": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function m_itachi" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function m_itachi" ]
+        }
+      }
+    },
+    "controller.animation.m_sasuke": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function m_sasuke" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function m_sasuke" ]
+        }
+      }
+    },
+    "controller.animation.m_madara": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function m_madara" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function m_madara" ]
+        }
+      }
+    },
+    "controller.animation.karma": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function karma" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function karma" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_jedy": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_jedy" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_jedy" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_k1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_k1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_k1" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_k2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_k2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_k2" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_k3": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_k3" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_k3" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_k4": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_k4" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_k4" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_sh1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_sh1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_sh1" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_sh2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_sh2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_sh2" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_sh3": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_sh3" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_sh3" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_sh4": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_sh4" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_sh4" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_i1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_i1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_i1" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_i2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_i2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_i2" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_i3": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_i3" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_i3" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_i4": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_i4" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_i4" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_s1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_s1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_s1" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_s2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_s2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_s2" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_s3": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_s3" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_s3" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_s4": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_s4" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_s4" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_m1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_m1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_m1" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_m2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_m2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_m2" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_m3": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_m3" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_m3" ]
+        }
+      }
+    },
+    "controller.animation.susanoo_m4": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_m4" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function susanoo_m4" ]
+        }
+      }
+    },
+    "controller.animation.byakugan": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function byakugan" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function byakugan" ]
+        }
+      }
+    },
+    "controller.animation.jogan": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function jogan" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function jogan" ]
+        }
+      }
+    },
+    "controller.animation.tenseigan": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function tenseigan" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function tenseigan" ]
+        }
+      }
+    },
+    "controller.animation.rinnegan": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function rinnegan" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function rinnegan" ]
+        }
+      }
+    },
+    "controller.animation.rinnegan_supremo": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function rinnegan_supremo" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function rinnegan_supremo" ]
+        }
+      }
+    },
+    "controller.animation.senpo_hashirama": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function senpo_hashirama" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function senpo_hashirama" ]
+        }
+      }
+    },
+        "controller.animation.senpo_hashirama2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function senpo_hashirama2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function senpo_hashirama2" ]
+        }
+      }
+    },
+    "controller.animation.senpo_sapos": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function senpo_sapos" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function senpo_sapos" ]
+        }
+      }
+    },
+    "controller.animation.senpo_cobras": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function senpo_cobras" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function senpo_cobras" ]
+        }
+      }
+    },
+    "controller.animation.senpo_lesmas": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function senpo_lesmas" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function senpo_lesmas" ]
+        }
+      }
+    },
+	    "controller.animation.hiraishin": {
+      "states": {
+        "default": {
+          "transitions": [ { "hiraishin": "query.is_using_item && query.get_equipped_item_name('main_hand') == 'hiraishin'" } ],
+          "on_entry": [ "" ]
+        },
+        "hiraishin": {
+          "transitions": [ { "default": "query.is_using_item && query.get_equipped_item_name('main_hand') == 'hiraishin'" } ],
+          "on_entry": [
+          "/title @p actionbar §l§eHiraishin!",
+          "/tp @p ^10 ^ ^"
+          ]
+        }
+      }
+    },
+    "controller.animation.manto_shukaku1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_shukaku1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_shukaku1" ]
+        }
+      }
+    },
+    "controller.animation.manto_shukaku2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_shukaku2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_shukaku2" ]
+        }
+      }
+    },
+    "controller.animation.manto_shukaku3": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_shukaku3" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_shukaku3" ]
+        }
+      }
+    },
+    "controller.animation.manto_matatabi1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_matatabi1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_matatabi1" ]
+        }
+      }
+    },
+    "controller.animation.manto_matatabi2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_matatabi2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_matatabi2" ]
+        }
+      }
+    },
+    "controller.animation.manto_matatabi3": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_matatabi3" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_matatabi3" ]
+        }
+      }
+    },
+    "controller.animation.manto_isobu1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_isobu1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_isobu1" ]
+        }
+      }
+    },
+    "controller.animation.manto_isobu2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_isobu2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_isobu2" ]
+        }
+      }
+    },
+    "controller.animation.manto_songoku1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_songoku1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_songoku1" ]
+        }
+      }
+    },
+    "controller.animation.manto_songoku2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_songoku2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_songoku2" ]
+        }
+      }
+    },
+    "controller.animation.manto_kokuo1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_kokuo1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_kokuo1" ]
+        }
+      }
+    },
+        "controller.animation.manto_kokuo2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_kokuo2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_kokuo2" ]
+        }
+      }
+    },
+        "controller.animation.manto_saiken1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_saiken1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_saiken1" ]
+        }
+      }
+    },
+        "controller.animation.manto_saiken2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_saiken2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_saiken2" ]
+        }
+      }
+    },
+            "controller.animation.manto_choumei1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_choumei1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_choumei1" ]
+        }
+      }
+    },
+            "controller.animation.manto_choumei2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_choumei2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_choumei2" ]
+        }
+      }
+    },
+            "controller.animation.manto_gyuki1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_gyuki1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_gyuki1" ]
+        }
+      }
+    },
+            "controller.animation.manto_gyuki2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_gyuki2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_gyuki2" ]
+        }
+      }
+    },
+            "controller.animation.manto_kurama1": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_kurama1" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_kurama1" ]
+        }
+      }
+    },
+            "controller.animation.manto_kurama2": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function manto_kurama2" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function manto_kurama2" ]
+        }
+      }
+    },
+    "controller.animation.voar": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function voar" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function voar" ]
+        }
+      }
+    },
+    "controller.animation.agua": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(0.0)" } ],
+          "on_entry": [ "/function agua" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(0.0)" } ],
+          "on_entry": [ "/function agua" ]
+        }
+      }
+    }
+  }
+}

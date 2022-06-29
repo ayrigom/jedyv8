@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:inv_sasukeb",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "inv_sasukeb",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

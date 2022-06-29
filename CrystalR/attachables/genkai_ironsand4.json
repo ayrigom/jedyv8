@@ -1,0 +1,45 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": { 
+			"identifier": "jedy:genkai_ironsand4.player", 
+			"item": { 
+				"jedy:genkai_ironsand4": "query.owner_identifier == 'minecraft:player'"
+			},
+      "animations": {
+        "attack_controller": "controller.animation.ironsand.atk",
+        "attack": "animation.ironsand.atk1",
+        "default_controller": "controller.animation.ironsand",
+        "default": "animation.ironsand.while",
+        "sneaking": "animation.ironsand.protecc",
+        "sprinting": "animation.ironsand.voo"
+      },
+			"materials": {
+				"default": "skeleton",
+				"enchanted": "armor_enchanted",
+				"jedy": "armor",
+				"jedy2": "armor"
+			},
+			"textures": {
+				"jedy": "textures/modos/ironsand_asas",
+				"jedy2": "textures/modos/ironsand",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"jedy2": "geometry.ironsand_bracos",
+				"jedy": "geometry.ironsand_asas"
+			},
+			"scripts": {
+				"parent_setup": "variable.chest_layer_visible = 0.0;",
+        "animate": [
+          "default_controller"
+        ]
+      },
+			"render_controllers": [
+				"controller.render.armor",
+				"controller.render.jedy",
+				"controller.render.jedy2"
+			]
+		}
+	}
+}

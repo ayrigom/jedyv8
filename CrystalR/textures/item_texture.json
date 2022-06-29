@@ -1,0 +1,1633 @@
+{
+  "resource_pack_name": "Jedy Tensei[R]",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "technogan": {
+      "textures": "textures/icones/jedy_technogan"
+    },
+    "mokugan": {
+      "textures": "textures/icones/jedy_mokugan"
+    },
+        "mkm": {
+      "textures": "textures/icones/mkm"
+    },
+           "bolaf2": {
+      "textures": "textures/icones/amaterasu2"
+    },
+               "kawashiki": {
+      "textures": "textures/icones/kawashiki"
+    },
+               "yoton2": {
+      "textures": "textures/icones/yoton2"
+    },
+                   "karma_kaw2": {
+      "textures": "textures/icones/karma_kaw2"
+    },
+                   "pilulas": {
+      "textures": "textures/icones/pilulas"
+    },
+                   "rasenganb": {
+      "textures": "textures/icones/rasenganb"
+    },
+                    "portao1": {
+      "textures": "textures/icones/portao1"
+    },   
+                       "celulash2": {
+      "textures": "textures/icones/celulash2"
+    },
+                       "celulash": {
+      "textures": "textures/icones/celulash"
+    },
+                   "baryonfp": {
+      "textures": "textures/icones/baryonfp"
+    },
+                   "imk": {
+      "textures": "textures/icones/imk"
+    },
+                   "fmk": {
+      "textures": "textures/icones/fmk"
+    },
+                   "isshikir": {
+      "textures": "textures/icones/isshikir"
+    },
+                       "obitomask": {
+      "textures": "textures/icones/obitomask"
+    },
+                       "inv_isshiki": {
+      "textures": "textures/icones/inv_isshiki"
+    },
+                           "tapaolho": {
+      "textures": "textures/icones/tapaolho"
+    },
+                           "inv_sasukeb": {
+      "textures": "textures/icones/inv_sasukeb"
+    },
+                           "inv_narutob": {
+      "textures": "textures/icones/inv_narutob"
+    },
+                   "sasuketl": {
+      "textures": "textures/icones/sasuketl"
+    },
+                       "belle": {
+      "textures": "textures/icones/belle"
+    },
+                       "roupa_narutob2": {
+      "textures": "textures/icones/roupa_narutob2"
+    },
+                           "mk3h": {
+      "textures": "textures/icones/mk3h"
+    },
+                       "tenseigana": {
+      "textures": "textures/icones/tenseigana"
+    },
+                           "tenseigana2": {
+      "textures": "textures/icones/tenseigana2"
+    },
+                       "raid_shin": {
+      "textures": "textures/icones/raid_shin"
+    },
+                           "m_shin": {
+      "textures": "textures/icones/m_shin"
+    },
+                               "m_shins": {
+      "textures": "textures/icones/m_shins"
+    },
+                   "chidori_nagashi": {
+      "textures": "textures/icones/chidori_nagashi"
+    },
+                       "grampo": {
+      "textures": "textures/icones/grampo"
+    },
+        
+            "bakuton2": {
+      "textures": "textures/icones/bakuton2"
+            },
+                        "yoton": {
+      "textures": "textures/icones/yoton"
+            },
+                        "areia": {
+      "textures": "textures/icones/areia"
+            },
+                                    "areia2": {
+      "textures": "textures/icones/areia"
+            },
+                
+            "bakuton3": {
+      "textures": "textures/icones/bakuton3"
+            },
+                        "c0": {
+      "textures": "textures/icones/bakuton3"
+            },
+            "ritual": {
+      "textures": "textures/icones/ritual"
+            },
+                        "c3": {
+      "textures": "textures/icones/bakuton"
+            },
+                        "roupa_sennin": {
+      "textures": "textures/icones/roupa_sennin"
+            },
+                        "barion_kuramaa": {
+      "textures": "textures/icones/barion_kuramaa"
+            },
+                                    "shakujo_t": {
+      "textures": "textures/icones/shakujo_t"
+            },
+            "amaterasu3": {
+      "textures": "textures/icones/amaterasu2"
+            },
+            "roupa_sasuke2": {
+      "textures": "textures/icones/roupa_sasuke2"
+            },
+                        "roupa_sasuke3": {
+      "textures": "textures/icones/roupa_sasuke3"
+            },
+                        "roupa_neji": {
+      "textures": "textures/icones/roupa_neji"
+            },
+                                                "mn_sasuke": {
+      "textures": "textures/icones/mn_sasuke"
+            },
+                   "mn_madara": {
+      "textures": "textures/icones/mn_madara"
+            },                                   "m_izuna": {
+      "textures": "textures/icones/m_izuna"
+            },
+                   "tengai": {
+      "textures": "textures/icones/tengai"
+            },
+            "sombras": {
+      "textures": "textures/icones/sombras"
+            },
+                        "kaneki": {
+      "textures": "textures/icones/kaneki"
+            },
+                        "kanekir": {
+      "textures": "textures/icones/kaneki"
+            },
+            "cuboi": {
+      "textures": "textures/icones/cuboi"
+            },
+            "nomeacao": {
+      "textures": "textures/icones/nomeacao"
+            },
+            "promocao": {
+      "textures": "textures/icones/promocao"
+            },
+                        "m_obito": {
+      "textures": "textures/icones/m_obito"
+            },
+                        "intangibilidade": {
+      "textures": "textures/icones/intangibilidade"
+            },
+                        "raid": {
+      "textures": "textures/icones/raid"
+            },
+                        "pz": {
+      "textures": "textures/icones/pz"
+            },
+                                    "tz": {
+      "textures": "textures/icones/tz"
+            },
+                                    "cz": {
+      "textures": "textures/icones/cz"
+            },
+                                    "bz": {
+      "textures": "textures/icones/bz"
+            },
+            "olho": {
+      "textures": "textures/icones/olho"
+            },
+            "rinneganp": {
+      "textures": "textures/icones/rinneganp"
+    },
+                "encolher": {
+      "textures": "textures/icones/isshikid"
+    },
+                "esfera": {
+      "textures": "textures/icones/esfera"
+    },
+                "rinnegansp": {
+      "textures": "textures/icones/rinnegansp"
+    },
+                "rasen": {
+      "textures": "textures/icones/rasen"
+    },
+                "bakuton": {
+      "textures": "textures/icones/bakuton"
+    },
+                    "borboleta": {
+      "textures": "textures/icones/borboleta"
+    },
+                        "bolaf": {
+      "textures": "textures/icones/bolaf"
+    },
+                        "venom_shukaku": {
+      "textures": "textures/icones/venom_shukaku"
+    },
+                "mitsukis": {
+      "textures": "textures/icones/mitsukis"
+    },
+                    "argila": {
+      "textures": "textures/icones/bakuton"
+    },
+                    "nara": {
+      "textures": "textures/icones/nara"
+    },
+                    "marca1": {
+      "textures": "textures/icones/marca1"
+    },
+                        "marca2": {
+      "textures": "textures/icones/marca2"
+    },
+                            "marca3": {
+      "textures": "textures/icones/marca3"
+    },
+                    "boruto2": {
+      "textures": "textures/icones/boruto2"
+    },
+                    "edo": {
+      "textures": "textures/icones/edo"
+    },
+                        "edot": {
+      "textures": "textures/icones/edot"
+    },
+                            "em_madara": {
+      "textures": "textures/icones/em_madara"
+    },
+                            "em_itachi": {
+      "textures": "textures/icones/em_itachi"
+    },
+                            "erinnegan": {
+      "textures": "textures/icones/erinnegan"
+    },
+                            "em_itachiz": {
+      "textures": "textures/icones/em_itachiz"
+    },
+                    "kuchiyose": {
+      "textures": "textures/icones/kuchiyose"
+    },
+                        "visualizar": {
+      "textures": "textures/icones/byakugan_ativado"
+    },
+                    "boro": {
+      "textures": "textures/icones/boro"
+    },
+                        "inv_jigen": {
+      "textures": "textures/icones/inv_jigen"
+    },
+                        "inv_naruto": {
+      "textures": "textures/icones/inv_naruto"
+    },
+                        "inv_sasuke": {
+      "textures": "textures/icones/inv_sasuke"
+    },
+                        "inv_madara": {
+      "textures": "textures/icones/inv_madara"
+    },
+                        "inv_obito": {
+      "textures": "textures/icones/inv_obito"
+    },
+                            "inv_madara2": {
+      "textures": "textures/icones/inv_madara2"
+    },
+                            "inv_pain": {
+      "textures": "textures/icones/inv_pain"
+    },
+                            "inv_madaraj": {
+      "textures": "textures/icones/inv_madaraj"
+    },
+                            "inv_zabuza": {
+      "textures": "textures/icones/inv_zabuza"
+    },
+                            "inv_kisame": {
+      "textures": "textures/icones/inv_kisame"
+    },
+                            "inv_hidan": {
+      "textures": "textures/icones/inv_hidan"
+    },
+                            "inv_orochimaru2": {
+      "textures": "textures/icones/inv_orochimaru2"
+    },
+                            "inv_hiruzen": {
+      "textures": "textures/icones/inv_hiruzen"
+    },
+                        "inv_urashiki": {
+      "textures": "textures/icones/inv_urashiki"
+    },
+                        "inv_code": {
+      "textures": "textures/icones/inv_code"
+    },
+                            "inv_boro": {
+      "textures": "textures/icones/inv_boro"
+    },
+                    "frag_senrigan": {
+      "textures": "textures/icones/frag_senrigan"
+    },
+                        "katonj": {
+      "textures": "textures/icones/katonj"
+    },
+                        "dotonj": {
+      "textures": "textures/icones/dotonj"
+    },
+                        "suitonj": {
+      "textures": "textures/icones/suitonj"
+    },
+                        "fuutonj": {
+      "textures": "textures/icones/fuutonj"
+    },
+                        "raitonj": {
+      "textures": "textures/icones/raitonj"
+    },
+                        "senrigan": {
+      "textures": "textures/icones/senrigan"
+    },
+                        "senrigan2": {
+      "textures": "textures/icones/senrigan2"
+    },
+                    "modo_otsutsuki": {
+      "textures": "textures/icones/modo_otsutsuki"
+    },
+                    "mitsukis2": {
+      "textures": "textures/icones/mitsukis2"
+    },
+                "sharingan_skin": {
+      "textures": "textures/icones/sharingan_skin"
+    },
+          "modo_kurama": {
+      "textures": "textures/icones/modo_kurama"
+    },
+              "roupa_boruto": {
+      "textures": "textures/icones/roupa_boruto"
+    },
+                    "paper_skin": {
+      "textures": "textures/icones/paper_skin"
+    },
+                        "roupa_tl": {
+      "textures": "textures/icones/roupa_tl"
+    },
+                    "m_indra_skin": {
+      "textures": "textures/icones/m_indra_skin"
+    },
+                "mk2m": {
+      "textures": "textures/icones/mk2m"
+    },
+            "srd": {
+      "textures": "textures/icones/srd"
+    },
+                "amaterasu": {
+      "textures": "textures/icones/amaterasu"
+    },
+                    "skin1": {
+      "textures": "textures/icones/skin1"
+    },
+          "galaxy_skin": {
+      "textures": "textures/icones/galaxy_skin"
+    },
+                        "skin2": {
+      "textures": "textures/icones/skin2"
+    },
+                        "skin3": {
+      "textures": "textures/icones/skin3"
+    },
+                    "mugen": {
+      "textures": "textures/icones/mugen"
+    },
+                        "susanoo_in1": {
+      "textures": "textures/icones/susanoo_in1"
+    },
+                            "susanoo_in2": {
+      "textures": "textures/icones/susanoo_in2"
+    },
+                            "susanoo_in3": {
+      "textures": "textures/icones/susanoo_in3"
+    },
+                            "susanoo_in4": {
+      "textures": "textures/icones/susanoo_in4"
+    },
+                            "susanoo_in5": {
+      "textures": "textures/icones/susanoo_in5"
+    },
+                    "kotoamatsukami": {
+      "textures": "textures/icones/kotoamatsukami"
+    },
+                    "yagai": {
+      "textures": "textures/icones/yagai"
+    },
+                    "k_jigen": {
+      "textures": "textures/icones/k_jigen"
+    },
+                        "k_jigen2": {
+      "textures": "textures/icones/k_jigen2"
+    },
+                "borushiki": {
+      "textures": "textures/icones/borushiki"
+    },
+                    "senju": {
+      "textures": "textures/icones/senju"
+    },
+                    "chibakut": {
+      "textures": "textures/icones/chibakut"
+    },
+
+                    "viagem": {
+      "textures": "textures/icones/viagem"
+    },
+                    "amaterasu2": {
+      "textures": "textures/icones/amaterasu2"
+    },
+                        "sangue": {
+      "textures": "textures/icones/sangue"
+    },
+                "ashura": {
+      "textures": "textures/icones/ashura"
+    },
+                "indra": {
+      "textures": "textures/icones/indra"
+    },
+                "rdt": {
+      "textures": "textures/icones/srd"
+    },
+                "rk": {
+      "textures": "textures/icones/srd"
+    },
+                "rra": {
+      "textures": "textures/icones/rra"
+    },
+                "rrd": {
+      "textures": "textures/icones/rrd"
+    },
+                "rrv": {
+      "textures": "textures/icones/rrv"
+    },
+                "rrs": {
+      "textures": "textures/icones/rrs"
+    },
+                "rt": {
+      "textures": "textures/icones/rt"
+    },
+                "rvrs": {
+      "textures": "textures/icones/rvrs"
+    },
+                "sj": {
+      "textures": "textures/icones/sj"
+    },
+                "sbd": {
+      "textures": "textures/icones/sbd"
+    },
+            "sra": {
+      "textures": "textures/icones/sra"
+    },
+            "meio_t": {
+      "textures": "textures/icones/meio_t"
+    },
+                "meio_bd": {
+      "textures": "textures/icones/meio_bd"
+    },
+                    "meio_b": {
+      "textures": "textures/icones/meio_b"
+    },
+                "meio_rs": {
+      "textures": "textures/icones/meio_rs"
+    },
+                    "meio_r": {
+      "textures": "textures/icones/meio_r"
+    },
+                        "meio_k": {
+      "textures": "textures/icones/meio_k"
+    },
+                    "meio_ra": {
+      "textures": "textures/icones/meio_ra"
+    },
+                    "meio_rd": {
+      "textures": "textures/icones/meio_rd"
+    },
+                "meio_rv": {
+      "textures": "textures/icones/meio_rv"
+    },
+            "rinneganu": {
+      "textures": "textures/icones/rinneganu"
+    },
+            "rinnegan_supremod": {
+      "textures": "textures/icones/rinnegan_supremod"
+    },
+            "isshikid": {
+      "textures": "textures/icones/isshikid"
+    },
+           "st": {
+      "textures": "textures/icones/st"
+    },
+               "srv": {
+      "textures": "textures/icones/srv"
+    },
+            "sharinganc_completo": {
+      "textures": "textures/icones/sharinganc_completo"
+    },
+            "mkm2": {
+      "textures": "textures/icones/mkm2"
+    },
+                "mka": {
+      "textures": "textures/icones/mka"
+    },
+        "8barion_shukaku": {
+      "textures": "textures/icones/barion_shukaku"
+    },
+            "m_itachiz": {
+      "textures": "textures/icones/m_itachiz"
+    },
+                "m_indra": {
+      "textures": "textures/icones/m_indra"
+    },
+                "maleta": {
+      "textures": "textures/icones/maleta"
+    },
+            "roupa_jounin2": {
+      "textures": "textures/icones/roupa_jounin2"
+    },
+                "roupa_narutob": {
+      "textures": "textures/icones/roupa_narutob"
+    },
+    "vara": {
+      "textures": "textures/icones/vara"
+    },
+        "shakujo_n": {
+      "textures": "textures/icones/shakujo_n"
+    },
+                "karma_code": {
+      "textures": "textures/icones/karma_code"
+    },
+                "modo_uzumaki2": {
+      "textures": "textures/icones/modo_uzumaki2"
+    },
+            "roupa_obito": {
+      "textures": "textures/icones/roupa_obito"
+    },
+                "modo_uzumaki": {
+      "textures": "textures/icones/modo_uzumaki"
+    },
+                "modo_namikaze": {
+      "textures": "textures/icones/modo_namikaze"
+    },
+                "mask_war": {
+      "textures": "textures/icones/mask_war"
+    },
+                    "chakra_e": {
+      "textures": "textures/icones/chakra_e"
+    },
+                        "chakra_e2": {
+      "textures": "textures/icones/chakra_e2"
+    },
+                    "jounin_minato": {
+      "textures": "textures/icones/jounin_minato"
+    },
+        "modo_juubi2": {
+      "textures": "textures/icones/modo_juubi2"
+    },
+                   "mk3": {
+      "textures": "textures/icones/mk3"
+    },
+                       "mk32": {
+      "textures": "textures/icones/mk32"
+    },
+            "rc": {
+      "textures": "textures/icones/rc"
+    },
+                "rc2": {
+      "textures": "textures/icones/rc2"
+    },
+                "rc3": {
+      "textures": "textures/icones/rc3"
+    },
+            "kaguya": {
+      "textures": "textures/icones/kaguya"
+    },
+            "mr": {
+      "textures": "textures/icones/mr"
+    },
+    "8barion_matatabi": {
+      "textures": "textures/icones/barion_matatabi"
+    },
+        "jogand": {
+      "textures": "textures/icones/jogand"
+    },
+            "namikaze": {
+      "textures": "textures/icones/namikaze"
+    },
+            "mkr": {
+      "textures": "textures/icones/mkr"
+    },
+                "mkr2": {
+      "textures": "textures/icones/mkr2"
+    },
+                    "mkr22": {
+      "textures": "textures/icones/mkr22"
+    },
+    "gojo": {
+      "textures": "textures/icones/gojo"
+  },
+    "8barion_isobu": {
+      "textures": "textures/icones/barion_isobu"
+    },
+    "8barion_songoku": {
+      "textures": "textures/icones/barion_songoku"
+    },
+    "mantoj": {
+      "textures": "textures/icones/mantoj"
+    },
+        "mantoj2": {
+      "textures": "textures/icones/mantoj2"
+    },
+    "8barion_kokuo": {
+      "textures": "textures/icones/barion_kokuo"
+    },
+        "sharinganc": {
+      "textures": "textures/icones/sharinganc"
+    },
+    "8barion_saiken": {
+      "textures": "textures/icones/barion_saiken"
+    },
+    "8barion_choumei": {
+      "textures": "textures/icones/barion_choumei"
+    },
+        "mc_madara": {
+      "textures": "textures/icones/mc_madara"
+    },
+        "mc_sasuke": {
+      "textures": "textures/icones/mc_sasuke"
+    },
+        "mc_shisui": {
+      "textures": "textures/icones/mc_shisui"
+    },
+        "mc_itachi": {
+      "textures": "textures/icones/mc_itachi"
+    },
+        "mc_obito": {
+      "textures": "textures/icones/mc_obito"
+    },
+    "8barion_gyuki": {
+      "textures": "textures/icones/barion_gyuki"
+    },
+        "meios": {
+      "textures": "textures/icones/meios"
+    },
+    "8barion_kurama": {
+      "textures": "textures/icones/barion_kurama"
+    },
+    "8barion_juubi": {
+      "textures": "textures/icones/barion_juubi"
+    },
+  "ogk": {
+      "textures": "textures/icones/ogk"
+    },
+      "hyper_chakra": {
+      "textures": "textures/icones/hyper_chakra"
+    },
+      "ultra_chakra": {
+      "textures": "textures/icones/ultra_chakra"
+    },
+      "chakra_natural": {
+      "textures": "textures/icones/chakra_natural"
+    },
+    "1p": {
+      "textures": "textures/icones/1p"
+    },
+    "8gates_2": {
+      "textures": "textures/icones/8gates_2"
+    },
+    "8gates_3": {
+      "textures": "textures/icones/8gates_3"
+    },
+    "8gates_4": {
+      "textures": "textures/icones/8gates_4"
+    },
+    "8gates_5": {
+      "textures": "textures/icones/8gates_5"
+    },
+    "8gates_6": {
+      "textures": "textures/icones/8gates_6"
+    },
+    "8gates_7": {
+      "textures": "textures/icones/8gates_7"
+    },
+    "8gates_8": {
+      "textures": "textures/icones/8gates_8"
+    },
+
+    "shinobi_disassembler": {
+      "textures": "textures/icones/shinobi_disassembler"
+    },
+    "loja_shinobi": {
+      "textures": "textures/icones/loja_shinobi"
+    },
+    "menushinobi": {
+      "textures": "textures/icones/menushinobi"
+    },
+    "susanoo_kurama": {
+      "textures": "textures/icones/susanoo_kurama"
+    },
+ "mk_karma": {
+      "textures": "textures/icones/mk_karma"
+    },
+    "pergaminho_tp": {
+      "textures": "textures/icones/pergaminho_tp"
+    },
+    "modoteste": {
+      "textures": "textures/icones/modoteste"
+    },
+    "raikagemode": {
+      "textures": "textures/icones/raikagemode"
+    },
+    "raikagemode_speed": {
+      "textures": "textures/icones/raikagemode_speed"
+    },
+
+    "otsutsuki_god_branco1": {
+      "textures": "textures/icones/otsutsuki_god_branco1"
+    },
+    "otsutsuki_god_amarelo1": {
+      "textures": "textures/icones/otsutsuki_god_amarelo1"
+    },
+    "otsutsuki_god_azul1": {
+      "textures": "textures/icones/otsutsuki_god_azul1"
+    },
+
+
+    "invocar_juubi": {
+      "textures": "textures/icones/invocar_juubi"
+    },
+    "izanami": {
+      "textures": "textures/icones/izanami"
+    },
+    "rikudo_naruto": {
+      "textures": "textures/icones/rikudo_naruto"
+    },
+
+    "fruto_chakra": {
+      "textures": "textures/icones/fruto_chakra"
+    },
+    "hotdog_kamui": {
+      "textures": "textures/icones/hotdog_kamui"
+    },
+
+    "arma_1shu": {
+      "textures": "textures/icones/arma_1shu"
+    },
+    "arma_2mat": {
+      "textures": "textures/icones/arma_2mat"
+    },
+    "arma_3iso": {
+      "textures": "textures/icones/arma_3iso"
+    },
+    "arma_4son": {
+      "textures": "textures/icones/arma_4son"
+    },
+    "arma_5kok": {
+      "textures": "textures/icones/arma_5kok"
+    },
+    "arma_6sai": {
+      "textures": "textures/icones/arma_6sai"
+    },
+    "arma_7cho": {
+      "textures": "textures/icones/arma_7cho"
+    },
+    "arma_8gyu": {
+      "textures": "textures/icones/arma_8gyu"
+    },
+    "arma_9kur": {
+      "textures": "textures/icones/arma_9kur"
+    },
+
+
+    "kinshiki_w": {
+      "textures": "textures/icones/kinshiki_w"
+    },
+    "kinshiki_w1": {
+      "textures": "textures/icones/kinshiki_w1"
+    },
+    "kinshiki_w2": {
+      "textures": "textures/icones/kinshiki_w2"
+    },
+    "kinshiki_w3": {
+      "textures": "textures/icones/kinshiki_w3"
+    },
+    "kinshiki_w4": {
+      "textures": "textures/icones/kinshiki_w4"
+    },
+    "kinshiki_w5": {
+      "textures": "textures/icones/kinshiki_w5"
+    },
+
+
+    "voar": {
+      "textures": "textures/icones/voar"
+    },
+    "agua": {
+      "textures": "textures/icones/agua"
+    },
+    "vulkogan": {
+      "textures": "textures/icones/jedy_vulkogan"
+    },
+    "kaijugan": {
+      "textures": "textures/icones/jedy_kaijugan"
+    },
+    "sharingan": {
+      "textures": "textures/icones/sharingan"
+  },
+      "sharingan2": {
+      "textures": "textures/icones/sharingan2"
+  },
+        "sharingan3": {
+      "textures": "textures/icones/sharingan3"
+  },
+    "juubi_completo": {
+      "textures": "textures/icones/juubi_completo"
+  },
+    "ogp": {
+      "textures": "textures/icones/ogp"
+    },
+    "m_kakashi": {
+      "textures": "textures/icones/m_kakashi"
+    },
+        "m_kakashi2": {
+      "textures": "textures/icones/m_kakashi2"
+    },
+        "m_kakashi3": {
+      "textures": "textures/icones/m_kakashi3"
+    },
+    "m_shisui": {
+      "textures": "textures/icones/m_shisui"
+    },
+        "m_shisui2": {
+      "textures": "textures/icones/m_shisui2"
+    },
+        "m_shisui3": {
+      "textures": "textures/icones/m_shisui3"
+    },
+    "m_itachi": {
+      "textures": "textures/icones/m_itachi"
+    },
+        "m_itachi2": {
+      "textures": "textures/icones/m_itachi2"
+    },
+        "m_itachi3": {
+      "textures": "textures/icones/m_itachi3"
+    },
+    "m_sasuke": {
+      "textures": "textures/icones/m_sasuke"
+    },
+        "m_sasuke2": {
+      "textures": "textures/icones/m_sasuke2"
+    },
+        "m_sasuke3": {
+      "textures": "textures/icones/m_sasuke3"
+    },
+    "m_madara": {
+      "textures": "textures/icones/m_madara"
+    },
+        "m_madara2": {
+      "textures": "textures/icones/m_madara2"
+    },
+        "m_madara3": {
+      "textures": "textures/icones/m_madara3"
+    },
+        "ketsu_sharingan": {
+      "textures": "textures/icones/ketsu_sharingan"
+    },
+    "susanoo_k1": {
+      "textures": "textures/icones/susanoo_k1"
+    },
+    "susanoo_k2": {
+      "textures": "textures/icones/susanoo_k2"
+    },
+    "susanoo_k3": {
+      "textures": "textures/icones/susanoo_k3"
+    },
+    "susanoo_k4": {
+      "textures": "textures/icones/susanoo_k4"
+    },
+    "susanoo_sh1": {
+      "textures": "textures/icones/susanoo_sh1"
+    },
+    "susanoo_sh2": {
+      "textures": "textures/icones/susanoo_sh2"
+    },
+    "susanoo_sh3": {
+      "textures": "textures/icones/susanoo_sh3"
+    },
+    "susanoo_sh4": {
+      "textures": "textures/icones/susanoo_sh4"
+    },
+    "susanoo_i1": {
+      "textures": "textures/icones/susanoo_i1"
+    },
+    "susanoo_i2": {
+      "textures": "textures/icones/susanoo_i2"
+    },
+    "susanoo_i3": {
+      "textures": "textures/icones/susanoo_i3"
+    },
+    "susanoo_i4": {
+      "textures": "textures/icones/susanoo_i4"
+    },
+    "susanoo_s1": {
+      "textures": "textures/icones/susanoo_s1"
+    },
+    "susanoo_s2": {
+      "textures": "textures/icones/susanoo_s2"
+    },
+    "susanoo_s3": {
+      "textures": "textures/icones/susanoo_s3"
+    },
+    "susanoo_s4": {
+      "textures": "textures/icones/susanoo_s4"
+    },
+    "susanoo_m1": {
+      "textures": "textures/icones/susanoo_m1"
+    },
+    "susanoo_m2": {
+      "textures": "textures/icones/susanoo_m2"
+    },
+    "susanoo_m3": {
+      "textures": "textures/icones/susanoo_m3"
+    },
+    "susanoo_m4": {
+      "textures": "textures/icones/susanoo_m4"
+    },
+    "susanoo_jedy": {
+      "textures": "textures/icones/susanoo_jedy"
+    },
+    "byakugan": {
+      "textures": "textures/icones/byakugan"
+    },
+        "byakugan2": {
+      "textures": "textures/icones/byakugan2"
+    },
+            "byakugan3": {
+      "textures": "textures/icones/byakugan3"
+    },
+    "byakugan_ativado": {
+      "textures": "textures/icones/byakugan_ativado"
+    },
+    "byakugan_cursed": {
+      "textures": "textures/icones/byakugan_cursed"
+    },
+    "byakugan_otsutsuki": {
+      "textures": "textures/icones/byakugan_otsutsuki"
+    },
+    "byakugan_dourado": {
+      "textures": "textures/icones/byakugan_dourado"
+    },
+        "ketsurygan": {
+      "textures": "textures/icones/ketsurygan"
+    },
+            "ketsurygan2": {
+      "textures": "textures/icones/ketsurygan2"
+    },
+            "ketsurygan3": {
+      "textures": "textures/icones/ketsurygan3"
+    },
+        "ironsand1": {
+      "textures": "textures/icones/ironsand1"
+    },
+    "jogan": {
+      "textures": "textures/icones/jogan"
+    },
+        "jogan2": {
+      "textures": "textures/icones/jogan2"
+    },
+        "jogan3": {
+      "textures": "textures/icones/jogan3"
+    },
+            "jogan4": {
+      "textures": "textures/icones/jogan4"
+    },
+            "jogan5": {
+      "textures": "textures/icones/jogan5"
+    },
+            "jogan6": {
+      "textures": "textures/icones/jogan6"
+    },
+    "karma": {
+      "textures": "textures/icones/karma"
+    },
+    "karma2": {
+      "textures": "textures/icones/karma2"
+    },
+    "karma_kaw": {
+      "textures": "textures/icones/karma_kaw"
+    },
+    "tenseigan": {
+      "textures": "textures/icones/tenseigan"
+    },
+        "tenseigan2": {
+      "textures": "textures/icones/tenseigan2"
+    },
+        "tenseigan3": {
+      "textures": "textures/icones/tenseigan3"
+    },
+    "tenseigan1": {
+      "textures": "textures/icones/tenseigan1"
+    },
+    "rinnegan": {
+      "textures": "textures/icones/rinnegan"
+    },
+        "rinnegan2": {
+      "textures": "textures/icones/rinnegan2"
+    },
+    "rinnegan_azul": {
+      "textures": "textures/icones/rinnegan_azul"
+    },
+        "rinnegan_azul2": {
+      "textures": "textures/icones/rinnegan_azul2"
+    },
+        "rinnegan_vermelho2": {
+      "textures": "textures/icones/rinnegan_vermelho2"
+    },
+        "rinnegan_dourado2": {
+      "textures": "textures/icones/rinnegan_dourado2"
+    },
+    "rinnegan_vermelho": {
+      "textures": "textures/icones/rinnegan_vermelho"
+    },
+    "rinnegan_dourado": {
+      "textures": "textures/icones/rinnegan_dourado"
+    },
+    
+    "rinnegan_supremo": {
+      "textures": "textures/icones/rinnegan_supremo"
+    },
+        "rinnegan_supremo2": {
+      "textures": "textures/icones/rinnegan_supremo2"
+    },
+    "senpo_hashirama": {
+      "textures": "textures/icones/senpo_hashirama"
+    },
+    "senpo_sapos": {
+      "textures": "textures/icones/senpo_sapos"
+    },
+    "senpo_cobras": {
+      "textures": "textures/icones/senpo_cobras"
+    },
+    "senpo_lesmas": {
+      "textures": "textures/icones/senpo_lesmas"
+    },
+    "manto_shukaku1": {
+      "textures": "textures/icones/manto_shukaku1"
+    },
+    "manto_matatabi1": {
+      "textures": "textures/icones/manto_matatabi1"
+    },
+    "manto_isobu1": {
+      "textures": "textures/icones/manto_isobu1"
+    },
+    "manto_kokuo1": {
+      "textures": "textures/icones/manto_kokuo1"
+    },
+    "kamui_shuriken": {
+      "textures": "textures/icones/kamui_shuriken"
+    },
+    "arma_shisui": {
+      "textures": "textures/icones/arma_shisui"
+    },
+    "arma_itachi": {
+      "textures": "textures/icones/arma_itachi"
+    },
+    "arma_sasuke": {
+      "textures": "textures/icones/arma_sasuke"
+    },
+    "arma_madara": {
+      "textures": "textures/icones/arma_madara"
+    },
+    "arma_jedy": {
+      "textures": "textures/icones/arma_jedy"
+    },
+    "kunai": {
+      "textures": "textures/icones/kunai"
+    },
+    "foice_tripla": {
+      "textures": "textures/icones/foice_tripla"
+    },
+    "kubikiribocho": {
+      "textures": "textures/icones/kubikiribocho"
+    },
+    "sabre_jedy": {
+      "textures": "textures/icones/sabre_jedy"
+    },
+    "gunbai": {
+      "textures": "textures/icones/gunbai"
+    },
+    "samehada": {
+      "textures": "textures/icones/samehada"
+    },
+    "samehada_selada": {
+      "textures": "textures/icones/samehada_selada"
+    },
+    "shakujo_h": {
+      "textures": "textures/icones/shakujo_h"
+    },
+    "shakujo_m": {
+      "textures": "textures/icones/shakujo_m"
+    },
+    "nunoboko": {
+      "textures": "textures/icones/nunoboko"
+    },
+    "hiraishin": {
+      "textures": "textures/icones/hiraishin"
+    },
+    "bolinhodearroz": {
+      "textures": "textures/icones/bolinhodearroz"
+    },
+    "byakugan_acu": {
+      "textures": "textures/icones/byakugan_acu"
+    },
+    "celula_h": {
+      "textures": "textures/icones/celula_h"
+    },
+    "celula_u": {
+      "textures": "textures/icones/celula_u"
+    },
+    "chakra": {
+      "textures": "textures/icones/chakra"
+    },
+    "bastao_chakra": {
+      "textures": "textures/icones/bastao_chakra"
+    },
+    "chidori_eisou": {
+      "textures": "textures/icones/chidori_eisou"
+    },
+    "chidori": {
+      "textures": "textures/icones/chidori"
+    },
+    "chidori_onyx": {
+      "textures": "textures/icones/chidori_onyx"
+    },
+    "dangos": {
+      "textures": "textures/icones/dangos"
+    },
+    "dna_hyuuga": {
+      "textures": "textures/icones/dna_hyuuga"
+    },
+    "dna_uchiha": {
+      "textures": "textures/icones/dna_uchiha"
+    },
+    "dna_otsutsuki": {
+      "textures": "textures/icones/dna_otsutsuki"
+    },
+    "dna_senju": {
+      "textures": "textures/icones/dna_senju"
+    },
+        "dna_sasuke": {
+      "textures": "textures/icones/dna_sasuke"
+    },
+        "dna_shisui": {
+      "textures": "textures/icones/dna_shisui"
+    },
+        "dna_obito": {
+      "textures": "textures/icones/dna_obito"
+    },
+        "dna_madara": {
+      "textures": "textures/icones/dna_madara"
+    },
+        "dna_itachi": {
+      "textures": "textures/icones/dna_itachi"
+    },
+    "doton": {
+      "textures": "textures/icones/doton"
+    },
+    "fuuton": {
+      "textures": "textures/icones/fuuton"
+    },
+    "katon": {
+      "textures": "textures/icones/katon"
+    },
+    "raiton": {
+      "textures": "textures/icones/raiton"
+    },
+    "suiton": {
+      "textures": "textures/icones/suiton"
+    },
+    "mokuton": {
+      "textures": "textures/icones/mokuton"
+    },
+    "frag_doton": {
+      "textures": "textures/icones/frag_doton"
+    },
+    "frag_fuuton": {
+      "textures": "textures/icones/frag_fuuton"
+    },
+    "frag_katon": {
+      "textures": "textures/icones/frag_katon"
+    },
+    "frag_raiton": {
+      "textures": "textures/icones/frag_raiton"
+    },
+    "frag_suiton": {
+      "textures": "textures/icones/frag_suiton"
+    },
+    "frasco": {
+      "textures": "textures/icones/frasco"
+    },
+    "giga_chakra": {
+      "textures": "textures/icones/giga_chakra"
+    },
+    "gudoudama": {
+      "textures": "textures/icones/gudoudama"
+    },
+    "rinnesharingan": {
+      "textures": "textures/icones/rinnesharingan"
+    },
+    "m_odio": {
+      "textures": "textures/icones/m_odio"
+    },
+    "mini_rasenshuriken": {
+      "textures": "textures/icones/mini_rasenshuriken"
+    },
+    "moeda_de_ouro": {
+      "textures": "textures/icones/moeda_de_ouro"
+    },
+    "nano_chakra": {
+      "textures": "textures/icones/nano_chakra"
+    },
+    "modo_juubi": {
+      "textures": "textures/icones/modo_juubi"
+    },
+    "ramen": {
+      "textures": "textures/icones/ramen"
+    },
+    "ramen_god": {
+      "textures": "textures/icones/ramen_god"
+    },
+    "rasengan_bijuu": {
+      "textures": "textures/icones/rasengan_bijuu"
+    },
+    "rasengan": {
+      "textures": "textures/icones/rasengan"
+    },
+        "rasenganc": {
+      "textures": "textures/icones/rasenganc"
+    },
+    "rasenshuriken": {
+      "textures": "textures/icones/rasenshuriken"
+    },
+    "ryo": {
+      "textures": "textures/icones/ryo"
+    },
+    "ryo_acumulado": {
+      "textures": "textures/icones/ryo_acumulado"
+    },
+    "yang": {
+      "textures": "textures/icones/yang"
+    },
+    "senpo_hashirama2": {
+      "textures": "textures/icones/senpo_hashirama2"
+    },
+    "genkai_paper": {
+      "textures": "textures/icones/genkai_paper"
+    },
+        "genkai_paper2": {
+      "textures": "textures/icones/genkai_paper2"
+    },
+        "genkai_paper3": {
+      "textures": "textures/icones/genkai_paper3"
+    },
+        "genkai_paper4": {
+      "textures": "textures/icones/genkai_paper4"
+    },
+    "genkai_ironsand": {
+      "textures": "textures/icones/genkai_ironsand"
+    },
+    "genkai_ironsand2": {
+      "textures": "textures/icones/genkai_ironsand2"
+    },
+    "genkai_ironsand3": {
+      "textures": "textures/icones/genkai_ironsand3"
+    },
+    "genkai_ironsand4": {
+      "textures": "textures/icones/genkai_ironsand4"
+    },
+
+    "manto_isobu2": {
+      "textures": "textures/icones/manto_isobu2"
+    },
+    "manto_songoku1": {
+      "textures": "textures/icones/manto_songoku1"
+    },
+    "manto_songoku2": {
+      "textures": "textures/icones/manto_songoku2"
+    },
+    "manto_matatabi2": {
+      "textures": "textures/icones/manto_matatabi2"
+    },
+    "manto_kokuo2": {
+      "textures": "textures/icones/manto_kokuo2"
+    },
+    "manto_saiken1": {
+      "textures": "textures/icones/manto_saiken1"
+    },
+    "manto_saiken2": {
+      "textures": "textures/icones/manto_saiken2"
+    },
+    "manto_choumei1": {
+      "textures": "textures/icones/manto_choumei1"
+    },
+    "manto_choumei2": {
+      "textures": "textures/icones/manto_choumei2"
+    },
+    "manto_gyuki1": {
+      "textures": "textures/icones/manto_gyuki1"
+    },
+    "manto_gyuki2": {
+      "textures": "textures/icones/manto_gyuki2"
+    },
+    "manto_kurama1": {
+      "textures": "textures/icones/manto_kurama1"
+    },
+    "manto_kurama2": {
+      "textures": "textures/icones/manto_kurama2"
+    },
+    "manto_kurama3": {
+      "textures": "textures/icones/manto_kurama3"
+    },
+    "mk_shukaku1": {
+      "textures": "textures/icones/mk_shukaku1"
+    },
+    "mk_matatabi1": {
+      "textures": "textures/icones/mk_matatabi1"
+    },
+    "mk_isobu1": {
+      "textures": "textures/icones/mk_isobu1"
+    },
+    "mk_son_goku1": {
+      "textures": "textures/icones/mk_son_goku1"
+    },
+    "mk_kokuo1": {
+      "textures": "textures/icones/mk_kokuo1"
+    },
+    "mk_saiken1": {
+      "textures": "textures/icones/mk_saiken1"
+    },
+    "mk_choumei1": {
+      "textures": "textures/icones/mk_choumei1"
+    },
+    "mk_gyuki1": {
+      "textures": "textures/icones/mk_gyuki1"
+    },
+    "mk_kurama1": {
+      "textures": "textures/icones/mk_kurama1"
+    },
+    "mk_shukaku2": {
+      "textures": "textures/icones/mk_shukaku2"
+    },
+    "mk_matatabi2": {
+      "textures": "textures/icones/mk_matatabi2"
+    },
+    "mk_isobu2": {
+      "textures": "textures/icones/mk_isobu2"
+    },
+    "mk_songoku2": {
+      "textures": "textures/icones/mk_songoku2"
+    },
+    "mk_kokuo2": {
+      "textures": "textures/icones/mk_kokuo2"
+    },
+    "mk_saiken2": {
+      "textures": "textures/icones/mk_saiken2"
+    },
+    "mk_choumei2": {
+      "textures": "textures/icones/mk_choumei2"
+    },
+    "mk_gyuki2": {
+      "textures": "textures/icones/mk_gyuki2"
+    },
+    "mk_kurama2": {
+      "textures": "textures/icones/mk_kurama2"
+    },
+
+    "barion_shukaku": {
+      "textures": "textures/icones/barion_shukaku"
+    },
+    "barion_matatabi": {
+      "textures": "textures/icones/barion_matatabi"
+    },
+    "barion_isobu": {
+      "textures": "textures/icones/barion_isobu"
+    },
+    "barion_songoku": {
+      "textures": "textures/icones/barion_songoku"
+    },
+    "barion_kokuo": {
+      "textures": "textures/icones/barion_kokuo"
+    },
+    "barion_saiken": {
+      "textures": "textures/icones/barion_saiken"
+    },
+    "barion_choumei": {
+      "textures": "textures/icones/barion_choumei"
+    },
+    "barion_gyuki": {
+      "textures": "textures/icones/barion_gyuki"
+    },
+    "barion_kurama": {
+      "textures": "textures/icones/barion_kurama"
+    },
+    "barion_juubi": {
+      "textures": "textures/icones/barion_juubi"
+    },
+
+    "chakra_bijuu": {
+      "textures": "textures/icones/chakra_bijuu"
+    },
+    "essencia_bijuu": {
+      "textures": "textures/icones/essencia_bijuu"
+    },
+    "ying": {
+      "textures": "textures/icones/ying"
+    },
+    "summon_biju": {
+      "textures": "textures/icones/summon_biju"
+    },
+    "bancada_jutsus": {
+      "textures": "textures/icones/bancada_jutsus"
+    },
+    "bancada_roupas": {
+      "textures": "textures/icones/bancada_roupas"
+    },
+    "jutsu_mokuton": {
+      "textures": "textures/icones/jutsu_mokuton"
+    },
+    "bijuudama": {
+      "textures": "textures/icones/bijuudama"
+    },
+    "jutsu_oitotrigramas": {
+      "textures": "textures/icones/jutsu_oitotrigramas"
+    },
+    "jutsu_kamui": {
+      "textures": "textures/icones/jutsu_kamui"
+    },
+    "jutsu_genjutsu": {
+      "textures": "textures/icones/jutsu_genjutsu"
+    },
+    "jutsu_bansho": {
+      "textures": "textures/icones/jutsu_bansho"
+    },
+    "jutsu_shinra": {
+      "textures": "textures/icones/jutsu_shinra"
+    },
+    "jutsu_cura": {
+      "textures": "textures/icones/jutsu_cura"
+    },
+    "jutsu_sub": {
+      "textures": "textures/icones/jutsu_sub"
+    },
+    "jutsu_sexy": {
+      "textures": "textures/icones/jutsu_sexy"
+    },
+    "jutsu_clones": {
+      "textures": "textures/icones/jutsu_clones"
+    },
+    "jutsu_punhopedra": {
+      "textures": "textures/icones/jutsu_punhopedra"
+    },
+
+    "kage_red": {
+      "textures": "textures/icones/kage_red"
+    },
+    "kage_blue": {
+      "textures": "textures/icones/kage_blue"
+    },
+    "kage_yellow": {
+      "textures": "textures/icones/kage_yellow"
+    },
+    "kage_green": {
+      "textures": "textures/icones/kage_green"
+    },
+    "kage_brown": {
+      "textures": "textures/icones/kage_brown"
+    },
+
+
+
+
+    "roupa_senju": {
+      "textures": "textures/icones/roupa_senju"
+    },
+    "roupa_clan_uchiha": {
+      "textures": "textures/icones/roupa_clan_uchiha"
+    },
+    "roupa_narutoc": {
+      "textures": "textures/icones/roupa_narutoc"
+    },
+    "roupa_senjuazul": {
+      "textures": "textures/icones/roupa_senjuazul"
+    },
+    "roupa_hokage": {
+      "textures": "textures/icones/roupa_hokage"
+    },
+        "roupa_hokage2": {
+      "textures": "textures/icones/roupa_hokage2"
+    },
+    "roupa_akatsuki": {
+      "textures": "textures/icones/roupa_akatsuki"
+    },
+"roupa_akatsukirasgada": {
+      "textures": "textures/icones/roupa_akatsukirasgada"
+    },
+
+    "roupa_akatsukiwhite": {
+      "textures": "textures/icones/roupa_akatsukiwhite"
+    },
+    "roupa_otsutsuki": {
+      "textures": "textures/icones/roupa_otsutsuki"
+    },
+"roupa_otsutsukisombrio": {
+      "textures": "textures/icones/roupa_otsutsukisombrio"
+    },
+"roupa_zabuza": {
+      "textures": "textures/icones/roupa_zabuza"
+    },
+"roupa_jounin": {
+      "textures": "textures/icones/roupa_jounin"
+    },
+"roupa_taijutsu": {
+      "textures": "textures/icones/roupa_taijutsu"
+    },
+"roupa_obitokid": {
+      "textures": "textures/icones/roupa_obitokid"
+    },
+"roupa_anbu": {
+      "textures": "textures/icones/roupa_anbu"
+    },
+
+    
+"bandana_konoha": {
+      "textures": "textures/icones/bandana_konoha"
+     },
+"mask_tobi": {
+      "textures": "textures/icones/mask_tobi"
+     },
+"bandana_areia": {
+      "textures": "textures/icones/bandana_areia"
+     },
+"bandana_nevoa": {
+      "textures": "textures/icones/bandana_nevoa"
+     },
+"bandana_pedra": {
+      "textures": "textures/icones/bandana_pedra"
+     },
+"bandana_nuvem": {
+      "textures": "textures/icones/bandana_nuvem"
+     },
+"bandana_akatsuki": {
+      "textures": "textures/icones/bandana_akatsuki"
+     },
+"bandana_kara": {
+      "textures": "textures/icones/bandana_kara"
+     },
+"bandana_jedy": {
+      "textures": "textures/icones/bandana_jedy"
+     },
+"bandana_zero": {
+      "textures": "textures/icones/bandana_zero"
+     },
+
+"costas_kubikiribocho": {
+      "textures": "textures/icones/costas_kubikiribocho"
+     },
+"costas_gunbai": {
+      "textures": "textures/icones/costas_gunbai"
+     },
+"costas_foice_tripla": {
+      "textures": "textures/icones/costas_foice_tripla"
+     },
+"costas_shakujo_h": {
+      "textures": "textures/icones/costas_shakujo_h"
+     },
+"costas_shakujo_m": {
+      "textures": "textures/icones/costas_shakujo_m"
+     },
+
+"bag_susanooma": {
+      "textures": "textures/icones/bag_susanooma"
+    },
+"bag_susanoosa": {
+      "textures": "textures/icones/bag_susanoosa"
+    },
+
+"bastao_enma": {
+      "textures": "textures/armas/bastao_enma"
+    },
+"kusanagi_orochimaru": {
+      "textures": "textures/armas/kusanagi_orochimaru"
+    },
+"kusanagi_sasuke": {
+      "textures": "textures/armas/kusanagi_sasuke"
+    },
+
+    "treinamento": {
+      "textures": "textures/icones/treinamento"
+    },
+    "ignore": {
+      "textures": "textures/icones/ignore"
+    }
+  }
+}

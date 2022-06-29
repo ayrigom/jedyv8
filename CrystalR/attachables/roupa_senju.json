@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "jedy:roupa_senju",
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"default": "textures/roupas/roupa_senju",
+				"enchanted": "textures/misc/emerald_enchanted_glint"
+			},
+			"geometry": {
+				"default": "geometry.senpo_hashirama"
+			},
+			"scripts": {
+				"parent_setup": "variable.chestplate_layer_visible = 0.0;"
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			]
+		}
+	}
+}

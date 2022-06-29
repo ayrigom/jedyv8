@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:rinnegan_supremo",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "rinnegan_supremo",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

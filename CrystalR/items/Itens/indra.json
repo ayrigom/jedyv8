@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:indra",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "indra",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

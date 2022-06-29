@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:karma_koji",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "karma_koji",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

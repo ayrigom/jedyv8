@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:ryo",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "ryo",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

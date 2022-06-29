@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "jedy:jutsu_punhopedra",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+    "default": "textures/armas/jutsu_punhopedra",
+    "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.jutsu_punhopedra"
+      },
+      "animations": {
+        "jutsu_punhopedra": "controller.animation.jutsu_punhopedra",
+        "jutsu_punhopredra_first_person": "animation.jutsu_punhopedra_first_person",
+        "jutsu_pedra_third_person": "animation.jutsu_punhopedra_third_person"
+      },
+      "scripts": {
+        "animate": [
+          "jutsu_punhopedra"
+        ]
+      },
+      "render_controllers": [ "controller.render.item_default" ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:amaterasu3",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "amaterasu2",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

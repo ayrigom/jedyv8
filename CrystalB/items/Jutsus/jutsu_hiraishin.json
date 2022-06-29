@@ -1,0 +1,56 @@
+{                                                                      
+  "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "jedy:hiraishin" 
+        },
+        "components": {
+    "minecraft:render_offsets": {
+        "main_hand": {
+            "first_person": { 
+                "scale": [0.002,0.002,0.002]
+            },
+            "third_person": { 
+                "scale": [0.01,0.01,0.01]
+            }
+        }
+    },
+      "minecraft:display_name": {
+		"value": "§l§c Hiraishin \n§a✪Dano: §cNulo  \n§8✪Alcance: Imenso \n§b✪Destruição: Nula\n✪Gasto: Razoável"
+      },
+      "minecraft:icon": {
+		"texture": "hiraishin"
+	  },
+          "tag:1606": {},
+          "minecraft:max_stack_size": 64,
+          "minecraft:cooldown": {
+           "category": "ender_pearl",
+            "duration": 5
+         },
+          "minecraft:throwable": {
+            "do_swing_animation": true
+          },
+          "minecraft:on_use": {
+            "on_use": {
+              "event": "jedy",
+              "target": "self"
+            }
+          }
+        },
+        "events": {
+          "jedy": {
+            "shoot": {
+              "projectile": "jedy:hiraishin",
+              "launch_power": 1,
+              "angle_offset": 20
+            },
+		"run_command": {
+		  "command": [
+       "function jutsus/hiraishin1"
+
+		  ]
+	    }
+          }
+        }
+      }
+    }

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:inv_madaraj",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "inv_madaraj",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:modo_otsutsuki",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "modo_otsutsuki",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

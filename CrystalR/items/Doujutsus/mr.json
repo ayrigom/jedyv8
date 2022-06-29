@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:mr",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "mr",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

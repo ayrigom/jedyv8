@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:meio_ra",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "meio_ra",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+   "controller.render.player.kubikiribocho": {
+      "geometry": "Geometry.kubikiribocho",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.kubikiribocho" ]
+    },
+    "controller.render.player.sabre_jedy": {
+      "geometry": "Geometry.sabre_jedy",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.sabre_jedy" ]
+    },
+
+//     "controller.render.player.arma_1shu": {
+//       "geometry": "Geometry.arma_1shu",
+//       "materials": [ { "*": "Material.default" } ],
+//       "textures": [ "Texture.arma_1shu" ]
+//     },
+   "controller.render.player.arma_2mat": {
+      "geometry": "Geometry.arma_2mat",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.arma_2mat" ],
+      "part_visibility": [
+        { "*": true },
+        { "rightArm": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map'" },
+        { "rightSleeve": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map'" },
+        { "leftArm": "(query.get_equipped_item_name(0, 1) == 'map' && query.get_equipped_item_name('off_hand') != 'shield') || (query.get_equipped_item_name('off_hand') == 'map' && !query.item_is_charged) || (!query.item_is_charged && (variable.item_use_normalized > 0 && variable.item_use_normalized < 1.0))" },
+        { "leftSleeve": "(query.get_equipped_item_name(0, 1) == 'map' && query.get_equipped_item_name('off_hand') != 'shield') || (query.get_equipped_item_name('off_hand') == 'map' && !query.item_is_charged) || (!query.item_is_charged && (variable.item_use_normalized > 0 && variable.item_use_normalized < 1.0))" }
+      ]
+    },
+    "controller.render.player.arma_3iso": {
+      "geometry": "Geometry.arma_3iso",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.arma_3iso" ]
+    },
+    "controller.render.player.arma_4son": {
+      "geometry": "Geometry.arma_4son",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.arma_4son" ]
+    },
+    "controller.render.player.arma_5kok": {
+      "geometry": "Geometry.arma_5kok",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.arma_5kok" ]
+    },
+    "controller.render.player.arma_6sai": {
+      "geometry": "Geometry.arma_6sai",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.arma_6sai" ]
+    },
+    "controller.render.player.arma_7cho": {
+      "geometry": "Geometry.arma_7cho",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.arma_7cho" ]
+    },
+    "controller.render.player.arma_8gyu": {
+      "geometry": "Geometry.arma_8gyu",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.arma_8gyu" ]
+    },
+    "controller.render.player.arma_9kur": {
+      "geometry": "Geometry.arma_9kur",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.arma_9kur" ]
+    },
+"controller.render.player.vara": {
+      "geometry": "Geometry.kinshiki_w5",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.vara" ]
+    },
+
+    "controller.render.player.kinshiki_w": {
+      "geometry": "Geometry.kinshiki_w",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.kinshiki_w" ]
+    },
+
+    "controller.render.player.kinshiki_w1": {
+      "geometry": "Geometry.kinshiki_w1",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.kinshiki_w1" ]
+    },
+    "controller.render.player.kinshiki_w2": {
+      "geometry": "Geometry.kinshiki_w2",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.kinshiki_w2" ]
+    },
+    "controller.render.player.kinshiki_w3": {
+      "geometry": "Geometry.kinshiki_w3",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.kinshiki_w3" ]
+    },
+    "controller.render.player.kinshiki_w4": {
+      "geometry": "Geometry.kinshiki_w4",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.kinshiki_w4" ]
+    },
+    "controller.render.player.kinshiki_w5": {
+      "geometry": "Geometry.kinshiki_w5",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.kinshiki_w5" ]
+    },
+
+    "controller.render.player.foice_tripla": {
+      "geometry": "Geometry.foice_tripla",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.foice_tripla" ]
+    },
+    "controller.render.player.gunbai": {
+      "geometry": "Geometry.gunbai",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.gunbai" ]
+    },
+    "controller.render.player.shakujo_m": {
+      "geometry": "Geometry.shakujo_m",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.shakujo_m" ]
+    },
+        "controller.render.player.shakujo_t": {
+      "geometry": "Geometry.shakujo_t",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.shakujo_t" ]
+    },
+        "controller.render.player.shakujo_n": {
+      "geometry": "Geometry.shakujo_n",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.shakujo_n" ]
+    },
+    "controller.render.player.shakujo_h": {
+      "geometry": "Geometry.shakujo_h",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.shakujo_h" ]
+    },
+    "controller.render.player.bastao_enma": {
+      "geometry": "Geometry.bastao_enma",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.bastao_enma" ]
+    },
+    "controller.render.player.jutsu_punhopedra": {
+      "geometry": "Geometry.jutsu_punhopedra",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.jutsu_punhopedra" ]
+    },
+    "controller.render.player.jutsu_oitotrigramas": {
+      "geometry": "Geometry.jutsu_oitotrigramas",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.jutsu_oitotrigramas" ]
+    },
+   "controller.render.player.jutsu_kamui": {
+      "geometry": "Geometry.jutsu_kamui",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.jutsu_kamui" ],
+      "part_visibility": [
+        { "*": true },
+        { "rightArm": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map'" },
+        { "rightSleeve": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map'" },
+        { "leftArm": "(query.get_equipped_item_name(0, 1) == 'map' && query.get_equipped_item_name('off_hand') != 'shield') || (query.get_equipped_item_name('off_hand') == 'map' && !query.item_is_charged) || (!query.item_is_charged && (variable.item_use_normalized > 0 && variable.item_use_normalized < 1.0))" },
+        { "leftSleeve": "(query.get_equipped_item_name(0, 1) == 'map' && query.get_equipped_item_name('off_hand') != 'shield') || (query.get_equipped_item_name('off_hand') == 'map' && !query.item_is_charged) || (!query.item_is_charged && (variable.item_use_normalized > 0 && variable.item_use_normalized < 1.0))" }
+      ]
+    }
+  }
+}

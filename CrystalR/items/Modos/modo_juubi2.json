@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jedy:modo_juubi2",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "modo_juubi2",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

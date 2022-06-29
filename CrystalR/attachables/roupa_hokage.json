@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:attachable": {
+		"description": { 
+			"identifier": "jedy:roupa_hokage",
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"default": "textures/roupas/roupa_hokage",
+				"enchanted": "textures/misc/emerald_enchanted_glint"
+			},
+			"geometry": {
+				"default": "geometry.roupa_hokage"
+			},
+			"scripts": {
+				"parent_setup": "variable.chestplate_layer_visible = 0.0;"
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			]
+		}
+	}
+}

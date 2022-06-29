@@ -1,0 +1,205 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.player.katana": {
+      "geometry": "Geometry.katana",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.katana" ]
+    },
+    "controller.render.player.shakujo": {
+      "geometry": "Geometry.shakujo",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.shakujo" ]
+    },
+    "controller.render.player.rasengan": {
+      "geometry": "Geometry.rasengan",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.rasengan" ]
+    },
+    "controller.render.player.chidori": {
+      "geometry": "Geometry.chidori",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.chidori" ]
+    },
+        "controller.render.player.chidori_onyx": {
+      "geometry": "Geometry.chidori",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.chidori_onyx" ]
+    },
+    "controller.render.player.kubikiribocho": {
+      "geometry": "Geometry.kubikiribocho",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.kubikiribocho" ]
+    },
+    "controller.render.player.kabuto": {
+      "geometry": "Geometry.kabuto",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.kabuto" ]
+    },
+    "controller.render.player.kunai": {
+      "geometry": "Geometry.kunai",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.kunai" ]
+    },
+        "controller.render.player.vara": {
+      "geometry": "Geometry.kinshiki_w5",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.kunai" ]
+    },
+    "controller.render.player.himare": {
+      "geometry": "Geometry.himare",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.himare" ]
+    },
+    "controller.render.player.samehada": {
+      "geometry": "Geometry.samehada",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.samehada" ]
+    },
+    "controller.render.player.foice": {
+      "geometry": "Geometry.foice",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.foice" ]
+    },
+    "controller.render.player.shibuki": {
+      "geometry": "Geometry.shibuki",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.shibuki" ]
+    },
+    "controller.render.player.mao1": {
+      "geometry": "Geometry.mao1",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.mao1" ]
+    },
+    "controller.render.player.mao2": {
+      "geometry": "Geometry.mao2",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.mao2" ]
+    },
+    "controller.render.player.mao3": {
+      "geometry": "Geometry.mao3",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.mao3" ]
+    },
+    "controller.render.player.mao4": {
+      "geometry": "Geometry.mao4",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.mao4" ]
+    },
+    "controller.render.player.mao5": {
+      "geometry": "Geometry.mao5",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.mao5" ]
+    },
+    "controller.render.player.mao6": {
+      "geometry": "Geometry.mao6",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.mao6" ]
+    },
+    "controller.render.player.mao7": {
+      "geometry": "Geometry.mao7",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.mao7" ]
+    },
+    "controller.render.player.mao8": {
+      "geometry": "Geometry.mao8",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.mao8" ]
+    },
+    "controller.render.player.maos": {
+      "geometry": "Geometry.maos",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.maos" ]
+    },
+    "controller.render.player.maoi": {
+      "geometry": "Geometry.maoi",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.maoi" ]
+    },
+    "controller.render.player.maom": {
+      "geometry": "Geometry.maom",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.maom" ]
+    },
+    "controller.render.player.maosh": {
+      "geometry": "Geometry.maosh",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.maosh" ]
+    },
+    "controller.render.player.maok": {
+      "geometry": "Geometry.maok",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.maok" ]
+    },
+    "controller.render.player.maoin": {
+      "geometry": "Geometry.maoin",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.maoin" ]
+    },
+    "controller.render.player.maome": {
+      "geometry": "Geometry.maome",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.maome" ]
+    },
+    "controller.render.player.maol": {
+      "geometry": "Geometry.maol",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.maol" ]
+    },
+    "controller.render.player.maod": {
+      "geometry": "Geometry.maod",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.maod" ]
+    },
+    "controller.render.player.maog": {
+      "geometry": "Geometry.maog",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.maog" ]
+    },
+    "controller.render.player.maoga": {
+      "geometry": "Geometry.maoga",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.maoga" ]
+    },
+    "controller.render.player.maob": {
+      "geometry": "Geometry.maob",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.maob" ]
+    },
+    "controller.render.player.kiba": {
+      "geometry": "Geometry.kiba",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.kiba" ]
+    },
+    "controller.render.player.nuibari": {
+      "geometry": "Geometry.nuibari",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.nuibari" ]
+    },
+    "controller.render.player.m": {
+      "geometry": "Geometry.shakujom",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.shakujom" ]
+    },
+        "controller.render.player.n": {
+      "geometry": "Geometry.shakujo_n",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.shakujo_n" ]
+    },
+    "controller.render.player.odama": {
+      "geometry": "Geometry.odama",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.odama" ]
+    },
+    "controller.render.player.mao": {
+      "geometry": "Geometry.mao",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.mao" ]
+    },
+    "controller.render.player.gunbai": {
+      "geometry": "Geometry.gunbai",
+      "materials": [ { "*tool": "Material.legs" } ],
+      "textures": [ "Texture.gunbai" ]
+    }
+  }
+}

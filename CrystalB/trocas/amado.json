@@ -1,0 +1,57 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "jedy:dna_otsutsuki",
+              "quantity": {
+                "min": 2,
+                "max": 9
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:pilulas"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "jedy:rinnegan_supremo",
+              "quantity": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:inv_jigen"
+              }
+           ]
+        },
+        {
+          "wants": [
+            {
+              "item": "jedy:dna_uchiha",
+              "quantity": {
+                "min": 20,
+                "max": 40
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "jedy:dna_otsutsuki"
+            }
+          ]
+            }
+          ]
+        }
+           ]
+      
+    }
